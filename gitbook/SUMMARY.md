@@ -15,7 +15,12 @@
 
 * [Introduction](markdown/part2/README.md)
 * [We love feedback](markdown/part2/feedback_please.md)
-* [Better tools for authors](markdown/part2/better_tools.md)
+* [API文档](markdown/part2/better_tools.md)
+
+### Part III
+
+* [什么 is Git](markdown/Git.md)
+* [什么 is Github](markdown/Github.md)
 
 ----
 
