@@ -1,4 +1,13 @@
 {
+    "title" : "EXP-Blog",
+    "author" : "EXP",
+    "description" : "我的博客",
+    "language" : "en",
+    "links" : {
+        "sidebar" : {
+            "Home" : "https://www.baidu.com"
+        }
+    },
     "plugins": [
         "code",
         "prism",
@@ -6,7 +15,8 @@
         "splitter",
         "search-pro",
         "page-copyright",
-        "katex"
+        "katex",
+        "donate"
     ],
     "pluginsConfig": {
         "code": {
@@ -23,6 +33,14 @@
           "utcOffset": "8",
           "style": "normal",
           "noPowered": false
+        },
+        "donate": {
+            "wechat": "微信收款的二维码URL",
+            "alipay": "支付宝收款的二维码URL",
+            "title": "",
+            "button": "赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
         }
     }
 }
