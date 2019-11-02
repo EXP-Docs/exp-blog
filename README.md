@@ -26,9 +26,9 @@
 
 - 先按照 [gitbook-server-docker](https://github.com/lyy289065406/gitbook-server-docker) 的方法在本地搭建 GitBook 的 Docker 环境
 - 按需修改 `./gitbook` 目录下的 `*.md` 文件（博客数据），`./gitbook/_book` 和 `./gitbook/book` 目录下的文件不需要修改
-- 执行命令重新编译博客： `docker run --rm -v "$PWD/gitbook:/gitbook" exp/gitbook-server gitbook build`
+- 重新编译博客： `docker run --rm -v "$PWD/gitbook:/gitbook" exp/gitbook-server gitbook build`
 - 执行脚本 `deploy-for-github` 用于生成 `./gitbook/book` 以兼容 GitHub Pages 的发布
-- 执行命令启动本地服务： `docker run -d --rm -v "$PWD/gitbook:/gitbook" -p 4000:4000 exp/gitbook-server gitbook serve`
+- 启动本地服务： `docker run -d --rm -v "$PWD/gitbook:/gitbook" -p 4000:4000 exp/gitbook-server gitbook serve`
 - 本地预览编辑效果： [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 - 手动提交全部变更内容到 Github
 
