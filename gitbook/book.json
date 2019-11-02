@@ -11,7 +11,7 @@
     "plugins": [
         "code",
         "prism",
-        "back-to-top-button",
+        "-back-to-top-button",
         "splitter",
         "search-pro",
         "page-copyright",
@@ -50,7 +50,7 @@
         },
         "anchor-navigation-ex": {
             "isRewritePageTitle": false,
-            "isShowTocTitleIcon": false,
+            "isShowTocTitleIcon": true,
             "tocLevel1Icon": "fa fa-hand-o-right",
             "tocLevel2Icon": "fa fa-hand-o-right",
             "tocLevel3Icon": "fa fa-hand-o-right"
