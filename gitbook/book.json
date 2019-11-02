@@ -24,7 +24,8 @@
         "todo",
         "auto-scroll-table",
         "image-captions",
-        "toggle-chapters"
+        "toggle-chapters",
+        "multipart"
     ],
     "pluginsConfig": {
         "code": {
