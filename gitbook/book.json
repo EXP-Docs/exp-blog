@@ -27,7 +27,10 @@
         "image-captions",
         "toggle-chapters",
         "multipart",
-        "pageview-count"
+        "pageview-count",
+        "theme-comscore",
+        "theme-api",
+        "-theme-faq"
     ],
     "pluginsConfig": {
         "code": {
@@ -83,6 +86,9 @@
         },
         "theme-default": {
             "showLevel": false
+        },
+        "theme-api": {
+            "theme": "dark"
         }
     }
 }
