@@ -30,7 +30,9 @@
         "pageview-count",
         "theme-comscore",
         "theme-api",
-        "-theme-faq"
+        "-theme-faq",
+        "edit-link",
+        "sitemap-general"
     ],
     "pluginsConfig": {
         "code": {
@@ -89,6 +91,13 @@
         },
         "theme-api": {
             "theme": "dark"
+        },
+        "edit-link": {
+            "base": "https://github.com/USER/REPO/edit/BRANCH",
+            "label": "Edit This Page"
+        },
+        "sitemap-general": {
+            "prefix": "http://exp.gitbook.com"
         }
     }
 }
