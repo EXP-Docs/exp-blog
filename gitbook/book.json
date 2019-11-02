@@ -11,14 +11,16 @@
     "plugins": [
         "code",
         "prism",
-        "back-to-top-button",
+        "-back-to-top-button",
+        "anchor-navigation-ex",
         "splitter",
         "search-pro",
         "page-copyright",
         "katex",
         "donate",
         "simple-page-toc",
-        "anchor-navigation-ex"
+        "-sharing",
+        "sharing-plus"
     ],
     "pluginsConfig": {
         "code": {
@@ -50,11 +52,20 @@
         },
         "anchor-navigation-ex": {
             "isRewritePageTitle": false,
-            "isShowTocTitleIcon": false,
+            "isShowTocTitleIcon": true,
             "tocLevel1Icon": "fa fa-hand-o-right",
             "tocLevel2Icon": "fa fa-hand-o-right",
             "tocLevel3Icon": "fa fa-hand-o-right"
-        }
+        },
+        "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "weibo": true,
+            "qq": true,
+        "all": [
+            "douban", "google", "instapaper", "linkedin", "twitter", "messenger", "qzone", "viber", "whatsapp"
+           ]
+       }
     }
 }
 
