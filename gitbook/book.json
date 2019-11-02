@@ -5,7 +5,7 @@
     "language" : "en",
     "links" : {
         "sidebar" : {
-            "Home" : "https://www.baidu.com"
+            "Github" : "https://www.baidu.com"
         }
     },
     "plugins": [
@@ -21,7 +21,10 @@
         "simple-page-toc",
         "-sharing",
         "sharing-plus",
-        "todo"
+        "todo",
+        "auto-scroll-table",
+        "image-captions",
+        "toggle-chapters"
     ],
     "pluginsConfig": {
         "code": {
@@ -66,7 +69,13 @@
             "all": [
                 "douban", "google", "instapaper", "linkedin", "twitter", "messenger", "qzone", "viber", "whatsapp"
             ]
-       }
+        },
+        "image-captions": {
+          "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+        },
+        "theme-default": {
+            "showLevel": false
+        }
     }
 }
 
