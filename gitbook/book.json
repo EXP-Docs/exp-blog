@@ -15,7 +15,8 @@
         "anchor-navigation-ex",
         "splitter",
         "search-pro",
-        "page-copyright",
+        "-page-copyright",
+        "tbfed-pagefooter",
         "katex",
         "donate",
         "simple-page-toc",
@@ -25,7 +26,8 @@
         "auto-scroll-table",
         "image-captions",
         "toggle-chapters",
-        "multipart"
+        "multipart",
+        "pageview-count"
     ],
     "pluginsConfig": {
         "code": {
@@ -42,6 +44,11 @@
           "utcOffset": "8",
           "style": "normal",
           "noPowered": false
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy EXP 2019",
+            "modify_label": "本书发布时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "donate": {
             "wechat": "微信收款的二维码URL",
