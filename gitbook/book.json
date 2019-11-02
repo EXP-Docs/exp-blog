@@ -20,7 +20,8 @@
         "donate",
         "simple-page-toc",
         "-sharing",
-        "sharing-plus"
+        "sharing-plus",
+        "todo"
     ],
     "pluginsConfig": {
         "code": {
@@ -62,9 +63,9 @@
             "twitter": true,
             "weibo": true,
             "qq": true,
-        "all": [
-            "douban", "google", "instapaper", "linkedin", "twitter", "messenger", "qzone", "viber", "whatsapp"
-           ]
+            "all": [
+                "douban", "google", "instapaper", "linkedin", "twitter", "messenger", "qzone", "viber", "whatsapp"
+            ]
        }
     }
 }
