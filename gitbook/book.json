@@ -5,7 +5,8 @@
         "back-to-top-button",
         "splitter",
         "search-pro",
-        "page-copyright"
+        "page-copyright",
+        "katex"
     ],
     "pluginsConfig": {
         "code": {
