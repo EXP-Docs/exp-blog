@@ -39,7 +39,7 @@
 <br/>　[Github Pages](https://lyy289065406.github.io/exp-blog/index.html) 依赖 `./gitbook/book` 目录
 
 
-编辑完成后使用 `deploy-for-github` 脚本发布，
+>　*编辑 GitBook 的语法详见 《[GitBook 学习笔记](https://yangjh.oschina.io/gitbook/)》*
 
 ------
 
