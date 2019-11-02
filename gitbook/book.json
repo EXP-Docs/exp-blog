@@ -1,13 +1,27 @@
 {
     "plugins": [
         "code",
+        "prism",
         "back-to-top-button",
         "splitter",
-        "search-pro"
+        "search-pro",
+        "page-copyright"
     ],
     "pluginsConfig": {
         "code": {
             "copyButtons": true
+        },
+        "page-copyright": {
+          "description": "modified at",
+          "signature": "EXP",
+          "wisdom": "Designer, Frontend Developer & overall web enthusiast",
+          "format": "YYYY-MM-dd hh:mm:ss",
+          "copyright": "Copyright &#169; EXP",
+          "timeColor": "#666",
+          "copyrightColor": "#666",
+          "utcOffset": "8",
+          "style": "normal",
+          "noPowered": false
         }
     }
 }
