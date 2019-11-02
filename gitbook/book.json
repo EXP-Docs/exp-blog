@@ -1,0 +1,14 @@
+{
+    "plugins": [
+        "code",
+        "back-to-top-button",
+        "splitter",
+        "search-pro"
+    ],
+    "pluginsConfig": {
+        "code": {
+            "copyButtons": true
+        }
+    }
+}
+
