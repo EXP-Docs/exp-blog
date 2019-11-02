@@ -6,26 +6,26 @@
 
 ## 简介
 
-此博客主要是利用 [Github Pages](https://lyy289065406.github.io/exp-blog/index.html) 搭建的。
+此博客主要是利用 [Github Pages](https://lyy289065406.github.io/exp-blog/index.html) 搭建的，同时兼容在 [GitBook（线上）](https://exp-blog.gitbook.io/articles/) 和 [本地（线下）](http://127.0.0.1:4000/) 运行。
 
-同时兼容在 [GitBook（线上）](https://exp-blog.gitbook.io/articles/) 和 [本地（线下）](http://127.0.0.1:4000/) 运行。
-
-Blog 数据存储在 [`gitbook`](https://github.com/lyy289065406/exp-blog/tree/master/gitbook) 目录下，编辑方式有两种：
+博客数据存储在 [`gitbook`](https://github.com/lyy289065406/exp-blog/tree/master/gitbook) 目录下，编辑方式有两种：
 
 - 线上编辑： 使用 [GitBook](http://app.gitbook.com/) 即可（编辑需要科学上网，浏览不需要），会自动同步到 [Github](https://lyy289065406.github.io/exp-blog/index.html) 
-- 线下编辑： 需要先搭建本地 GitBook 环境，编辑后要手动推送到 Github ，之后会自动同步到 [GitBook](https://exp-blog.gitbook.io/articles/)
+- 线下编辑： 需要先搭建本地 GitBook 环境，编辑后要手动推送到 Github ，之后会自动同步到 [GitBook Pages](https://exp-blog.gitbook.io/articles/)
 
 > 关于 **本地** 环境的搭建可见 [gitbook-server-docker](https://github.com/lyy289065406/gitbook-server-docker)
-
-
-本地发布流程
-编辑完成后使用 `deploy-for-github` 脚本发布，
 
 ------
 ## 运行环境
 
 　![](https://img.shields.io/badge/Platform-Windows%2010%20x64-brightgreen.svg) ![](https://img.shields.io/badge/Platform-Linux%20x64-brightgreen.svg) ![](https://img.shields.io/badge/Platform-Mac%20x64-brightgreen.svg) 
 
+
+------
+
+## 本地发布流程
+
+编辑完成后使用 `deploy-for-github` 脚本发布，
 
 ------
 
