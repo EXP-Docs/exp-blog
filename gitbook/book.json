@@ -16,7 +16,9 @@
         "search-pro",
         "page-copyright",
         "katex",
-        "donate"
+        "donate",
+        "simple-page-toc",
+        "anchor-navigation-ex"
     ],
     "pluginsConfig": {
         "code": {
@@ -41,6 +43,17 @@
             "button": "赏",
             "alipayText": "支付宝打赏",
             "wechatText": "微信打赏"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": false,
+            "isShowTocTitleIcon": false,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
         }
     }
 }
