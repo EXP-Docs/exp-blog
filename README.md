@@ -40,7 +40,12 @@
 <br/>　[Github Pages](https://lyy289065406.github.io/exp-blog/index.html) 依赖 `./gitbook/book` 目录
 
 <br/>
+<br/>
 
 >　*编辑 GitBook 的语法详见 《[GitBook 学习笔记](https://yangjh.oschina.io/gitbook/)》*
+<br/>　*[GitBook 主题](http://gitbook.zhangjikai.com/themes.html)，[GitBook 插件](http://gitbook.zhangjikai.com/plugins.html)*
+
+https://blog.csdn.net/fghsfeyhdf/article/details/88403548
+
 
 ------
