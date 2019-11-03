@@ -34,6 +34,7 @@
         
         "image-captions": "抓取内容中图片的 alt 或 title 属性，在图片下显示图片注解", 
         "auto-scroll-table": "表格滚动条（过宽时自动添加）", 
+        "sectionx": "页面分块支持",
         "todo": "复选框支持", 
         "code": "为代码块添加行号和复制按钮",
         "prism": "代码高亮（样式可选，内置在插件内）"
@@ -60,10 +61,10 @@
         "tbfed-pagefooter",
         "donate",
         "pageview-count",
-        "sectionx",
-        
+
         "image-captions",
         "auto-scroll-table",
+        "sectionx",
         "todo",
         "code",
         "prism"
@@ -147,7 +148,8 @@
             "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
         },
         "sectionx": {
-          "tag": "b"
+            "comment": "分块标题使用的标签",
+            "tag": "b"
         },
         "code": {
             "comment": "为代码块添加复制按钮",

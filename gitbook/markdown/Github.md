@@ -20,3 +20,5 @@ This is a section that is by default closed but visible (with ```data-collapse=t
 <!--sec data-title="Hidden 3" data-id="section3" data-show=false ces-->
 This section can only be opened with that button.
 <!--endsec-->
+
+<b>eddddd</b>
