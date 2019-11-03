@@ -48,7 +48,6 @@
         "theme-api",
         "sitemap-general",
         "favicon",
-        "rss",
 
         "simple-page-toc",
         "back-to-top-button",
@@ -85,18 +84,6 @@
         "sitemap-general": {
             "comment": "所生成的站点地图路径前缀",
             "prefix": "https://lyy289065406.github.io/exp-blog/gitbook/"
-        },
-        "rss": {
-            "title": "EXP-BLOG",
-            "description": "EXP 技术博客",
-            "author": "EXP",
-            "feed_url": "https://lyy289065406.github.io/exp-blog/rss",
-            "site_url": "https://lyy289065406.github.io/exp-blog/",
-            "managingEditor": "289065406@qq.com",
-            "webMaster": "289065406@qq.com",
-            "categories": [
-                "gitbook"
-            ]
         },
         "simple-page-toc": {
             "comment": "所生成的章节目录最大深度",
