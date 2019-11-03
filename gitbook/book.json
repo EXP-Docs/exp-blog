@@ -27,9 +27,9 @@
         "image-captions",
         "toggle-chapters",
         "multipart",
-        "-pageview-count",
+        "pageview-count",
         "theme-comscore",
-        "theme-api",
+        "-theme-api",
         "-theme-faq",
         "edit-link",
         "sitemap-general"
