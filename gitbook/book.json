@@ -1,7 +1,7 @@
 {
     "title" : "EXP-BLOG",
     "author" : "EXP",
-    "description" : "我的博客",
+    "description" : "EXP 技术博客",
     "language" : "en",
     "links" : {
         "sidebar" : {
@@ -16,9 +16,9 @@
         "theme-api": "主题插件：支持 API 动态模块，但是 Guthub Pages 不支持 octopress 类的插件，这里纯粹使用其宽屏效果", 
         "sitemap-general": "在网站根目录生成站点地图 sitemap.xml", 
 
+        "simple-page-toc": "生成当前页面的目录结构，在需要生成的地方添加： <!-- toc -->",
         "back-to-top-button": "添加返回顶部按钮",
         "anchor-navigation-ex": "添加当前页面的菜单导航",
-        "simple-page-toc": "生成当前页面的目录结构，在需要生成的地方添加： <!-- toc -->",
         "expandable-chapters-small": "支持左侧目录折叠（第二级目录开始默认叠起）", 
         "splitter": "可调节侧栏宽度",
         "headings": "在章节标题前添加锚点", 
@@ -44,9 +44,9 @@
         "theme-api",
         "sitemap-general",
 
+        "simple-page-toc",
         "-back-to-top-button",
         "anchor-navigation-ex",
-        "simple-page-toc",
         "expandable-chapters-small",
         "splitter",
         "headings",
@@ -70,40 +70,16 @@
     ],
 
     "pluginsConfig": {
-        "code": {
-            "copyButtons": true
+        "theme-default": {
+            "comment": "是否显示章节序号",
+            "showLevel": false
         },
-        "prism": {
-            "css": [
-                "prismjs/themes/prism-okaidia.css"
-            ]
-        },
-        "page-copyright": {
-          "description": "modified at",
-          "signature": "EXP",
-          "wisdom": "Designer, Frontend Developer & overall web enthusiast",
-          "format": "YYYY-MM-dd hh:mm:ss",
-          "copyright": "Copyright &#169; EXP",
-          "timeColor": "#666",
-          "copyrightColor": "#666",
-          "utcOffset": "8",
-          "style": "normal",
-          "noPowered": false
-        },
-        "tbfed-pagefooter": {
-            "copyright":"Copyright &copy EXP 2019",
-            "modify_label": "本书发布时间：",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
-        },
-        "donate": {
-            "title": "",
-            "button": "打赏",
-            "alipay": "img/donate/alipay.png",
-            "alipayText": "支付宝",
-            "wechat": "img/donate/wechat.png",
-            "wechatText": "微信"
+        "sitemap-general": {
+            "comment": "所生成的站点地图路径前缀",
+            "prefix": "https://lyy289065406.github.io/exp-blog/gitbook/"
         },
         "simple-page-toc": {
+            "comment": "所生成的章节目录最大深度",
             "maxDepth": 3,
             "skipFirstH1": true
         },
@@ -123,20 +99,48 @@
                 "douban", "google", "instapaper", "linkedin", "twitter", "messenger", "qzone", "viber", "whatsapp"
             ]
         },
+        "edit-link": {
+            "base": "https://github.com/lyy289065406/exp-blog/edit/master/gitbook",
+            "label": "EDIT THIS PAGE"
+        },
+        "page-copyright": {
+          "description": "modified at",
+          "signature": "EXP",
+          "wisdom": "Designer, Frontend Developer & overall web enthusiast",
+          "format": "YYYY-MM-dd hh:mm:ss",
+          "copyright": "Copyright &#169; EXP",
+          "timeColor": "#666",
+          "copyrightColor": "#666",
+          "utcOffset": "8",
+          "style": "normal",
+          "noPowered": false
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy EXP 2019",
+            "modify_label": "最后修改时间 ： ",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "donate": {
+            "title": "",
+            "button": "打赏",
+            "alipay": "img/donate/alipay.png",
+            "alipayText": "支付宝",
+            "wechat": "img/donate/wechat.png",
+            "wechatText": "微信"
+        },
         "image-captions": {
             "comment": "图片注解格式",
             "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
         },
-        "theme-default": {
-            "comment": "是否显示章节序号",
-            "showLevel": false
+        "code": {
+            "comment": "为代码块添加复制按钮",
+            "copyButtons": true
         },
-        "edit-link": {
-            "base": "https://github.com/lyy289065406/exp-blog/edit/master/gitbook",
-            "label": "Edit This Page"
-        },
-        "sitemap-general": {
-            "prefix": "https://lyy289065406.github.io/exp-blog/gitbook/"
+        "prism": {
+            "comment": "样式可选，内置在插件内",
+            "css": [
+                "prismjs/themes/prism-okaidia.css"
+            ]
         }
     }
 }
