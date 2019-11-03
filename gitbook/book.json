@@ -14,6 +14,7 @@
 
         "theme-comscore": "主题插件：使用不同颜色标识章节标题", 
         "theme-api": "主题插件：支持 API 动态模块，但是 Guthub Pages 不支持 octopress 类的插件，这里纯粹使用其宽屏效果", 
+        "sitemap-general": "在网站根目录生成站点地图 sitemap.xml", 
 
         "back-to-top-button": "添加返回顶部按钮",
         "anchor-navigation-ex": "添加当前页面的菜单导航",
@@ -35,15 +36,13 @@
         "auto-scroll-table": "表格滚动条（过宽时自动添加）", 
         "todo": "复选框支持", 
         "code": "为代码块添加行号和复制按钮",
-        "prism": "代码高亮（样式可选，内置在插件内）",
-        
-        "": "", 
-        "": ""
+        "prism": "代码高亮（样式可选，内置在插件内）"
     },
 
     "plugins": [
         "theme-comscore",
         "theme-api",
+        "sitemap-general",
 
         "-back-to-top-button",
         "anchor-navigation-ex",
@@ -67,9 +66,7 @@
         "auto-scroll-table",
         "todo",
         "code",
-        "prism",
-
-        "sitemap-general"
+        "prism"
     ],
 
     "pluginsConfig": {
@@ -139,7 +136,7 @@
             "label": "Edit This Page"
         },
         "sitemap-general": {
-            "prefix": "https://lyy289065406.github.io/exp-blog/"
+            "prefix": "https://lyy289065406.github.io/exp-blog/gitbook/"
         }
     }
 }
