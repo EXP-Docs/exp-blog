@@ -60,7 +60,7 @@
         "tbfed-pagefooter",
         "donate",
         "pageview-count",
-        "graph",
+        "sectionx",
         
         "image-captions",
         "auto-scroll-table",
@@ -145,6 +145,9 @@
         "image-captions": {
             "comment": "图片注解格式",
             "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+        },
+        "sectionx": {
+          "tag": "b"
         },
         "code": {
             "comment": "为代码块添加复制按钮",
