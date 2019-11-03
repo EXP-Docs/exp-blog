@@ -1,4 +1,4 @@
-# EXP-Blog
+# EXP-BLOG
 
 > EXP 的 GitBook 博客
 
