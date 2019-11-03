@@ -45,7 +45,7 @@
         "sitemap-general",
 
         "simple-page-toc",
-        "-back-to-top-button",
+        "back-to-top-button",
         "anchor-navigation-ex",
         "expandable-chapters-small",
         "splitter",
@@ -83,11 +83,25 @@
             "skipFirstH1": true
         },
         "anchor-navigation-ex": {
-            "isRewritePageTitle": false,
-            "isShowTocTitleIcon": true,
-            "tocLevel1Icon": "fa fa-hand-o-right",
-            "tocLevel2Icon": "fa fa-hand-o-right",
-            "tocLevel3Icon": "fa fa-hand-o-right"
+            "showLevel": false,
+            "associatedWithSummary": true,
+            "printLog": false,
+            "multipleH1": true,
+            "mode": "float",
+            "showGoTop":false,
+            "float": {
+                "floatIcon": "fa fa-anchor",
+                "showLevelIcon": true,
+                "level1Icon": "fa fa-circle",
+                "level2Icon": "fa fa-circle-o",
+                "level3Icon": "fa fa-circle-o"
+            },
+            "pageTop": {
+                "showLevelIcon": true,
+                "level1Icon": "fa fa-circle",
+                "level2Icon": "fa fa-circle-o",
+                "level3Icon": "fa fa-circle-o"
+            }
         },
         "sharing": {
             "facebook": true,
