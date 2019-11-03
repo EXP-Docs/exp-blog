@@ -43,12 +43,5 @@
 <br/>
 
 >　*编辑 GitBook 的语法详见 《[GitBook 学习笔记](https://yangjh.oschina.io/gitbook/)》*
-<br/>　*[GitBook 主题](http://gitbook.zhangjikai.com/themes.html)，[GitBook 插件](http://gitbook.zhangjikai.com/plugins.html)*
-
-https://blog.csdn.net/fghsfeyhdf/article/details/88403548
-https://www.cnblogs.com/zhangjk1993/p/5066771.html#_label2
-https://www.cnblogs.com/zhangjk1993/p/5066771.html
-
-https://docs.gitbook.com/
 
 ------
