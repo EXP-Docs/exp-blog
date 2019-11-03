@@ -94,6 +94,9 @@
         },
         "sitemap-general": {
             "prefix": "http://exp.gitbook.com"
+        },
+        "theme-api": {
+            "theme": "dark"
         }
     }
 }
