@@ -151,11 +151,11 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "donate": {
-            "title": "",
+            "title": "感谢阅读 (^_^)",
             "button": "赞助",
-            "alipay": "/img/donate/alipay.png",
+            "alipay": "/gitbook/img/donate/alipay.png",
             "alipayText": "支付宝",
-            "wechat": "/img/donate/wechat.png",
+            "wechat": "/gitbook/img/donate/wechat.png",
             "wechatText": "微信"
         },
         "image-captions": {
