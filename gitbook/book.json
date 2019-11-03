@@ -55,12 +55,12 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "donate": {
-            "wechat": "微信收款的二维码URL",
-            "alipay": "支付宝收款的二维码URL",
             "title": "",
-            "button": "赏",
-            "alipayText": "支付宝打赏",
-            "wechatText": "微信打赏"
+            "button": "打赏",
+            "alipay": "img/donate/alipay.png",
+            "alipayText": "支付宝",
+            "wechat": "img/donate/wechat.png",
+            "wechatText": "微信"
         },
         "simple-page-toc": {
             "maxDepth": 3,
