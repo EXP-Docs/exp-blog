@@ -26,7 +26,7 @@ require(["gitbook", "jQuery"], function (gitbook, $) {
 
     var renderWrapper = $('<div class="page-view-wrapper dropdown pull-left">\
         <span class="btn toggle-dropdown">'+ iconSVg + '</span>\
-        <span class="page-view-counter" title="阅读数">-</span>\
+        <span class="page-view-counter" title="阅读数">0</span>\
       </div>')
 
     if(lastChild.length){
