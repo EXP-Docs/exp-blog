@@ -17,7 +17,7 @@
         "search-pro",
         "-page-copyright",
         "tbfed-pagefooter",
-        "katex",
+        "-katex",
         "donate",
         "simple-page-toc",
         "-sharing",
