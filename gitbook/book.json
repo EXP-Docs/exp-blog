@@ -29,7 +29,8 @@
         "pageview-count",
         "theme-comscore",
         "edit-link",
-        "sitemap-general"
+        "sitemap-general",
+        "headings"
     ],
     "pluginsConfig": {
         "code": {
