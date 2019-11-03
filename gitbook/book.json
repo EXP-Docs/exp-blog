@@ -34,6 +34,7 @@
         
         "image-captions": "抓取内容中图片的 alt 或 title 属性，在图片下显示图片注解", 
         "auto-scroll-table": "表格滚动条（过宽时自动添加）", 
+        "terminal": "代码块支持模拟终端回显",
         "sectionx": "页面分块支持",
         "todo": "复选框支持", 
         "code": "为代码块添加行号和复制按钮",
@@ -64,6 +65,7 @@
 
         "image-captions",
         "auto-scroll-table",
+        "terminal",
         "sectionx",
         "todo",
         "code",
@@ -146,6 +148,11 @@
         "image-captions": {
             "comment": "图片注解格式",
             "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+        },
+        "terminal": {
+            "copyButtons": true,
+            "fade": false,
+            "style": "flat"
         },
         "sectionx": {
             "comment": "分块标题使用的标签",
