@@ -28,7 +28,6 @@
         "multipart",
         "pageview-count",
         "theme-comscore",
-        "-theme-api",
         "-theme-faq",
         "edit-link",
         "sitemap-general"
@@ -87,9 +86,6 @@
         },
         "theme-default": {
             "showLevel": false
-        },
-        "theme-api": {
-            "theme": "dark"
         },
         "edit-link": {
             "base": "https://github.com/USER/REPO/edit/BRANCH",
