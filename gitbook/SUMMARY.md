@@ -15,7 +15,7 @@
 
 * [Introduction](markdown/part2/README.md)
 * [We love feedback](markdown/part2/feedback_please.md)
-* [API doc](markdown/part2/better_tools.md)
+* [API 文档](markdown/part2/better_tools.md)
 
 ### Part III
 
