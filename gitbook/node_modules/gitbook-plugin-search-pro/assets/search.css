@@ -4,6 +4,8 @@
 */
 #book-search-input {
   background: inherit;
+  background-color: #2d3134;
+  color: #CCC;
 }
 #book-search-results .search-results {
   display: none;

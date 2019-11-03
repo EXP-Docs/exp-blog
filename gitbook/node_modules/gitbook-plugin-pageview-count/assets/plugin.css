@@ -2,7 +2,7 @@
   display: inline-block;
 }
 .page-view-counter{
-  margin-left: -14px;
+  margin-left: 1px;
   font-size: 15px;
-/*  display:inline-block; */
+  display:inline-block;
 }
