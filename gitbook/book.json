@@ -122,7 +122,7 @@
         },
         "donate": {
             "title": "",
-            "button": "打赏",
+            "button": "赞助",
             "alipay": "img/donate/alipay.png",
             "alipayText": "支付宝",
             "wechat": "img/donate/wechat.png",
