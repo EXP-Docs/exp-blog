@@ -1,5 +1,5 @@
 {
-    "title" : "EXP-Blog",
+    "title" : "EXP-BLOG",
     "author" : "EXP",
     "description" : "我的博客",
     "language" : "en",
@@ -94,9 +94,6 @@
         },
         "sitemap-general": {
             "prefix": "http://exp.gitbook.com"
-        },
-        "theme-api": {
-            "theme": "dark"
         }
     }
 }
