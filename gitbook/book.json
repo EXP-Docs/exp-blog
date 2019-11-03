@@ -5,37 +5,81 @@
     "language" : "en",
     "links" : {
         "sidebar" : {
-            "Github" : "https://www.baidu.com"
+            "Github" : "https://github.com/lyy289065406/exp-blog"
         }
     },
+
+    "plugin-comment": {
+        "DESC": "插件功能说明（以 - 号开头表示不启用该插件，多用于会冲突的默认插件）",
+
+        "theme-comscore": "主题插件：使用不同颜色标识章节标题", 
+        "theme-api": "主题插件：支持 API 动态模块，但是 Guthub Pages 不支持 octopress 类的插件，这里纯粹使用其宽屏效果", 
+
+        "back-to-top-button": "添加返回顶部按钮",
+        "anchor-navigation-ex": "添加当前页面的菜单导航",
+        "simple-page-toc": "生成当前页面的目录结构，在需要生成的地方添加： <!-- toc -->",
+        "expandable-chapters-small": "支持左侧目录折叠（第二级目录开始默认叠起）", 
+        "splitter": "可调节侧栏宽度",
+        "headings": "在章节标题前添加锚点", 
+
+        "search-pro": "支持中文的高级搜索",
+        "sharing-plus": "分享当前页面（比默认插件多了更多分享方式）", 
+        "edit-link": "若源码页面存储在 Github 上，可以链接到对应源码的编辑页面", 
+
+        "page-copyright": "添加页脚版权信息（含二维码，相对复杂）",
+        "tbfed-pagefooter": "添加页脚版权信息（精简版）", 
+        "donate": "添加打赏系统", 
+        "pageview-count": "添加阅读量计数系统（借用第三方接口 https://hitcounter.pythonanywhere.com/）",
+        
+        "image-captions": "抓取内容中图片的 alt 或 title 属性，在图片下显示图片注解", 
+        "auto-scroll-table": "表格滚动条（过宽时自动添加）", 
+        "todo": "复选框支持", 
+        "code": "为代码块添加行号和复制按钮",
+        "prism": "代码高亮（样式可选，内置在插件内）",
+        
+        "": "", 
+        "": ""
+    },
+
     "plugins": [
-        "code",
-        "prism",
+        "theme-comscore",
+        "theme-api",
+
         "-back-to-top-button",
         "anchor-navigation-ex",
+        "simple-page-toc",
+        "expandable-chapters-small",
         "splitter",
+        "headings",
+
+        "-search",
         "search-pro",
+        "-sharing",
+        "sharing-plus",
+        "edit-link",
+        
         "-page-copyright",
         "tbfed-pagefooter",
         "donate",
-        "simple-page-toc",
-        "-sharing",
-        "sharing-plus",
-        "todo",
-        "auto-scroll-table",
-        "image-captions",
-        "toggle-chapters",
-        "multipart",
         "pageview-count",
-        "theme-comscore",
-        "theme-api",
-        "edit-link",
-        "sitemap-general",
-        "headings"
+        
+        "image-captions",
+        "auto-scroll-table",
+        "todo",
+        "code",
+        "prism",
+
+        "sitemap-general"
     ],
+
     "pluginsConfig": {
         "code": {
             "copyButtons": true
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-okaidia.css"
+            ]
         },
         "page-copyright": {
           "description": "modified at",
@@ -83,9 +127,11 @@
             ]
         },
         "image-captions": {
-          "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+            "comment": "图片注解格式",
+            "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
         },
         "theme-default": {
+            "comment": "是否显示章节序号",
             "showLevel": false
         },
         "edit-link": {
@@ -93,7 +139,7 @@
             "label": "Edit This Page"
         },
         "sitemap-general": {
-            "prefix": "http://exp.gitbook.com"
+            "prefix": "https://lyy289065406.github.io/exp-blog/"
         }
     }
 }
