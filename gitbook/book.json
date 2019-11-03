@@ -25,7 +25,9 @@
         "todo",
         "auto-scroll-table",
         "image-captions",
-        
+        "toggle-chapters",
+        "multipart",
+        "-pageview-count",
         "theme-comscore",
         "theme-api",
         "-theme-faq",
