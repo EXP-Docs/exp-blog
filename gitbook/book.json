@@ -28,8 +28,8 @@
         "toggle-chapters",
         "multipart",
         "pageview-count",
-        "theme-comscore",
-        "theme-api",
+        "-theme-comscore",
+        "-theme-api",
         "-theme-faq",
         "edit-link",
         "sitemap-general"
