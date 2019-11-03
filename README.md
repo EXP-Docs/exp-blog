@@ -1,6 +1,6 @@
 # EXP-BLOG
 
-> EXP 的 GitBook 博客
+> EXP 极简技术博客
 
 ------
 
