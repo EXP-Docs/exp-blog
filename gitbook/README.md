@@ -1,144 +1,53 @@
-# 总览
+# EXP-BLOG
+
+> EXP 的 GitBook 博客
 
 ------
 
+## 简介
 
-```python
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
+此博客主要是利用 [GitBook](https://exp-blog.gitbook.io/articles/) 搭建的，同时兼容在 [Github Pages](https://lyy289065406.github.io/exp-blog/index.html) 和 [本地（线下）](http://127.0.0.1:4000/) 运行。
 
-import re
-import socket
-CHARSET = 'utf-8'
+博客数据存储在 [`gitbook`](https://github.com/lyy289065406/exp-blog/tree/master/gitbook) 目录下，编辑方式有两种：
 
+- 线上编辑： 使用 [GitBook](http://app.gitbook.com/) 即可（编辑需要科学上网，展示不需要），会自动推送到 Github，并同步到 [Github Pages](https://lyy289065406.github.io/exp-blog/index.html) 
+- 线下编辑： 要先搭建[本地 GitBook](http://127.0.0.1:4000/) 环境，编辑后手动推送到 Github ，会自动同步到 [GitBook（线上）](https://exp-blog.gitbook.io/articles/) 和  [Github Pages](https://lyy289065406.github.io/exp-blog/index.html)
 
+> 关于 **本地** 环境的搭建可见 [gitbook-server-docker](https://github.com/lyy289065406/gitbook-server-docker)
 
-def send_cmd(irc_sock, cmd) :
-    """
-    发送命令到 IRC 服务器
+------
+## 运行环境
 
-    Args:
-        irc_sock: 与 IRC 服务器的 socket 连接
-        cmd: 待发送的命令（不需 \r\n 结束符，会自动补全）
+　![](https://img.shields.io/badge/Platform-Windows%2010%20x64-brightgreen.svg) ![](https://img.shields.io/badge/Platform-Linux%20x64-brightgreen.svg) ![](https://img.shields.io/badge/Platform-Mac%20x64-brightgreen.svg) 
 
-    Returns:
-        None
-    """
+------
 
-    print('  =>  %s' % cmd)
-    irc_sock.send(('%s\r\n' % cmd).encode(CHARSET))
-    return
+## 本地发布流程
 
-
-def send_msg(irc_sock, to, msg) :
-    """
-    发送 PRIVMSG 私信命令到 IRC 服务器
-
-    Args:
-        irc_sock: 与 IRC 服务器的 socket 连接
-        to: 接收私信的对象
-        msg: 待发送的私信内容
-
-    Returns:
-        None
-    """
-
-    cmd = 'PRIVMSG %s :%s' % (to, msg)
-    send_cmd(irc_sock, cmd)
-    return
+- 先按照 [gitbook-server-docker](https://github.com/lyy289065406/gitbook-server-docker) 的方法在本地搭建 GitBook 的 Docker 环境
+- 按需修改 `./gitbook/markdown` 目录下的博客数据（注意目录外的 `SUMMARY.md` 和 `README.md` 是固定的）
+- `./gitbook_book` 和 `./gitbook/book` 是编译时生成的数据，均不需要修改
+- 重新编译博客： `docker run --rm -v "$PWD/gitbook:/gitbook" exp/gitbook-server gitbook build`
+- 执行脚本 `deploy-for-github` 用于生成 `./gitbook/book` 以兼容 [GitHub Pages](https://lyy289065406.github.io/exp-blog/index.html) 的发布
+- 启动本地服务： `docker run -d --rm -v "$PWD/gitbook:/gitbook" -p 4000:4000 exp/gitbook-server gitbook serve`
+- 本地预览编辑效果： [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+- 手动提交全部变更内容到 Github
 
 
-def conn_irc(irc_host, irc_port, irc_chan, username, anywords) :
-    """
-    连接到 IRC 服务器的指定聊天频道
+> 关于博客展示所用的数据：
+<br/>　[线上 GitBook](https://exp-blog.gitbook.io/articles/) 依赖 `./gitbook/*.md` 文件
+<br/>　[本地 GitBook](http://127.0.0.1:4000/) 依赖 `./gitbook/_book` 目录
+<br/>　[Github Pages](https://lyy289065406.github.io/exp-blog/index.html) 依赖 `./gitbook/book` 目录
 
-    Args:
-        irc_host: IRC 服务器主机
-        irc_port: IRC 服务端口
-        irc_chan: IRC 聊天频道
-        username: 在 IRC 聊天室标识自己身份的昵称（任意值均可，只要未被他人在 IRC 上使用即可）
-        anywords: 首次加入 IRC 聊天室后用于打招呼的语句，任意即可
+<br/>
+<br/>
 
-    Returns:
-        irc_sock: 与 IRC 服务器的 socket 连接
-    """
+>　*编辑 GitBook 的语法详见 《[GitBook 学习笔记](https://yangjh.oschina.io/gitbook/)》*
+<br/>　*[GitBook 主题](http://gitbook.zhangjikai.com/themes.html)，[GitBook 插件](http://gitbook.zhangjikai.com/plugins.html)*
 
-    irc_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    irc_sock.connect((irc_host, irc_port))
+https://blog.csdn.net/fghsfeyhdf/article/details/88403548
+https://www.cnblogs.com/zhangjk1993/p/5066771.html#_label2
 
-    # NICK 和 USER 命令必须先发送，以声明自己身份
-    # （注意同一个 IP 不能同时开两次以上的连接，否则只有第一次能够注册成功）
-    send_cmd(irc_sock, 'NICK %s' % username)
-    send_cmd(irc_sock, 'USER %s %s %s :%s' % (username, username, username, anywords))
-    send_cmd(irc_sock, 'JOIN %s' % irc_chan)    # 加入频道
-    return irc_sock
+https://docs.gitbook.com/
 
-
-
-def interface(irc_sock, bot_name, username) :
-    """
-    在 IRC 聊天室与 robot 进行消息交互
-
-    Args:
-        irc_sock: 与 IRC 服务器的 socket 连接
-        bot_name: 机器人的昵称
-        username: 自己的昵称
-
-    Returns:
-        None
-    """
-
-    finish = False
-    while finish == False :
-        rsp_data = irc_sock.makefile(encoding=CHARSET)
-
-        # 逐行解析响应数据
-        for line in rsp_data:
-            print(line, end='')
-
-            if line.startswith('PING') :
-                send_cmd(irc_sock, line.replace('PING', 'PONG'))
-
-            # :EXP!EXP@hzv-tsd.o51.eaqa1b.IP MODE EXP +x
-            elif line.startswith(':%s' % username) :
-                send_msg(irc_sock, bot_name, '!ep1')
-
-            # :Candy!Candy@root-me.org PRIVMSG EXP :645 / 8814
-            elif line.startswith(':%s' % bot_name) :
-                mth = re.match(r':.+?:(\d+) / (\d+)$', line)
-                if mth :
-                    n1 = int(mth.group(1))
-                    n2 = int(mth.group(2))
-                    rst = (n1 ** 0.5) * n2     # n1 的平方根乘以 n2
-                    answer = round(rst, 2)     # 结果保留 2 位小数
-                    send_msg(irc_sock, bot_name, '!ep1 -rep %s' % answer)
-
-                else :
-                    send_cmd(irc_sock, 'QUIT')  # 退出聊天频道
-                    finish = True
-                    break
-    return
-
-
-if __name__ == '__main__' :
-    irc_host = 'irc.root-me.org'
-    irc_port = 6667
-    irc_chan = '#root-me_challenge'
-    bot_name = 'Candy'
-    username = 'EXP'
-    anywords = 'http://exp-blog.com'
-
-    # 连接到 ROOTME 的 IRC 聊天室并加入 CHALLENGE 聊天频道
-    irc_sock = conn_irc(irc_host, irc_port, irc_chan, username, anywords)
-
-    # 在聊天室与 robot 进行消息交互
-    interface(irc_sock, bot_name, username)
-
-    # 关闭 IRC 的 socket 连接
-    irc_sock.shutdown(2)
-    irc_sock.close()
-
-```
-
-
-![PNG](/img/md.png)
+------
