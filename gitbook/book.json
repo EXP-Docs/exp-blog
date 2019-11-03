@@ -15,6 +15,7 @@
         "theme-comscore": "主题插件：使用不同颜色标识章节标题", 
         "theme-api": "主题插件：支持 API 动态模块，但是 Guthub Pages 不支持 octopress 类的插件，这里纯粹使用其宽屏效果", 
         "sitemap-general": "在网站根目录生成站点地图 sitemap.xml", 
+        "favicon": "用于更改网站的 favicon.ico",
 
         "simple-page-toc": "生成当前页面的目录结构，在需要生成的地方添加： <!-- toc -->",
         "back-to-top-button": "添加返回顶部按钮",
@@ -45,6 +46,7 @@
         "theme-comscore",
         "theme-api",
         "sitemap-general",
+        "favicon",
 
         "simple-page-toc",
         "back-to-top-button",
@@ -85,6 +87,15 @@
             "comment": "所生成的章节目录最大深度",
             "maxDepth": 3,
             "skipFirstH1": true
+        },
+        "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png",
+            "appleTouchMore": {
+                "120x120": "assets/images/apple-touch-icon-120x120.png",
+                "180x180": "assets/images/apple-touch-icon-180x180.png"
+            }
         },
         "anchor-navigation-ex": {
             "showLevel": false,
