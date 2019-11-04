@@ -14,6 +14,11 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
 	function insertDonateLink() {
 		if ($('.gitbook-donate').length === 0 && wechatURL !== undefined && (wechatURL !== '' || alipayURL !== '')) {
 			var pageDepth = gitbook.state.page.depth + 1;
+			var pageLevel = gitbook.state.page.level;
+			if (pageLevel == '1.1') {	// 根目录深度调整为 0
+				pageDepth = 0;
+			}
+
 			var html = [
 				'<div class="gitbook-donate">',
 				'<div>' + titleText + '</div>',
