@@ -32,7 +32,7 @@ exp-blog
 |   |-- SUMMARY.md  ..........  [博客目录索引（固定文件）]
 |   |-- node_modules  ........  [GitBook 的插件目录]
 |   |-- book.json  ...........  [GitBook 的插件配置]
-|   └-- package-lock.json  ...  [GitBook 的插件清单]
+|   └-- package-lock.json  ...  [nodojs 插件依赖关系文件（安装插件时会自动更新）]
 |-- LICENSE  .................  [版权说明]
 └-- README.md  ...............  [此仓库的说明文档]
 
