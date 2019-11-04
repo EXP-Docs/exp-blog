@@ -153,9 +153,9 @@
         "donate": {
             "title": "感谢阅读 (^_^)",
             "button": "赞助",
-            "alipay": "/gitbook/img/donate/alipay.png",
+            "alipay": "/exp-blog/gitbook/img/donate/alipay.png",
             "alipayText": "支付宝",
-            "wechat": "/gitbook/img/donate/wechat.png",
+            "wechat": "/exp-blog/gitbook/img/donate/wechat.png",
             "wechatText": "微信"
         },
         "image-captions": {
