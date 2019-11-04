@@ -7,7 +7,7 @@ sleep 2
 rm -rf gitbook/book
 sleep 2
 
-docker run --rm -v "$PWD/gitbook:/gitbook" exp/gitbook-server gitbook build
+docker run --rm -v "$PWD/gitbook:/gitbook" expm02/gitbook-server gitbook build
 sleep 2
 
 cp -r gitbook/_book gitbook/book
