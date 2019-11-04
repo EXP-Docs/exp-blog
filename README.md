@@ -50,13 +50,6 @@ exp-blog
 
 
 
-
-
-TODO： 修改打赏插件图片计算目录深度（参考图片注解插件逻辑）
-参考下 xray 的 README
-index.html 或者可以做成 link 文件
-
-
 ------
 
 ## 版权声明
