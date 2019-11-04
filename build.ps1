@@ -7,7 +7,7 @@ Sleep 2
 Remove-Item gitbook/book -recurse
 Sleep 2
 
-docker run --rm -v "$PWD/gitbook:/gitbook" exp/gitbook-server gitbook build
+docker run --rm -v "$PWD/gitbook:/gitbook" expm02/gitbook-server gitbook build
 Sleep 2
 
 Copy-Item gitbook/_book gitbook/book -recurse
