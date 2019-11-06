@@ -1,7 +1,8 @@
-# 总览
+# 示例插入代码
 
 ------
 
+## 效果
 
 ```python
 #!/usr/bin/python
@@ -139,6 +140,3 @@ if __name__ == '__main__' :
     irc_sock.close()
 
 ```
-
-
-![PNG](/img/md.png)
