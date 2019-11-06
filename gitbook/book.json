@@ -15,7 +15,7 @@
         "theme-comscore": "主题插件：使用不同颜色标识章节标题", 
         "theme-api": "主题插件：支持 API 动态模块，但是 Guthub Pages 不支持 octopress 类的插件，这里纯粹使用其宽屏效果", 
         "sitemap-general": "在网站根目录生成站点地图 sitemap.xml", 
-        "favicon": "用于更改网站的 favicon.ico",
+        "favicon": "用于更改网站的 favicon.ico （但因为加载顺序问题，无法覆盖原生的 favicon 图片）",
         "canvas-nest": "基于 html5 绘制的网页背景效果",
 
         "simple-page-toc": "生成当前页面的目录结构，在需要生成的地方添加： <!-- toc -->",
@@ -35,8 +35,9 @@
         "pageview-count": "添加阅读量计数系统（借用第三方接口 https://hitcounter.pythonanywhere.com/）",
         
         "image-captions": "抓取内容中图片的 alt 或 title 属性，在图片下显示图片注解", 
+        "popup": "点击图片弹出大图",
         "auto-scroll-table": "表格滚动条（过宽时自动添加）", 
-        "terminal": "代码块支持模拟终端回显",
+        "terminal": "使代码块支持模拟终端回显",
         "sectionx": "页面分块支持",
         "todo": "复选框支持", 
         "alerts": "支持 4 种不同样式的引用框警示",
@@ -48,7 +49,7 @@
         "theme-comscore",
         "theme-api",
         "sitemap-general",
-        "favicon",
+        "-favicon",
         "canvas-nest",
 
         "simple-page-toc",
@@ -68,6 +69,7 @@
         "pageview-count",
 
         "image-captions",
+        "popup",
         "auto-scroll-table",
         "terminal",
         "sectionx",
@@ -92,12 +94,13 @@
             "skipFirstH1": true
         },
         "favicon": {
-            "shortcut": "assets/images/favicon.ico",
-            "bookmark": "assets/images/favicon.ico",
-            "appleTouch": "assets/images/apple-touch-icon.png",
+            "shortcut": "/res/img/logo/favicon_48x48.ico",
+            "bookmark": "/res/img/logo/favicon_48x48.ico",
+            "appleTouch": "/res/img/logo/favicon_48x48.ico",
             "appleTouchMore": {
-                "120x120": "assets/images/apple-touch-icon-120x120.png",
-                "180x180": "assets/images/apple-touch-icon-180x180.png"
+                "64x64": "/res/img/logo/favicon_48x48.ico",
+                "128x128": "/res/img/logo/favicon_48x48.ico",
+                "512x512": "/res/img/logo/favicon_48x48.ico.png"
             }
         },
         "anchor-navigation-ex": {
@@ -161,7 +164,7 @@
         },
         "image-captions": {
             "comment": "图片注解格式",
-            "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+            "caption": "Image _PAGE_IMAGE_NUMBER_ - _CAPTION_"
         },
         "terminal": {
             "copyButtons": true,
