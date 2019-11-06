@@ -43,7 +43,8 @@
         "sectionx": "页面分块支持",
         "todo": "复选框支持", 
         "alerts": "支持 4 种不同样式的引用框警示",
-        "code": "为代码块添加行号和复制按钮",
+        "code": "为代码块添加复制按钮和行号（行号会影响代码样式）",
+        "copy-code-button": "为代码块添加复制按钮",
         "prism": "代码高亮（样式可选，内置在插件内）"
     },
 
@@ -79,7 +80,8 @@
         "sectionx",
         "todo",
         "alerts",
-        "code",
+        "-code",
+        "copy-code-button",
         "prism"
     ],
 
