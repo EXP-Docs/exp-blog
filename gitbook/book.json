@@ -18,6 +18,7 @@
         "favicon": "用于更改网站的 favicon.ico （但因为加载顺序问题，无法覆盖原生的 favicon 图片）",
         "canvas-nest": "基于 html5 绘制的网页背景效果",
         "insert-logo": "在左侧导航栏顶部插入网站 logo",
+        "hide-element": "通过 HTML 元素的 class 名字来隐藏不想看到的元素",
 
         "simple-page-toc": "生成当前页面的目录结构，在需要生成的地方添加： <!-- toc -->",
         "back-to-top-button": "添加返回顶部按钮",
@@ -37,7 +38,7 @@
         
         "image-captions": "抓取内容中图片的 alt 或 title 属性，在图片下显示图片注解", 
         "popup": "点击图片弹出大图",
-        "auto-scroll-table": "表格滚动条（过宽时自动添加）", 
+        "auto-scroll-table": "表格水平滚动条（过宽时自动添加）", 
         "terminal": "使代码块支持模拟终端回显",
         "sectionx": "页面分块支持",
         "todo": "复选框支持", 
@@ -53,6 +54,7 @@
         "-favicon",
         "canvas-nest",
         "-insert-logo",
+        "hide-element",
 
         "simple-page-toc",
         "back-to-top-button",
@@ -108,6 +110,12 @@
         "insert-logo": {
             "url": "/res/img/logo//exp-blog - logo-min.png",
             "style": "background: none; min-height: 30px; max-height: 50px"
+        },
+        "hide-element": {
+            "comment": "隐藏导航栏底部的 gitbook 超链",
+            "elements": [
+                ".gitbook-link"
+            ]
         },
         "anchor-navigation-ex": {
             "showLevel": false,
