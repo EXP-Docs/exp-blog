@@ -17,6 +17,7 @@
         "sitemap-general": "在网站根目录生成站点地图 sitemap.xml", 
         "favicon": "用于更改网站的 favicon.ico （但因为加载顺序问题，无法覆盖原生的 favicon 图片）",
         "canvas-nest": "基于 html5 绘制的网页背景效果",
+        "insert-logo": "在左侧导航栏顶部插入网站 logo",
 
         "simple-page-toc": "生成当前页面的目录结构，在需要生成的地方添加： <!-- toc -->",
         "back-to-top-button": "添加返回顶部按钮",
@@ -51,6 +52,7 @@
         "sitemap-general",
         "-favicon",
         "canvas-nest",
+        "-insert-logo",
 
         "simple-page-toc",
         "back-to-top-button",
@@ -102,6 +104,10 @@
                 "128x128": "/res/img/logo/favicon_48x48.ico",
                 "512x512": "/res/img/logo/favicon_48x48.ico.png"
             }
+        },
+        "insert-logo": {
+            "url": "/res/img/logo//exp-blog - logo-min.png",
+            "style": "background: none; min-height: 30px; max-height: 50px"
         },
         "anchor-navigation-ex": {
             "showLevel": false,
