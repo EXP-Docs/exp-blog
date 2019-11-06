@@ -1,4 +1,12 @@
-# write
+# 示例引用告警
+
+------
+
+## 相关插件
+
+- gitbook-plugin-alerts: 支持 4 种不同样式的引用框警示
+
+## 效果
 
 Info styling
 > **[info] For info**
@@ -19,3 +27,6 @@ Success styling
 > **[success] For info**
 >
 > Use this for success messages.
+
+
+------

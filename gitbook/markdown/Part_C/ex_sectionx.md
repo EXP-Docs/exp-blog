@@ -1,5 +1,13 @@
-gitbook-plugin-sectionx
-===
+# 示例页面分块
+
+------
+
+## 相关插件
+
+- gitbook-plugin-sectionx: 页面分块支持
+
+## 效果
+
 
 <!--sec data-title="Introduction" data-id="intro" data-nopdf="true" ces-->
 This page is implemented using the two plugins developed by me: ```gitbook-plugin-sectionx```, please check the [Github repo](https://github.com/ymcatar/gitbook-plugin-sectionx) for the plugin.
@@ -21,4 +29,4 @@ This is a section that is by default closed but visible (with ```data-collapse=t
 This section can only be opened with that button.
 <!--endsec-->
 
-<b>eddddd</b>
+------

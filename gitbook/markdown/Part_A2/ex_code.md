@@ -2,6 +2,12 @@
 
 ------
 
+## 相关插件
+
+- gitbook-plugin-code: 为代码块添加行号和复制按钮
+- gitbook-plugin-prism: 代码高亮（样式可选，内置在插件内）
+
+
 ## 效果
 
 ```python
