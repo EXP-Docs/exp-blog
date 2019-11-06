@@ -13,8 +13,9 @@ pre.terminal code {
 }
 
 pre.terminal span.t-line {
-  display: block;
+  /* display: block; */
 }
+
 
 pre.terminal.t-fade span.t-line:not(.t-prompt-line),
 pre.terminal.t-fade span.t-delimiter,
