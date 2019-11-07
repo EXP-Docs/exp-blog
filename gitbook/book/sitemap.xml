@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_A1/page1.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_A1/depth2/page1.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_A1/depth2/page2.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_A1/depth2/depth3/page1.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_A1/depth2/depth3/page2.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_A1/page2.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_A2/ex_code.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_A2/ex_image.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_B/ex_alert.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_B/ex_terminal.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_C/ex_sectionx.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/Part_C/ex_todo.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/tail.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/01_algorithm/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/01_algorithm/01_acm/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/01_algorithm/02_poj/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/01_algorithm/03_testdata/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/02_crawler/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/03_penetration/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/04_deeplearn/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/05_blockchain/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/06_bigdata/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/07_re/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/01_language/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/01_language/01_c/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/01_language/02_java/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/01_language/03_python/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/01_language/04_ruby/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/01_language/05_ass/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/02_datastruct/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/03_design/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/04_database/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/05_net/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/06_scm/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/02_notes/07_arch/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/03_website/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/04_resource/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/05_feelings/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/99_about/about_us.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/99_about/copyright.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
