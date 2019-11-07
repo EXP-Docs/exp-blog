@@ -18,3 +18,11 @@ figcaption {
 .right {
     text-align: right;
 }
+
+
+/* 令图片居中 */
+img {
+    margin-left: auto; 
+    margin-right:auto; 
+    display:block;
+}
