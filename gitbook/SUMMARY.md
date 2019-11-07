@@ -11,7 +11,6 @@
         * [ACM 资料](markdown/01_technical/01_algorithm/01_acm/README.md)
         * [POJ 解题报告](markdown/01_technical/01_algorithm/02_poj/README.md)
         * [测试数据](markdown/01_technical/01_algorithm/03_testdata/README.md)
-    * [算法](markdown/01_technical/01_algorithm/README.md)
     * [爬虫](markdown/01_technical/02_crawler/README.md)
     * [渗透](markdown/01_technical/03_penetration/README.md)
     * [深度学习](markdown/01_technical/04_deeplearn/README.md)
