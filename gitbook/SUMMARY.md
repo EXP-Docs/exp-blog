@@ -1,8 +1,6 @@
 # 目录索引
 
 * [博客介绍](README.md)
-* [版权声明](markdown/99_about/copyright.md)
-
 
 ----
 
@@ -42,3 +40,13 @@
 * [资源分享](markdown/04_resource/README.md)
 * [心路历程](markdown/05_feelings/README.md)
 
+----
+
+## 关于
+
+* [关于我们](markdown/99_about/about_us.md)
+* [版权声明](markdown/99_about/copyright.md)
+
+----
+
+* [Copyright @ EXP]()

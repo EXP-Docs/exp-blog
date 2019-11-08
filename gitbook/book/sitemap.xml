@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/99_about/copyright.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/01_algorithm/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/01_algorithm/01_acm/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/01_technical/01_algorithm/02_poj/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -27,4 +26,6 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/03_website/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/04_resource/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/05_feelings/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/99_about/about_us.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/99_about/copyright.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
