@@ -10,7 +10,7 @@
     },
 
     "plugin-comment": {
-        "DESC": "插件功能说明（以 - 号开头表示不启用该插件，多用于会冲突的默认插件）",
+        "//": "插件功能说明（以 - 号开头表示不启用该插件，多用于会冲突的默认插件）",
 
         "theme-comscore": "主题插件：使用不同颜色标识章节标题", 
         "theme-api": "主题插件：支持 API 动态模块，但是 Guthub Pages 不支持 octopress 类的插件，这里纯粹使用其宽屏效果", 
@@ -87,15 +87,15 @@
 
     "pluginsConfig": {
         "theme-default": {
-            "comment": "是否显示章节序号",
+            "//": "是否显示章节序号",
             "showLevel": false
         },
         "sitemap-general": {
-            "comment": "所生成的站点地图路径前缀",
+            "//": "所生成的站点地图路径前缀",
             "prefix": "https://lyy289065406.github.io/exp-blog/gitbook/"
         },
         "simple-page-toc": {
-            "comment": "所生成的章节目录最大深度",
+            "//": "所生成的章节目录最大深度",
             "maxDepth": 3,
             "skipFirstH1": true
         },
@@ -114,7 +114,7 @@
             "style": "background: none; min-height: 30px; max-height: 50px"
         },
         "hide-element": {
-            "comment": "隐藏导航栏底部的 gitbook 超链",
+            "//": "隐藏导航栏底部的 gitbook 超链",
             "elements": [
                 ".gitbook-link"
             ]
@@ -171,7 +171,7 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "donate": {
-            "title": "感谢阅读 (^_^)",
+            "title": "感谢阅读 (^_^) 如果文章对你有帮助，可以给予我们更多支持",
             "button": "赞助",
             "alipay": "res/img/donate/alipay.png",
             "alipayText": "支付宝",
@@ -179,7 +179,7 @@
             "wechatText": "微信"
         },
         "image-captions": {
-            "comment": "图片注解格式",
+            "//": "图片注解格式",
             "caption": "Image _PAGE_IMAGE_NUMBER_ - _CAPTION_"
         },
         "terminal": {
@@ -188,15 +188,15 @@
             "style": "flat"
         },
         "sectionx": {
-            "comment": "分块标题使用的标签",
+            "//": "分块标题使用的标签",
             "tag": "b"
         },
         "code": {
-            "comment": "为代码块添加复制按钮",
+            "//": "为代码块添加复制按钮",
             "copyButtons": true
         },
         "prism": {
-            "comment": "样式可选，内置在插件内",
+            "//": "样式可选，内置在插件内",
             "css": [
                 "prismjs/themes/prism-okaidia.css"
             ]
