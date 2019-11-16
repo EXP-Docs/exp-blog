@@ -39,6 +39,8 @@
 * [网站建设](markdown/03_website/README.md)
 * [资源分享](markdown/04_resource/README.md)
 * [心路历程](markdown/05_feelings/README.md)
+    * [工作需要经营](markdown/05_feelings/工作需要经营.md)
+    * [程序员的"病态"](markdown/05_feelings/程序员的病态.md)
 
 ----
 
