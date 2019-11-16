@@ -39,8 +39,18 @@
 * [网站建设](markdown/03_website/README.md)
 * [资源分享](markdown/04_resource/README.md)
 * [心路历程](markdown/05_feelings/README.md)
-    * [工作需要经营](markdown/05_feelings/工作需要经营.md)
+    * [半杯水](markdown/05_feelings/半杯水.md)
+    * [一位ACMer过来人的心得](markdown/05_feelings/一位ACMer过来人的心得.md)
+    * [你难道没收到我的邮件？](markdown/05_feelings/你难道没收到我的邮件.md)
+    * [找BUG记](markdown/05_feelings/找BUG记.md)
+    * [请还我安静的4小时](markdown/05_feelings/请还我安静的4小时.md)
+    * [别让你的能力成为绊脚石](markdown/05_feelings/别让你的能力成为绊脚石.md)
+    * [我们需要的，是测试而非重构](markdown/05_feelings/我们需要的是测试而非重构.md)
+    * [月缺，梦圆。](markdown/05_feelings/月缺梦圆.md)
+    * [请发展你的惰性](markdown/05_feelings/请发展你的惰性.md)
+    * [优雅的烂代码](markdown/05_feelings/优雅的烂代码.md)
     * [程序员的"病态"](markdown/05_feelings/程序员的病态.md)
+    * [工作需要经营](markdown/05_feelings/工作需要经营.md)
 
 ----
 

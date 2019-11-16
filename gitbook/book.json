@@ -180,7 +180,7 @@
         },
         "image-captions": {
             "//": "图片注解格式",
-            "caption": "Image _PAGE_IMAGE_NUMBER_ - _CAPTION_"
+            "caption": "【图 _PAGE_IMAGE_NUMBER_】 _CAPTION_"
         },
         "terminal": {
             "copyButtons": true,
