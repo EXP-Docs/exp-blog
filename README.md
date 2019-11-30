@@ -44,7 +44,7 @@ exp-blog
 - 按需修改 `./gitbook` 下的博客数据（编辑文章在 `markdown` 下操作 `*.md` ，语法参考[这里](https://yangjh.oschina.io/gitbook/)；若编辑插件则参考[这里](https://github.com/lyy289065406/gitbook-server-docker#0x06-%E6%80%8E%E6%A0%B7%E5%AE%89%E8%A3%85-gitbook-%E6%8F%92%E4%BB%B6)）
 - 编辑完成后执行发布脚本 `build.ps1` 或 `build.sh` （该脚本会通过 Docker 执行 `gitbook build` 命令） 
 - 若发布成功，会生成 `./gitbook/_book` 和 `./gitbook/book` 目录（前者用于本地调试，后者用于 Github Pages）
-- 启动本地服务： `docker run -d --rm -v "$PWD/gitbook:/gitbook" -p 4000:4000 expm02/gitbook-server gitbook serve`
+- 执行 `start.ps1` 或 `start.sh` 脚本可启动本地服务
 - 本地预览编辑效果： [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 - 手动提交全部变更内容到 Github 即可 （`./gitbook/_book` 已通过 `.gitignore` 过滤）
 
