@@ -171,7 +171,7 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "donate": {
-            "title": "感谢阅读 (^_^) 如果文章对你有帮助，可以给予我们更多支持",
+            "title": "感谢阅读 (^_^) 如有帮助，谢予支持",
             "button": "赞助",
             "alipay": "res/img/donate/alipay.png",
             "alipayText": "支付宝",
