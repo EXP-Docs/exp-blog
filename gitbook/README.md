@@ -26,7 +26,7 @@
 | [top-baidu-tieba](https://github.com/lyy289065406/top-baidu-tieba) | 私有 | 百度贴吧顶贴机 |
 | [bilibili-plugin](https://github.com/lyy289065406/bilibili-plugin) | 私有 | 哔哩哔哩插件姬 |
 | [ro-single-server](https://github.com/lyy289065406/ro-single-server) | 私有 | 仙境RO传说-单机版-服务端（支持联机） |
-| [ro-single-client](https://github.com/lyy289065406/ro-single-client) | 私有 | RO仙境传说-单机版-客户端（登陆补丁） |
+| [ro-single-client](https://github.com/lyy289065406/ro-single-client) | 私有 | 仙境RO传说-单机版-客户端（登陆补丁） |
 | [api-online](https://github.com/lyy289065406/api-online) | 公开 | 在线 API |
 | [environment](https://github.com/lyy289065406/environment) | 公开 | 环境安装包 |
 
