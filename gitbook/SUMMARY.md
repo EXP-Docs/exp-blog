@@ -9,9 +9,10 @@
 * [算法](markdown/technical/algorithm/README.md)
     * [ACM 资料](markdown/technical/algorithm/acm/README.md)
     * [POJ 解题报告](markdown/technical/algorithm/poj/README.md)
-    * [测试数据](markdown/technical/algorithm/testdata/README.md)
+* [安全](markdown/technical/safe/README.md)
+    * [渗透测试](markdown/technical/safe/pentest/README.md)
+    * [CTF 解题报告](https://github.com/lyy289065406/CTF-Solving-Reports)
 * [爬虫](markdown/technical/crawler/README.md)
-* [渗透测试](markdown/technical/pentest/README.md)
 * [深度学习](markdown/technical/deeplearn/README.md)
 * [区块链](markdown/technical/blockchain/README.md)
 * [大数据](markdown/technical/bigdata/README.md)
@@ -31,13 +32,12 @@
 * [数据库](markdown/notes/database/README.md)
 * [网络](markdown/notes/net/README.md)
 * [配置管理](markdown/notes/scm/README.md)
+    * [Ansible-Tower 部署笔记](markdown/notes/scm/AnsibleTower部署笔记.md)
 * [系统架构](markdown/notes/arch/README.md)
 
 
 ## 杂七杂八
 
-* [网站建设](markdown/website/README.md)
-    * [站长工具](https://lyy289065406.github.io/site-package/)
 * [资源分享](markdown/resource/README.md)
 * [心路历程](markdown/feelings/README.md)
     * [半杯水](markdown/feelings/半杯水.md)
@@ -57,6 +57,7 @@
 
 ## 关于
 
+* [站长工具](https://lyy289065406.github.io/site-package/)
 * [关于我们](markdown/about/about_us.md)
 * [版权声明](markdown/about/copyright.md)
 
