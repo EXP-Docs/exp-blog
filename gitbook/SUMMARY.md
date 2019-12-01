@@ -52,12 +52,12 @@
     * [优雅的烂代码](markdown/feelings/优雅的烂代码.md)
     * [程序员的"病态"](markdown/feelings/程序员的病态.md)
     * [工作需要经营](markdown/feelings/工作需要经营.md)
+* [站长工具](https://lyy289065406.github.io/site-package/)
 
 ----
 
 ## 关于
 
-* [站长工具](https://lyy289065406.github.io/site-package/)
 * [关于我们](markdown/about/about_us.md)
 * [版权声明](markdown/about/copyright.md)
 
