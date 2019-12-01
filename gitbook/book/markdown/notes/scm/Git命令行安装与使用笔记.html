@@ -1,0 +1,1515 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Git命令行安装与使用笔记 · EXP-BLOG</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="EXP">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-canvas-nest/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-image-captions/image-captions.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-auto-scroll-table/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-flexible-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-prism/prism-okaidia.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-theme-api/theme-api.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../arch/" />
+    
+    
+    <link rel="prev" href="AnsibleTower部署笔记.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/lyy289065406" target="_blank" class="custom-link">EXP's Github</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">技术专题</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../technical/algorithm/">
+            
+                <a href="../../technical/algorithm/">
+            
+                    
+                    算法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../technical/algorithm/acm/">
+            
+                <a href="../../technical/algorithm/acm/">
+            
+                    
+                    ACM 资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../../technical/algorithm/poj/">
+            
+                <a href="../../technical/algorithm/poj/">
+            
+                    
+                    POJ 解题报告
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../technical/safe/">
+            
+                <a href="../../technical/safe/">
+            
+                    
+                    安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../technical/safe/pentest/">
+            
+                <a href="../../technical/safe/pentest/">
+            
+                    
+                    渗透测试
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.1" data-path="../../technical/safe/pentest/白帽子渗透测试入门资源.html">
+            
+                <a href="../../technical/safe/pentest/白帽子渗透测试入门资源.html">
+            
+                    
+                    白帽子渗透测试入门资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" >
+            
+                <a target="_blank" href="https://github.com/lyy289065406/CTF-Solving-Reports">
+            
+                    
+                    CTF 解题报告
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../technical/crawler/">
+            
+                <a href="../../technical/crawler/">
+            
+                    
+                    爬虫
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../technical/deeplearn/">
+            
+                <a href="../../technical/deeplearn/">
+            
+                    
+                    深度学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../../technical/blockchain/">
+            
+                <a href="../../technical/blockchain/">
+            
+                    
+                    区块链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../../technical/bigdata/">
+            
+                <a href="../../technical/bigdata/">
+            
+                    
+                    大数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../../technical/re/">
+            
+                <a href="../../technical/re/">
+            
+                    
+                    逆向工程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">学习笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../language/">
+            
+                <a href="../language/">
+            
+                    
+                    开发语言
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../language/c/">
+            
+                <a href="../language/c/">
+            
+                    
+                    C/C++
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../language/java/">
+            
+                <a href="../language/java/">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../language/python/">
+            
+                <a href="../language/python/">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../language/ruby/">
+            
+                <a href="../language/ruby/">
+            
+                    
+                    Ruby
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="../language/ass/">
+            
+                <a href="../language/ass/">
+            
+                    
+                    汇编
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../datastruct/">
+            
+                <a href="../datastruct/">
+            
+                    
+                    数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../design/">
+            
+                <a href="../design/">
+            
+                    
+                    设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../database/">
+            
+                <a href="../database/">
+            
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../net/">
+            
+                <a href="../net/">
+            
+                    
+                    网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    配置管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.6.1" data-path="AnsibleTower部署笔记.html">
+            
+                <a href="AnsibleTower部署笔记.html">
+            
+                    
+                    Ansible-Tower 部署笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.6.2" data-path="Git命令行安装与使用笔记.html">
+            
+                <a href="Git命令行安装与使用笔记.html">
+            
+                    
+                    Git命令行安装与使用笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../arch/">
+            
+                <a href="../arch/">
+            
+                    
+                    系统架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">杂七杂八</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../resource/">
+            
+                <a href="../../resource/">
+            
+                    
+                    资源分享
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../../feelings/">
+            
+                <a href="../../feelings/">
+            
+                    
+                    心路历程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="../../feelings/半杯水.html">
+            
+                <a href="../../feelings/半杯水.html">
+            
+                    
+                    半杯水
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="../../feelings/一位ACMer过来人的心得.html">
+            
+                <a href="../../feelings/一位ACMer过来人的心得.html">
+            
+                    
+                    一位ACMer过来人的心得
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="../../feelings/你难道没收到我的邮件.html">
+            
+                <a href="../../feelings/你难道没收到我的邮件.html">
+            
+                    
+                    你难道没收到我的邮件？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.4" data-path="../../feelings/找BUG记.html">
+            
+                <a href="../../feelings/找BUG记.html">
+            
+                    
+                    找BUG记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.5" data-path="../../feelings/请还我安静的4小时.html">
+            
+                <a href="../../feelings/请还我安静的4小时.html">
+            
+                    
+                    请还我安静的4小时
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.6" data-path="../../feelings/别让你的能力成为绊脚石.html">
+            
+                <a href="../../feelings/别让你的能力成为绊脚石.html">
+            
+                    
+                    别让你的能力成为绊脚石
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.7" data-path="../../feelings/我们需要的是测试而非重构.html">
+            
+                <a href="../../feelings/我们需要的是测试而非重构.html">
+            
+                    
+                    我们需要的，是测试而非重构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.8" data-path="../../feelings/月缺梦圆.html">
+            
+                <a href="../../feelings/月缺梦圆.html">
+            
+                    
+                    月缺，梦圆。
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.9" data-path="../../feelings/请发展你的惰性.html">
+            
+                <a href="../../feelings/请发展你的惰性.html">
+            
+                    
+                    请发展你的惰性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.10" data-path="../../feelings/优雅的烂代码.html">
+            
+                <a href="../../feelings/优雅的烂代码.html">
+            
+                    
+                    优雅的烂代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.11" data-path="../../feelings/程序员的病态.html">
+            
+                <a href="../../feelings/程序员的病态.html">
+            
+                    
+                    程序员的"病态"
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.12" data-path="../../feelings/工作需要经营.html">
+            
+                <a href="../../feelings/工作需要经营.html">
+            
+                    
+                    工作需要经营
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" >
+            
+                <a target="_blank" href="https://lyy289065406.github.io/site-package/">
+            
+                    
+                    站长工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">关于</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../about/about_us.html">
+            
+                <a href="../../about/about_us.html">
+            
+                    
+                    关于我们
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../../about/copyright.html">
+            
+                <a href="../../about/copyright.html">
+            
+                    
+                    版权声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" >
+            
+                <span>
+            
+                    
+                    Copyright @ EXP
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >Git命令行安装与使用笔记</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon fa fa-circle"></span><a href="#git&#x547D;&#x4EE4;&#x884C;&#x5B89;&#x88C5;&#x4E0E;&#x4F7F;&#x7528;&#x7B14;&#x8BB0;"><b></b>Git&#x547D;&#x4EE4;&#x884C;&#x5B89;&#x88C5;&#x4E0E;&#x4F7F;&#x7528;&#x7B14;&#x8BB0;</a></li><ul><li><span class="title-icon fa fa-circle-o"></span><a href="#1-&#x5B89;&#x88C5;&#x73AF;&#x5883;"><b></b>1. &#x5B89;&#x88C5;&#x73AF;&#x5883;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#2-git&#x4E0B;&#x8F7D;"><b></b>2. Git&#x4E0B;&#x8F7D;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#3-git&#x5B89;&#x88C5;"><b></b>3. Git&#x5B89;&#x88C5;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#4-&#x8FDE;&#x63A5;github"><b></b>4. &#x8FDE;&#x63A5;Github</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#5-git&#x547D;&#x4EE4;&#x624B;&#x518C;"><b></b>5. Git&#x547D;&#x4EE4;&#x624B;&#x518C;</a></li><ul><li><span class="title-icon fa fa-circle-o"></span><a href="#51-&#x4E13;&#x6709;&#x540D;&#x8BCD;"><b></b>5.1. &#x4E13;&#x6709;&#x540D;&#x8BCD;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#52-&#x65B0;&#x5EFA;&#x4EE3;&#x7801;&#x5E93;"><b></b>5.2. &#x65B0;&#x5EFA;&#x4EE3;&#x7801;&#x5E93;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#53-&#x914D;&#x7F6E;"><b></b>5.3. &#x914D;&#x7F6E;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#54-&#x589E;&#x52A0;&#x5220;&#x9664;&#x6587;&#x4EF6;"><b></b>5.4. &#x589E;&#x52A0;/&#x5220;&#x9664;&#x6587;&#x4EF6;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#55-&#x4EE3;&#x7801;&#x63D0;&#x4EA4;"><b></b>5.5. &#x4EE3;&#x7801;&#x63D0;&#x4EA4;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#56-&#x5206;&#x652F;"><b></b>5.6. &#x5206;&#x652F;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#57-&#x6807;&#x7B7E;"><b></b>5.7. &#x6807;&#x7B7E;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#58-&#x67E5;&#x770B;&#x4FE1;&#x606F;"><b></b>5.8. &#x67E5;&#x770B;&#x4FE1;&#x606F;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#59-&#x8FDC;&#x7A0B;&#x540C;&#x6B65;"><b></b>5.9. &#x8FDC;&#x7A0B;&#x540C;&#x6B65;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#510-&#x64A4;&#x9500;"><b></b>5.10. &#x64A4;&#x9500;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#511-&#x5176;&#x4ED6;"><b></b>5.11. &#x5176;&#x4ED6;</a></li></ul><li><span class="title-icon fa fa-circle-o"></span><a href="#6-&#x793A;&#x4F8B;&#xFF1A;&#x5DE5;&#x4F5C;&#x4E2D;&#x4F7F;&#x7528;git&#x7684;&#x4E00;&#x822C;&#x6D41;&#x7A0B;"><b></b>6. &#x793A;&#x4F8B;&#xFF1A;&#x5DE5;&#x4F5C;&#x4E2D;&#x4F7F;&#x7528;Git&#x7684;&#x4E00;&#x822C;&#x6D41;&#x7A0B;</a></li><li><span class="title-icon fa fa-circle-o"></span><a href="#&#x8D44;&#x6E90;&#x4E0B;&#x8F7D;"><b></b>&#x8D44;&#x6E90;&#x4E0B;&#x8F7D;</a></li></ul></ul></div><h1 id="git&#x547D;&#x4EE4;&#x884C;&#x5B89;&#x88C5;&#x4E0E;&#x4F7F;&#x7528;&#x7B14;&#x8BB0;"><a name="git&#x547D;&#x4EE4;&#x884C;&#x5B89;&#x88C5;&#x4E0E;&#x4F7F;&#x7528;&#x7B14;&#x8BB0;" class="anchor-navigation-ex-anchor" href="#git&#x547D;&#x4EE4;&#x884C;&#x5B89;&#x88C5;&#x4E0E;&#x4F7F;&#x7528;&#x7B14;&#x8BB0;"><i class="fa fa-link" aria-hidden="true"></i></a>Git&#x547D;&#x4EE4;&#x884C;&#x5B89;&#x88C5;&#x4E0E;&#x4F7F;&#x7528;&#x7B14;&#x8BB0;</h1>
+<hr>
+<h2 id="1-&#x5B89;&#x88C5;&#x73AF;&#x5883;"><a name="1-&#x5B89;&#x88C5;&#x73AF;&#x5883;" class="anchor-navigation-ex-anchor" href="#1-&#x5B89;&#x88C5;&#x73AF;&#x5883;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x5B89;&#x88C5;&#x73AF;&#x5883;</h2>
+<ul>
+<li>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;Centos 7 &#xFF08;&#x7EAF;&#x547D;&#x4EE4;&#x884C;&#x73AF;&#x5883;&#xFF09;</li>
+<li>Git&#x670D;&#x52A1;&#x5668;&#xFF1A;Github</li>
+<li>&#x5B89;&#x88C5;&#x7684;Git&#x547D;&#x4EE4;&#x884C;&#x7248;&#x672C;&#xFF1A;1.8.3.1</li>
+</ul>
+<hr>
+<h2 id="2-git&#x4E0B;&#x8F7D;"><a name="2-git&#x4E0B;&#x8F7D;" class="anchor-navigation-ex-anchor" href="#2-git&#x4E0B;&#x8F7D;"><i class="fa fa-link" aria-hidden="true"></i></a>2. Git&#x4E0B;&#x8F7D;</h2>
+<p>&#x9996;&#x5148;&#x9700;&#x8981;&#x5B89;&#x88C5;git&#x7684;&#x4F9D;&#x8D56;&#x5305;&#xFF1A;</p>
+<blockquote>
+<p>yum install curl curl-devel zlib-devel openssl-devel perl cpio expat-devel gettext-devel</p>
+</blockquote>
+<p>&#x5207;&#x5230;&#x5B89;&#x88C5;&#x76EE;&#x5F55;&#xFF1A;</p>
+<blockquote>
+<p>cd /usr/local</p>
+</blockquote>
+<p>Centos&#x81EA;&#x5E26;&#x7684;Git&#x7248;&#x672C;&#x6BD4;&#x8F83;&#x65E7;&#xFF0C;&#x8FD9;&#x91CC;&#x76F4;&#x63A5;&#x5230;&#x5B98;&#x7F51;&#x4E0B;&#x8F7D;&#x6700;&#x65B0;&#x7248; &#xFF1A;</p>
+<blockquote>
+<p>wget <a href="http://www.codemonkey.org.uk/projects/git-snapshots/git/git-latest.tar.xz" target="_blank">http://www.codemonkey.org.uk/projects/git-snapshots/git/git-latest.tar.xz</a></p>
+</blockquote>
+<p>&#x6CE8;&#x610F;&#x4E0B;&#x8F7D;&#x56DE;&#x6765;&#x7684;&#x662F;<font color="red">.xz&#x5305;</font>&#xFF08;&#x6CE8;&#x610F;&#x4E0D;&#x662F;.gz&#x5305;&#xFF0C;&#x6211;&#x4E0B;&#x8F7D;&#x7684;&#x65F6;&#x5019;&#xFF0C;.gz&#x5305;&#x662F;0&#x5B57;&#x8282;&#xFF0C;&#x53EF;&#x80FD;&#x662F;&#x5B98;&#x65B9;&#x7684;&#x95EE;&#x9898;&#xFF09;&#xFF0C;&#x5BF9;&#x5176;&#x89E3;&#x538B;&#xFF1A;</p>
+<blockquote>
+<p>xz -d git-latest.tar.xz
+<br> tar -xvf git-latest.tar</p>
+</blockquote>
+<p>&#x89E3;&#x538B;&#x51FA;&#x6765;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x662F; git-xxxx-xx-xx&#xFF08;xxxx-xx-xx&#x662F;&#x7248;&#x672C;&#x7684;&#x65E5;&#x671F;&#xFF0C;&#x4F8B;&#x5982;2018-07-23&#xFF09;&#xFF0C;&#x5207;&#x5230;&#x8BE5;&#x76EE;&#x5F55;&#x4E0B;&#xFF1A;</p>
+<blockquote>
+<p>cd git-xxxx-xx-xx</p>
+</blockquote>
+<hr>
+<h2 id="3-git&#x5B89;&#x88C5;"><a name="3-git&#x5B89;&#x88C5;" class="anchor-navigation-ex-anchor" href="#3-git&#x5B89;&#x88C5;"><i class="fa fa-link" aria-hidden="true"></i></a>3. Git&#x5B89;&#x88C5;</h2>
+<p>&#x751F;&#x6210;Git&#x7684;&#x914D;&#x7F6E;&#x811A;&#x672C;configure&#xFF1A;</p>
+<blockquote>
+<p>autoconf</p>
+</blockquote>
+<p>&#x4FEE;&#x6539;&#x5B89;&#x88C5;&#x8DEF;&#x5F84;&#xFF0C;&#x53EF;&#x968F;&#x610F;&#x6307;&#x5B9A;&#xFF1A;</p>
+<blockquote>
+<p>./configure --prefix=<font color="red">/usr/local/git</font></p>
+</blockquote>
+<p>&#x6CE8;&#x610F;&#xFF0C;&#x82E5;&#x6307;&#x5B9A;&#x7684;&#x5B89;&#x88C5;&#x8DEF;&#x5F84;&#x4E0D;&#x5B58;&#x5728;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x5148;&#x9884;&#x5EFA;&#x76EE;&#x5F55;&#xFF1A;</p>
+<blockquote>
+<p>mkdir -p <font color="red">/usr/local/git</font></p>
+</blockquote>
+<p>&#x7F16;&#x8BD1;&#x5E76;&#x5B89;&#x88C5;&#xFF1A;</p>
+<blockquote>
+<p>make | make install</p>
+</blockquote>
+<p>&#x628A;Git&#x547D;&#x4EE4;&#x6DFB;&#x52A0;&#x5230;&#x7CFB;&#x7EDF;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#xFF0C;&#x4FEE;&#x6539;&#x7CFB;&#x7EDF;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x6587;&#x4EF6;&#xFF1A;</p>
+<blockquote>
+<p>vi /etc/profile</p>
+</blockquote>
+<p>&#x5728;&#x6587;&#x4EF6;&#x6700;&#x540E;&#x6DFB;&#x52A0;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#xFF1A;</p>
+<blockquote>
+<p>GIT_HOME=<font color="red">/usr/local/git</font>
+<br> PATH=$PATH:$GIT_HOME/bin
+<br> export GIT_HOME PATH</p>
+</blockquote>
+<p>&#x91CD;&#x8F7D;&#x7CFB;&#x7EDF;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x4F7F;&#x5176;&#x751F;&#x6548;&#xFF1A;</p>
+<blockquote>
+<p>source /etc/profile</p>
+</blockquote>
+<p>&#x901A;&#x8FC7;&#x67E5;&#x770B;git&#x7248;&#x672C;&#x53F7;&#x9A8C;&#x8BC1;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;&#xFF1A;</p>
+<blockquote>
+<p>git --version</p>
+</blockquote>
+<p><strong><font color="red">&#x81F3;&#x6B64;Git&#x547D;&#x4EE4;&#x884C;&#x5B89;&#x88C5;&#x5B8C;&#x6210;</font></strong>&#x3002;</p>
+<blockquote>
+<p><strong><em>&#x6CE8;&#xFF1A;</em></strong>
+<br> &#x25CB; &#x82E5;&#x5B89;&#x88C5;&#x65F6;&#x4E0D;&#x901A;&#x8FC7; ./configure --prefix=xxx &#x547D;&#x4EE4;&#x6307;&#x5B9A;&#x5B89;&#x88C5;&#x8DEF;&#x5F84;&#xFF0C;&#x90A3;&#x4E48;Git&#x7684;&#x53EF;&#x6267;&#x884C;&#x6587;&#x4EF6;&#x9ED8;&#x8BA4;&#x653E;&#x5728;/usr /local/bin&#xFF0C;&#x5E93;&#x6587;&#x4EF6;&#x9ED8;&#x8BA4;&#x653E;&#x5728;/usr/local/lib&#xFF0C;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x9ED8;&#x8BA4;&#x653E;&#x5728;/usr/local/etc&#xFF0C;&#x5176;&#x5B83;&#x7684;&#x8D44;&#x6E90;&#x6587;&#x4EF6;&#x653E;&#x5728;/usr /local/share
+<br> &#x25CB; &#x90A3;&#x4E48;&#x5F53;&#x9700;&#x8981;&#x5378;&#x8F7D;Git&#x65F6;&#xFF0C;&#x8981;&#x4E48;&#x5728;&#x539F;&#x6765;&#x7684;make&#x76EE;&#x5F55;&#x4E0B;&#x6267;&#x884C;make uninstall&#xFF08;&#x524D;&#x63D0;&#x662F;make&#x6587;&#x4EF6;&#x6307;&#x5B9A;&#x8FC7;uninstall&#xFF09;&#xFF0C;&#x8981;&#x4E48;&#x5728;&#x4E0A;&#x8FF0;&#x76EE;&#x5F55;&#x4E2D;&#x628A;&#x76F8;&#x5173;&#x7684;&#x6587;&#x4EF6;&#x4E00;&#x4E2A;&#x4E2A;&#x624B;&#x5DE5;&#x5220;&#x6389;&#x3002;
+<br> &#x25CB; &#x4F46;&#x82E5;&#x6307;&#x5B9A;&#x4E86;&#x5B89;&#x88C5;&#x8DEF;&#x5F84;&#xFF0C;&#x5219;&#x53EA;&#x9700;&#x76F4;&#x63A5;&#x5220;&#x6389;&#x8BE5;&#x8DEF;&#x5F84;&#x6587;&#x4EF6;&#x5939;&#x5373;&#x53EF;&#x3002;</p>
+</blockquote>
+<hr>
+<h2 id="4-&#x8FDE;&#x63A5;github"><a name="4-&#x8FDE;&#x63A5;github" class="anchor-navigation-ex-anchor" href="#4-&#x8FDE;&#x63A5;github"><i class="fa fa-link" aria-hidden="true"></i></a>4. &#x8FDE;&#x63A5;Github</h2>
+<p>&#x914D;&#x7F6E;Github&#x7684;&#x8D26;&#x53F7;&#x548C;&#x90AE;&#x7BB1;&#xFF1A;</p>
+<blockquote>
+<p>git config --global user.name &quot;<font color="red">&#x4F60;&#x7684;Github&#x8D26;&#x53F7;</font>&quot;
+<br> git config --global user.email &quot;<font color="red">&#x4F60;&#x7684;Github&#x90AE;&#x7BB1;</font>&quot;</p>
+</blockquote>
+<p>&#x751F;&#x6210;&#x8BE5;GitHub&#x8D26;&#x53F7;&#x7684;SSH Keys&#xFF08;<font color="red">&#x672C;&#x8D28;&#x662F;RSA&#x516C;&#x79C1;&#x94A5;</font>&#xFF09;&#xFF1A;</p>
+<blockquote>
+<p>ssh-keygen -t rsa -C &quot;&#x4F60;&#x7684;Github&#x90AE;&#x7BB1;&quot;</p>
+</blockquote>
+<p>&#x8FD0;&#x884C;&#x8BE5;&#x547D;&#x4EE4;&#x540E;&#xFF0C;&#x7CFB;&#x7EDF;&#x4F1A;&#x786E;&#x8BA4;&#x4E00;&#x4E9B;&#x95EE;&#x9898;&#xFF0C;&#x4EC0;&#x4E48;&#x90FD;&#x4E0D;&#x7528;&#x8F93;&#x5165;&#xFF0C;<font color="red">&#x4FDD;&#x6301;&#x9ED8;&#x8BA4;&#xFF0C;&#x8FDE;&#x7EED;&#x4E09;&#x6B21;&#x56DE;&#x8F66;&#x5373;&#x53EF;</font>&#x3002;</p>
+<p>&#x671F;&#x95F4;&#x7CFB;&#x7EDF;&#x4F1A;&#x63D0;&#x793A;&#x6240;&#x751F;&#x6210;&#x7684;RSA&#x516C;&#x79C1;&#x94A5;&#x4FDD;&#x5B58;&#x4F4D;&#x7F6E;&#xFF08;&#x4E00;&#x822C;&#x5728;<font color="red"><code>~/.ssh</code>&#x76EE;&#x5F55;</font>&#xFF09;&#xFF1A;</p>
+<ul>
+<li>&#x79C1;&#x94A5;&#x6587;&#x4EF6;&#x4F4D;&#x7F6E;&#xFF1A;<code>~/.ssh/id_rsa</code></li>
+<li>&#x516C;&#x94A5;&#x6587;&#x4EF6;&#x4F4D;&#x7F6E;&#xFF1A;<code>~/.ssh/id_rsa.pub</code></li>
+</ul>
+<p>&#x79C1;&#x94A5;&#x4E0D;&#x8981;&#x52A8;&#xFF0C;&#x53EA;&#x9700;&#x628A;&#x516C;&#x94A5;&#x8BBE;&#x7F6E;&#x5230;Github&#x4E0A;&#x5C31;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x8FDE;&#x63A5;&#x4E86;&#x3002;</p>
+<p>&#x5148;&#x67E5;&#x770B;&#x516C;&#x94A5;&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#xFF1A;</p>
+<blockquote>
+<p><code>cat ~/.ssh/id_rsa.pub</code></p>
+</blockquote>
+<p>&#x7136;&#x540E;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x767B;&#x9646;&#x4F60;&#x7684;Github&#xFF1A;</p>
+<blockquote>
+<p>Settings =&gt; SSH and GPG Keys =&gt; New SSH key</p>
+</blockquote>
+<p>&#x628A;&#x516C;&#x94A5;&#x5185;&#x5BB9;&#x590D;&#x5236;&#x8FDB;&#x53BB;&#x5E76;&#x4FDD;&#x5B58;&#x5373;&#x53EF;&#xFF1A;</p>
+<p><img src="../../../res/img/article/20180724_01.png" alt=""></p>
+<blockquote>
+<p><strong><em>&#x6CE8;&#xFF1A;</em></strong>
+<br> &#x4EE5;&#x540E;&#x5728;&#x8FD9;&#x53F0;Centos&#x673A;&#x5668;&#x8FDE;&#x63A5;&#x5230;Github&#x65F6;&#xFF0C;&#x5C31;&#x662F;&#x4F7F;&#x7528;&#x8FD9;&#x5BF9;RSA&#x516C;&#x79C1;&#x5BC6;&#x94A5;&#xFF0C;&#x800C;&#x4E0D;&#x7528;&#x901A;&#x8FC7;Github&#x5BC6;&#x7801;&#xFF0C;&#x6240;&#x4EE5;&#x9700;&#x8981;&#x4FDD;&#x7BA1;&#x597D;&#x8FD9;&#x5BF9;&#x5BC6;&#x94A5;&#x3002;</p>
+</blockquote>
+<p>&#x56DE;&#x5230;Centos&#xFF0C;&#x8F93;&#x5165;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x5C1D;&#x8BD5;&#x8FDE;&#x63A5;&#x5230;Github&#xFF1A;</p>
+<blockquote>
+<p>ssh -T git@github.com</p>
+</blockquote>
+<p>&#x6B64;&#x65F6;&#x4F1A;&#x63D0;&#x793A;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#xFF0C;<font color="red">&#x8F93;&#x5165;yes</font>&#x5373;&#x53EF;&#xFF1A;</p>
+<blockquote>
+<p>The authenticity of host &apos;github.com (xxx.xxx.xxx.xxx)&apos; can&apos;t be established.
+<br> RSA key fingerprint is xx.xx.xx.xx.xx.xx.xx.xx.xx.xx.xx.xx.xx.xx.xx.xx.
+<br> Are you sure you want to continue connecting (yes/no)? <font color="red">yes</font></p>
+</blockquote>
+<p>&#x6700;&#x7EC8;&#x63D0;&#x793A;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#x5219;&#x8868;&#x793A;&#x8FDE;&#x63A5;&#x6210;&#x529F;&#xFF1A;</p>
+<blockquote>
+<p>Warning: Permanently added &apos;github.com, xxx.xxx.xxx.xxx&apos; (RSA) to the list of known hosts.
+<br> Hi smartwen! You&apos;ve successfully authenticated, but GitHub does not provide shell access.</p>
+</blockquote>
+<p>&#x6B64;&#x65F6;&#x968F;&#x4FBF;&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x76EE;&#x5F55;&#x5E76;&#x5207;&#x6362;&#x8FDB;&#x53BB;&#xFF0C;&#x5982;&#xFF1A;</p>
+<blockquote>
+<p>cd /tmp/</p>
+</blockquote>
+<p>&#x628A;&#x8BE5;&#x76EE;&#x5F55;&#x521D;&#x59CB;&#x5316;&#x4E3A;Git&#x7684;&#x4EE3;&#x7801;&#x4ED3;&#x5E93;&#xFF1A;</p>
+<blockquote>
+<p>git init</p>
+</blockquote>
+<p>&#x7136;&#x540E;&#x5C31;&#x53EF;&#x4EE5;&#x540C;&#x6B65;Github&#x4E0A;&#x7684;&#x9879;&#x76EE;&#x4EE3;&#x7801;&#xFF08;&#x548C;&#x5B83;&#x7684;&#x6574;&#x4E2A;&#x4EE3;&#x7801;&#x5386;&#x53F2;&#xFF09;&#x5230;&#x672C;&#x5730;&#x4E86;&#xFF1A;</p>
+<blockquote>
+<p>git clone <font color="red">&#x9879;&#x76EE;&#x4ED3;&#x5E93;URL</font></p>
+</blockquote>
+<hr>
+<h2 id="5-git&#x547D;&#x4EE4;&#x624B;&#x518C;"><a name="5-git&#x547D;&#x4EE4;&#x624B;&#x518C;" class="anchor-navigation-ex-anchor" href="#5-git&#x547D;&#x4EE4;&#x624B;&#x518C;"><i class="fa fa-link" aria-hidden="true"></i></a>5. Git&#x547D;&#x4EE4;&#x624B;&#x518C;</h2>
+<p>&#x7531;&#x4E8E;Centos&#x4E0B;&#x5E76;&#x4E0D;&#x652F;&#x6301;&#x56FE;&#x5F62;&#x5316;&#x754C;&#x9762;&#xFF08;&#x6211;&#x7528;&#x7684;&#x662F;&#x4E91;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x7EAF;&#x547D;&#x4EE4;&#x884C;&#xFF09;&#xFF0C;&#x56E0;&#x6B64;&#x9700;&#x8981;&#x719F;&#x6089;Git&#x7684;&#x547D;&#x4EE4;&#x8FDB;&#x884C;&#x4EE3;&#x7801;&#x7248;&#x672C;&#x7EF4;&#x62A4;&#x3002;</p>
+<p>&#x4E00;&#x822C;&#x6765;&#x8BF4;&#xFF0C;&#x65E5;&#x5E38;&#x4F7F;&#x7528;&#x53EA;&#x8981;&#x8BB0;&#x4F4F;&#x4E0B;&#x56FE;6&#x4E2A;&#x547D;&#x4EE4;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#xFF1A;</p>
+<p><img src="../../../res/img/article/20180724_02.png" alt=""></p>
+<p>&#x4F46;&#x4E3A;&#x4E86;&#x65E5;&#x540E;&#x4F7F;&#x7528;&#x65B9;&#x4FBF;&#x8D77;&#x89C1;&#xFF0C;&#x6B64;&#x5904;&#x6574;&#x7406;&#x4E00;&#x4E0B;Git&#x7684;&#x547D;&#x4EE4;&#x6E05;&#x5355;&#xFF1A;</p>
+<hr>
+<h3 id="51-&#x4E13;&#x6709;&#x540D;&#x8BCD;"><a name="51-&#x4E13;&#x6709;&#x540D;&#x8BCD;" class="anchor-navigation-ex-anchor" href="#51-&#x4E13;&#x6709;&#x540D;&#x8BCD;"><i class="fa fa-link" aria-hidden="true"></i></a>5.1. &#x4E13;&#x6709;&#x540D;&#x8BCD;</h3>
+<ul>
+<li>Workspace&#xFF1A;&#x5DE5;&#x4F5C;&#x533A;</li>
+<li>Index / Stage&#xFF1A;&#x6682;&#x5B58;&#x533A;</li>
+<li>Repository&#xFF1A;&#x4ED3;&#x5E93;&#x533A;&#xFF08;&#x6216;&#x672C;&#x5730;&#x4ED3;&#x5E93;&#xFF09;</li>
+<li>Remote&#xFF1A;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;</li>
+</ul>
+<hr>
+<h3 id="52-&#x65B0;&#x5EFA;&#x4EE3;&#x7801;&#x5E93;"><a name="52-&#x65B0;&#x5EFA;&#x4EE3;&#x7801;&#x5E93;" class="anchor-navigation-ex-anchor" href="#52-&#x65B0;&#x5EFA;&#x4EE3;&#x7801;&#x5E93;"><i class="fa fa-link" aria-hidden="true"></i></a>5.2. &#x65B0;&#x5EFA;&#x4EE3;&#x7801;&#x5E93;</h3>
+<blockquote>
+<font color="red"># &#x5728;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;Git&#x4EE3;&#x7801;&#x5E93;</font>
+<br> <font color="red">git init</font>
+<br> &#xA0;
+<br> # &#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x76EE;&#x5F55;&#xFF0C;&#x5C06;&#x5176;&#x521D;&#x59CB;&#x5316;&#x4E3A;Git&#x4EE3;&#x7801;&#x5E93;
+<br> git init [project-name]
+<br> &#xA0;
+<br> <font color="red"># &#x4E0B;&#x8F7D;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x548C;&#x5B83;&#x7684;&#x6574;&#x4E2A;&#x4EE3;&#x7801;&#x5386;&#x53F2;</font>
+<br> <font color="red">git clone [url]</font>
+
+</blockquote>
+<hr>
+<h3 id="53-&#x914D;&#x7F6E;"><a name="53-&#x914D;&#x7F6E;" class="anchor-navigation-ex-anchor" href="#53-&#x914D;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>5.3. &#x914D;&#x7F6E;</h3>
+<p>Git&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E3A;.gitconfig&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x5728;&#x7528;&#x6237;&#x4E3B;&#x76EE;&#x5F55;&#x4E0B;&#xFF08;&#x5168;&#x5C40;&#x914D;&#x7F6E;&#xFF09;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x5728;&#x9879;&#x76EE;&#x76EE;&#x5F55;&#x4E0B;&#xFF08;&#x9879;&#x76EE;&#x914D;&#x7F6E;&#xFF09;&#x3002;</p>
+<blockquote>
+<p># &#x663E;&#x793A;&#x5F53;&#x524D;&#x7684;Git&#x914D;&#x7F6E;
+<br> git config --list
+<br> &#xA0;
+<br> # &#x7F16;&#x8F91;Git&#x914D;&#x7F6E;&#x6587;&#x4EF6;
+<br> git config -e [--global]
+<br> &#xA0;
+<br> # &#x8BBE;&#x7F6E;&#x63D0;&#x4EA4;&#x4EE3;&#x7801;&#x65F6;&#x7684;&#x7528;&#x6237;&#x4FE1;&#x606F;
+<br> git config [--global] user.name &quot;[name]&quot;
+<br> git config [--global] user.email &quot;[email address]&quot;</p>
+</blockquote>
+<hr>
+<h3 id="54-&#x589E;&#x52A0;&#x5220;&#x9664;&#x6587;&#x4EF6;"><a name="54-&#x589E;&#x52A0;&#x5220;&#x9664;&#x6587;&#x4EF6;" class="anchor-navigation-ex-anchor" href="#54-&#x589E;&#x52A0;&#x5220;&#x9664;&#x6587;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a>5.4. &#x589E;&#x52A0;/&#x5220;&#x9664;&#x6587;&#x4EF6;</h3>
+<blockquote>
+<p><font color="red"># &#x6DFB;&#x52A0;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#x5230;&#x6682;&#x5B58;&#x533A;</font>
+<br> <font color="red">git add [file1] [file2] ...</font>
+<br> &#xA0;
+<br> # &#x6DFB;&#x52A0;&#x6307;&#x5B9A;&#x76EE;&#x5F55;&#x5230;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x5305;&#x62EC;&#x5B50;&#x76EE;&#x5F55;
+<br> git add [dir]
+<br> &#xA0;
+<br> <font color="red"># &#x6DFB;&#x52A0;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x7684;&#x6240;&#x6709;&#x6587;&#x4EF6;&#x5230;&#x6682;&#x5B58;&#x533A;</font>
+<br> <font color="red">git add .</font>
+<br> &#xA0;
+<br> # &#x6DFB;&#x52A0;&#x6BCF;&#x4E2A;&#x53D8;&#x5316;&#x524D;&#xFF0C;&#x90FD;&#x4F1A;&#x8981;&#x6C42;&#x786E;&#x8BA4;
+<br> # &#x5BF9;&#x4E8E;&#x540C;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x7684;&#x591A;&#x5904;&#x53D8;&#x5316;&#xFF0C;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x5206;&#x6B21;&#x63D0;&#x4EA4;
+<br> git add -p
+<br> &#xA0;
+<br> # &#x5220;&#x9664;&#x5DE5;&#x4F5C;&#x533A;&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x4E14;&#x5C06;&#x8FD9;&#x6B21;&#x5220;&#x9664;&#x653E;&#x5165;&#x6682;&#x5B58;&#x533A;
+<br> git rm [file1] [file2] ...
+<br> &#xA0;
+<br> # &#x505C;&#x6B62;&#x8FFD;&#x8E2A;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#xFF0C;&#x4F46;&#x8BE5;&#x6587;&#x4EF6;&#x4F1A;&#x4FDD;&#x7559;&#x5728;&#x5DE5;&#x4F5C;&#x533A;
+<br> git rm --cached [file]
+<br> &#xA0;
+<br> # &#x6539;&#x540D;&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x4E14;&#x5C06;&#x8FD9;&#x4E2A;&#x6539;&#x540D;&#x653E;&#x5165;&#x6682;&#x5B58;&#x533A;
+<br> git mv [file-original] [file-renamed]</p>
+</blockquote>
+<hr>
+<h3 id="55-&#x4EE3;&#x7801;&#x63D0;&#x4EA4;"><a name="55-&#x4EE3;&#x7801;&#x63D0;&#x4EA4;" class="anchor-navigation-ex-anchor" href="#55-&#x4EE3;&#x7801;&#x63D0;&#x4EA4;"><i class="fa fa-link" aria-hidden="true"></i></a>5.5. &#x4EE3;&#x7801;&#x63D0;&#x4EA4;</h3>
+<blockquote>
+<p><font color="red"># &#x63D0;&#x4EA4;&#x6682;&#x5B58;&#x533A;&#x5230;&#x4ED3;&#x5E93;&#x533A;</font>
+<br> <font color="red">git commit -m [message]</font>
+<br> &#xA0;
+<br> <font color="red"># &#x63D0;&#x4EA4;&#x6682;&#x5B58;&#x533A;&#x7684;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#x5230;&#x4ED3;&#x5E93;&#x533A;</font>
+<br> <font color="red">git commit [file1] [file2] ... -m [message]</font>
+<br> &#xA0;
+<br> # &#x63D0;&#x4EA4;&#x5DE5;&#x4F5C;&#x533A;&#x81EA;&#x4E0A;&#x6B21;commit&#x4E4B;&#x540E;&#x7684;&#x53D8;&#x5316;&#xFF0C;&#x76F4;&#x63A5;&#x5230;&#x4ED3;&#x5E93;&#x533A;
+<br> git commit -a
+<br> &#xA0;
+<br> # &#x63D0;&#x4EA4;&#x65F6;&#x663E;&#x793A;&#x6240;&#x6709;diff&#x4FE1;&#x606F;
+<br> git commit -v
+<br> &#xA0;
+<br> # &#x4F7F;&#x7528;&#x4E00;&#x6B21;&#x65B0;&#x7684;commit&#xFF0C;&#x66FF;&#x4EE3;&#x4E0A;&#x4E00;&#x6B21;&#x63D0;&#x4EA4;
+<br> # &#x5982;&#x679C;&#x4EE3;&#x7801;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x65B0;&#x53D8;&#x5316;&#xFF0C;&#x5219;&#x7528;&#x6765;&#x6539;&#x5199;&#x4E0A;&#x4E00;&#x6B21;commit&#x7684;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;
+<br> git commit --amend -m [message]
+<br> &#xA0;
+<br> # &#x91CD;&#x505A;&#x4E0A;&#x4E00;&#x6B21;commit&#xFF0C;&#x5E76;&#x5305;&#x62EC;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#x7684;&#x65B0;&#x53D8;&#x5316;
+<br> git commit --amend [file1] [file2] ...</p>
+</blockquote>
+<hr>
+<h3 id="56-&#x5206;&#x652F;"><a name="56-&#x5206;&#x652F;" class="anchor-navigation-ex-anchor" href="#56-&#x5206;&#x652F;"><i class="fa fa-link" aria-hidden="true"></i></a>5.6. &#x5206;&#x652F;</h3>
+<blockquote>
+<p><font color="red"># &#x5217;&#x51FA;&#x6240;&#x6709;&#x672C;&#x5730;&#x5206;&#x652F;</font>
+<br> <font color="red">git branch</font>
+<br> &#xA0;
+<br> # &#x5217;&#x51FA;&#x6240;&#x6709;&#x8FDC;&#x7A0B;&#x5206;&#x652F;
+<br> git branch -r
+<br> &#xA0;
+<br> <font color="red"># &#x5217;&#x51FA;&#x6240;&#x6709;&#x672C;&#x5730;&#x5206;&#x652F;&#x548C;&#x8FDC;&#x7A0B;&#x5206;&#x652F;</font>
+<br> <font color="red">git branch -a</font>
+<br> &#xA0;
+<br> <font color="red"># &#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x5206;&#x652F;&#xFF0C;&#x4F46;&#x4F9D;&#x7136;&#x505C;&#x7559;&#x5728;&#x5F53;&#x524D;&#x5206;&#x652F;</font>
+<br> <font color="red">git branch [branch-name]</font>
+<br> &#xA0;
+<br> <font color="red"># &#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x5206;&#x652F;&#xFF0C;&#x5E76;&#x5207;&#x6362;&#x5230;&#x8BE5;&#x5206;&#x652F;</font>
+<br> <font color="red">git checkout -b [branch]</font>
+<br> &#xA0;
+<br> # &#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x5206;&#x652F;&#xFF0C;&#x6307;&#x5411;&#x6307;&#x5B9A;commit
+<br> git branch [branch] [commit]
+<br> &#xA0;
+<br> # &#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x5206;&#x652F;&#xFF0C;&#x4E0E;&#x6307;&#x5B9A;&#x7684;&#x8FDC;&#x7A0B;&#x5206;&#x652F;&#x5EFA;&#x7ACB;&#x8FFD;&#x8E2A;&#x5173;&#x7CFB;
+<br> git branch --track [branch] [remote-branch]
+<br> &#xA0;
+<br> <font color="red"># &#x5207;&#x6362;&#x5230;&#x6307;&#x5B9A;&#x5206;&#x652F;&#xFF0C;&#x5E76;&#x66F4;&#x65B0;&#x5DE5;&#x4F5C;&#x533A;</font>
+<br> <font color="red">git checkout [branch-name]</font>
+<br> &#xA0;
+<br> <font color="red"># &#x5207;&#x6362;&#x5230;&#x4E0A;&#x4E00;&#x4E2A;&#x5206;&#x652F;</font>
+<br> <font color="red">git checkout -</font>
+<br> &#xA0;
+<br> # &#x5EFA;&#x7ACB;&#x8FFD;&#x8E2A;&#x5173;&#x7CFB;&#xFF0C;&#x5728;&#x73B0;&#x6709;&#x5206;&#x652F;&#x4E0E;&#x6307;&#x5B9A;&#x7684;&#x8FDC;&#x7A0B;&#x5206;&#x652F;&#x4E4B;&#x95F4;
+<br> git branch --set-upstream [branch] [remote-branch]
+<br> &#xA0;
+<br> # &#x5408;&#x5E76;&#x6307;&#x5B9A;&#x5206;&#x652F;&#x5230;&#x5F53;&#x524D;&#x5206;&#x652F;
+<br> git merge [branch]
+<br> &#xA0;
+<br> # &#x9009;&#x62E9;&#x4E00;&#x4E2A;commit&#xFF0C;&#x5408;&#x5E76;&#x8FDB;&#x5F53;&#x524D;&#x5206;&#x652F;
+<br> git cherry-pick [commit]
+<br> &#xA0;
+<br> <font color="red"># &#x5220;&#x9664;&#x5206;&#x652F;</font>
+<br> <font color="red">git branch -d [branch-name]</font>
+<br> &#xA0;
+<br> # &#x5220;&#x9664;&#x8FDC;&#x7A0B;&#x5206;&#x652F;
+<br> git push origin --delete [branch-name]
+<br> git branch -dr [remote/branch]</p>
+</blockquote>
+<hr>
+<h3 id="57-&#x6807;&#x7B7E;"><a name="57-&#x6807;&#x7B7E;" class="anchor-navigation-ex-anchor" href="#57-&#x6807;&#x7B7E;"><i class="fa fa-link" aria-hidden="true"></i></a>5.7. &#x6807;&#x7B7E;</h3>
+<blockquote>
+<p># &#x5217;&#x51FA;&#x6240;&#x6709;tag
+<br> git tag
+<br> &#xA0;
+<br> # &#x65B0;&#x5EFA;&#x4E00;&#x4E2A;tag&#x5728;&#x5F53;&#x524D;commit
+<br> git tag [tag]
+<br> &#xA0;
+<br> # &#x65B0;&#x5EFA;&#x4E00;&#x4E2A;tag&#x5728;&#x6307;&#x5B9A;commit
+<br> git tag [tag] [commit]
+<br> &#xA0;
+<br> # &#x5220;&#x9664;&#x672C;&#x5730;tag
+<br> git tag -d [tag]
+<br> &#xA0;
+<br> # &#x5220;&#x9664;&#x8FDC;&#x7A0B;tag
+<br> git push origin :refs/tags/[tagName]
+<br> &#xA0;
+<br> # &#x67E5;&#x770B;tag&#x4FE1;&#x606F;
+<br> git show [tag]
+<br> &#xA0;
+<br> # &#x63D0;&#x4EA4;&#x6307;&#x5B9A;tag
+<br> git push [remote] [tag]
+<br> &#xA0;
+<br> # &#x63D0;&#x4EA4;&#x6240;&#x6709;tag
+<br> git push [remote] --tags
+<br> &#xA0;
+<br> # &#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x5206;&#x652F;&#xFF0C;&#x6307;&#x5411;&#x67D0;&#x4E2A;tag
+<br> git checkout -b [branch] [tag]</p>
+</blockquote>
+<hr>
+<h3 id="58-&#x67E5;&#x770B;&#x4FE1;&#x606F;"><a name="58-&#x67E5;&#x770B;&#x4FE1;&#x606F;" class="anchor-navigation-ex-anchor" href="#58-&#x67E5;&#x770B;&#x4FE1;&#x606F;"><i class="fa fa-link" aria-hidden="true"></i></a>5.8. &#x67E5;&#x770B;&#x4FE1;&#x606F;</h3>
+<blockquote>
+<font color="red"># &#x663E;&#x793A;&#x6709;&#x53D8;&#x66F4;&#x7684;&#x6587;&#x4EF6;</font>
+<br> <font color="red">git status</font>
+<br> &#xA0;
+<br> <font color="red"># &#x663E;&#x793A;&#x5F53;&#x524D;&#x5206;&#x652F;&#x7684;&#x7248;&#x672C;&#x5386;&#x53F2;</font>
+<br> <font color="red">git log</font>
+<br> &#xA0;
+<br> # &#x663E;&#x793A;commit&#x5386;&#x53F2;&#xFF0C;&#x4EE5;&#x53CA;&#x6BCF;&#x6B21;commit&#x53D1;&#x751F;&#x53D8;&#x66F4;&#x7684;&#x6587;&#x4EF6;
+<br> git log --stat
+<br> &#xA0;
+<br> # &#x641C;&#x7D22;&#x63D0;&#x4EA4;&#x5386;&#x53F2;&#xFF0C;&#x6839;&#x636E;&#x5173;&#x952E;&#x8BCD;
+<br> git log -S [keyword]
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x67D0;&#x4E2A;commit&#x4E4B;&#x540E;&#x7684;&#x6240;&#x6709;&#x53D8;&#x52A8;&#xFF0C;&#x6BCF;&#x4E2A;commit&#x5360;&#x636E;&#x4E00;&#x884C;
+<br> git log [tag] HEAD --pretty=format:%s
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x67D0;&#x4E2A;commit&#x4E4B;&#x540E;&#x7684;&#x6240;&#x6709;&#x53D8;&#x52A8;&#xFF0C;&#x5176;&quot;&#x63D0;&#x4EA4;&#x8BF4;&#x660E;&quot;&#x5FC5;&#x987B;&#x7B26;&#x5408;&#x641C;&#x7D22;&#x6761;&#x4EF6;
+<br> git log [tag] HEAD --grep feature
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x67D0;&#x4E2A;&#x6587;&#x4EF6;&#x7684;&#x7248;&#x672C;&#x5386;&#x53F2;&#xFF0C;&#x5305;&#x62EC;&#x6587;&#x4EF6;&#x6539;&#x540D;
+<br> git log --follow [file]
+<br> git whatchanged [file]
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#x76F8;&#x5173;&#x7684;&#x6BCF;&#x4E00;&#x6B21;diff
+<br> git log -p [file]
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x8FC7;&#x53BB;5&#x6B21;&#x63D0;&#x4EA4;
+<br> git log -5 --pretty --oneline
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x6240;&#x6709;&#x63D0;&#x4EA4;&#x8FC7;&#x7684;&#x7528;&#x6237;&#xFF0C;&#x6309;&#x63D0;&#x4EA4;&#x6B21;&#x6570;&#x6392;&#x5E8F;
+<br> git shortlog -sn
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#x662F;&#x4EC0;&#x4E48;&#x4EBA;&#x5728;&#x4EC0;&#x4E48;&#x65F6;&#x95F4;&#x4FEE;&#x6539;&#x8FC7;
+<br> git blame [file]
+<br> &#xA0;
+<br> <font color="red"># &#x663E;&#x793A;&#x6682;&#x5B58;&#x533A;&#x548C;&#x5DE5;&#x4F5C;&#x533A;&#x7684;&#x4EE3;&#x7801;&#x5DEE;&#x5F02;</font>
+<br> <font color="red">git diff</font>
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x6682;&#x5B58;&#x533A;&#x548C;&#x4E0A;&#x4E00;&#x4E2A;commit&#x7684;&#x5DEE;&#x5F02;
+<br> git diff --cached [file]
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x5DE5;&#x4F5C;&#x533A;&#x4E0E;&#x5F53;&#x524D;&#x5206;&#x652F;&#x6700;&#x65B0;commit&#x4E4B;&#x95F4;&#x7684;&#x5DEE;&#x5F02;
+<br> git diff HEAD
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x4E24;&#x6B21;&#x63D0;&#x4EA4;&#x4E4B;&#x95F4;&#x7684;&#x5DEE;&#x5F02;
+<br> git diff [first-branch]...[second-branch]
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x4ECA;&#x5929;&#x4F60;&#x5199;&#x4E86;&#x591A;&#x5C11;&#x884C;&#x4EE3;&#x7801;
+<br> git diff --shortstat &quot;@{0 day ago}&quot;
+<br> &#xA0;
+<br> <font color="red"># &#x663E;&#x793A;&#x67D0;&#x6B21;&#x63D0;&#x4EA4;&#x7684;&#x5143;&#x6570;&#x636E;&#x548C;&#x5185;&#x5BB9;&#x53D8;&#x5316;</font>
+<br> <font color="red">git show [commit]</font>
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x67D0;&#x6B21;&#x63D0;&#x4EA4;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x7684;&#x6587;&#x4EF6;
+<br> git show --name-only [commit]
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x67D0;&#x6B21;&#x63D0;&#x4EA4;&#x65F6;&#xFF0C;&#x67D0;&#x4E2A;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;
+<br> git show [commit]:[filename]
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x5F53;&#x524D;&#x5206;&#x652F;&#x7684;&#x6700;&#x8FD1;&#x51E0;&#x6B21;&#x63D0;&#x4EA4;
+<br> git reflog
+<br> &#xA0;
+<br> <font color="red"># &#x4ECE;&#x672C;&#x5730;master&#x62C9;&#x53D6;&#x4EE3;&#x7801;&#x66F4;&#x65B0;&#x5F53;&#x524D;&#x5206;&#x652F;&#xFF1A;branch &#x4E00;&#x822C;&#x4E3A;master</font>
+<br> <font color="red">git rebase [branch]</font>
+
+
+</blockquote>
+<hr>
+<h3 id="59-&#x8FDC;&#x7A0B;&#x540C;&#x6B65;"><a name="59-&#x8FDC;&#x7A0B;&#x540C;&#x6B65;" class="anchor-navigation-ex-anchor" href="#59-&#x8FDC;&#x7A0B;&#x540C;&#x6B65;"><i class="fa fa-link" aria-hidden="true"></i></a>5.9. &#x8FDC;&#x7A0B;&#x540C;&#x6B65;</h3>
+<blockquote>
+<p># &#x4E0B;&#x8F7D;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#x7684;&#x6240;&#x6709;&#x53D8;&#x52A8;
+<br> git fetch [remote]
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x6240;&#x6709;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;
+<br> git remote -v
+<br> &#xA0;
+<br> # &#x663E;&#x793A;&#x67D0;&#x4E2A;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#x7684;&#x4FE1;&#x606F;
+<br> git remote show [remote]
+<br> &#xA0;
+<br> # &#x589E;&#x52A0;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#xFF0C;&#x5E76;&#x547D;&#x540D;
+<br> git remote add [shortname] [url]
+<br> &#xA0;
+<br> <font color="red"># &#x53D6;&#x56DE;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#x7684;&#x53D8;&#x5316;&#xFF0C;&#x5E76;&#x4E0E;&#x672C;&#x5730;&#x5206;&#x652F;&#x5408;&#x5E76;</font>
+<br> <font color="red">git pull [remote] [branch]</font>
+<br> &#xA0;
+<br> <font color="red"># &#x4E0A;&#x4F20;&#x672C;&#x5730;&#x6307;&#x5B9A;&#x5206;&#x652F;&#x5230;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;</font>
+<br> <font color="red">git push [remote] [branch]</font>
+<br> &#xA0;
+<br> # &#x5F3A;&#x884C;&#x63A8;&#x9001;&#x5F53;&#x524D;&#x5206;&#x652F;&#x5230;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#xFF0C;&#x5373;&#x4F7F;&#x6709;&#x51B2;&#x7A81;
+<br> git push [remote] --force
+<br> &#xA0;
+<br> # &#x63A8;&#x9001;&#x6240;&#x6709;&#x5206;&#x652F;&#x5230;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;
+<br> git push [remote] --all</p>
+</blockquote>
+<hr>
+<h3 id="510-&#x64A4;&#x9500;"><a name="510-&#x64A4;&#x9500;" class="anchor-navigation-ex-anchor" href="#510-&#x64A4;&#x9500;"><i class="fa fa-link" aria-hidden="true"></i></a>5.10. &#x64A4;&#x9500;</h3>
+<blockquote>
+<p># &#x6062;&#x590D;&#x6682;&#x5B58;&#x533A;&#x7684;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#x5230;&#x5DE5;&#x4F5C;&#x533A;
+<br> git checkout [file]
+<br> &#xA0;
+<br> # &#x6062;&#x590D;&#x67D0;&#x4E2A;commit&#x7684;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#x5230;&#x6682;&#x5B58;&#x533A;&#x548C;&#x5DE5;&#x4F5C;&#x533A;
+<br> git checkout [commit] [file]
+<br> &#xA0;
+<br> # &#x6062;&#x590D;&#x6682;&#x5B58;&#x533A;&#x7684;&#x6240;&#x6709;&#x6587;&#x4EF6;&#x5230;&#x5DE5;&#x4F5C;&#x533A;
+<br> git checkout .
+<br> &#xA0;
+<br> # &#x91CD;&#x7F6E;&#x6682;&#x5B58;&#x533A;&#x7684;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#xFF0C;&#x4E0E;&#x4E0A;&#x4E00;&#x6B21;commit&#x4FDD;&#x6301;&#x4E00;&#x81F4;&#xFF0C;&#x4F46;&#x5DE5;&#x4F5C;&#x533A;&#x4E0D;&#x53D8;
+<br> git reset [file]
+<br> &#xA0;
+<br> <font color="red"># &#x91CD;&#x7F6E;&#x6682;&#x5B58;&#x533A;&#x4E0E;&#x5DE5;&#x4F5C;&#x533A;&#xFF0C;&#x4E0E;&#x4E0A;&#x4E00;&#x6B21;commit&#x4FDD;&#x6301;&#x4E00;&#x81F4;</font>
+<br> <font color="red">git reset --hard</font>
+<br> &#xA0;
+<br> # &#x91CD;&#x7F6E;&#x5F53;&#x524D;&#x5206;&#x652F;&#x7684;&#x6307;&#x9488;&#x4E3A;&#x6307;&#x5B9A;commit&#xFF0C;&#x540C;&#x65F6;&#x91CD;&#x7F6E;&#x6682;&#x5B58;&#x533A;&#xFF0C;&#x4F46;&#x5DE5;&#x4F5C;&#x533A;&#x4E0D;&#x53D8;
+<br> git reset [commit]
+<br> &#xA0;
+<br> # &#x91CD;&#x7F6E;&#x5F53;&#x524D;&#x5206;&#x652F;&#x7684;HEAD&#x4E3A;&#x6307;&#x5B9A;commit&#xFF0C;&#x540C;&#x65F6;&#x91CD;&#x7F6E;&#x6682;&#x5B58;&#x533A;&#x548C;&#x5DE5;&#x4F5C;&#x533A;&#xFF0C;&#x4E0E;&#x6307;&#x5B9A;commit&#x4E00;&#x81F4;
+<br> git reset --hard [commit]
+<br> &#xA0;
+<br> # &#x91CD;&#x7F6E;&#x5F53;&#x524D;HEAD&#x4E3A;&#x6307;&#x5B9A;commit&#xFF0C;&#x4F46;&#x4FDD;&#x6301;&#x6682;&#x5B58;&#x533A;&#x548C;&#x5DE5;&#x4F5C;&#x533A;&#x4E0D;&#x53D8;
+<br> git reset --keep [commit]
+<br> &#xA0;
+<br> # &#x65B0;&#x5EFA;&#x4E00;&#x4E2A;commit&#xFF0C;&#x7528;&#x6765;&#x64A4;&#x9500;&#x6307;&#x5B9A;commit
+<br> # &#x540E;&#x8005;&#x7684;&#x6240;&#x6709;&#x53D8;&#x5316;&#x90FD;&#x5C06;&#x88AB;&#x524D;&#x8005;&#x62B5;&#x6D88;&#xFF0C;&#x5E76;&#x4E14;&#x5E94;&#x7528;&#x5230;&#x5F53;&#x524D;&#x5206;&#x652F;
+<br> git revert [commit]
+<br> &#xA0;
+<br> <font color="red"># &#x6682;&#x65F6;&#x5C06;&#x672A;&#x63D0;&#x4EA4;&#x7684;&#x53D8;&#x5316;&#x79FB;&#x9664;&#xFF0C;&#x7A0D;&#x540E;&#x518D;&#x79FB;&#x5165;</font>
+<br> <font color="red">git stash</font>
+<br> <font color="red">git stash pop</font></p>
+</blockquote>
+<hr>
+<h3 id="511-&#x5176;&#x4ED6;"><a name="511-&#x5176;&#x4ED6;" class="anchor-navigation-ex-anchor" href="#511-&#x5176;&#x4ED6;"><i class="fa fa-link" aria-hidden="true"></i></a>5.11. &#x5176;&#x4ED6;</h3>
+<blockquote>
+<p># &#x751F;&#x6210;&#x4E00;&#x4E2A;&#x53EF;&#x4F9B;&#x53D1;&#x5E03;&#x7684;&#x538B;&#x7F29;&#x5305;
+<br> git archive</p>
+</blockquote>
+<hr>
+<h2 id="6-&#x793A;&#x4F8B;&#xFF1A;&#x5DE5;&#x4F5C;&#x4E2D;&#x4F7F;&#x7528;git&#x7684;&#x4E00;&#x822C;&#x6D41;&#x7A0B;"><a name="6-&#x793A;&#x4F8B;&#xFF1A;&#x5DE5;&#x4F5C;&#x4E2D;&#x4F7F;&#x7528;git&#x7684;&#x4E00;&#x822C;&#x6D41;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#6-&#x793A;&#x4F8B;&#xFF1A;&#x5DE5;&#x4F5C;&#x4E2D;&#x4F7F;&#x7528;git&#x7684;&#x4E00;&#x822C;&#x6D41;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>6. &#x793A;&#x4F8B;&#xFF1A;&#x5DE5;&#x4F5C;&#x4E2D;&#x4F7F;&#x7528;Git&#x7684;&#x4E00;&#x822C;&#x6D41;&#x7A0B;</h2>
+<p>&#xFF08;1&#xFF09;&#x4E0B;&#x8F7D;&#x8FDC;&#x7A0B;&#x4EE3;&#x7801;&#x4ED3;&#x5E93;&#x5E76;&#x521B;&#x5EFA;&#x5206;&#x652F;&#xFF1A;
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git clone [&#x8FDC;&#x7A0B;&#x4EE3;&#x7801;&#x4ED3;&#x5E93;]
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git branch [&#x672C;&#x5730;&#x5206;&#x652F;&#x540D;&#x79F0;] <font color="#00a67c"><em>&#xFF08;&#x521B;&#x5EFA;&#x672C;&#x5730;&#x5206;&#x652F;&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git branch <font color="#00a67c"><em>&#xFF08;&#x67E5;&#x770B;&#x672C;&#x5730;&#x6240;&#x6709;&#x5206;&#x652F;&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git checkout [&#x672C;&#x5730;&#x5206;&#x652F;&#x540D;&#x79F0;] <font color="#00a67c"><em>&#xFF08;&#x5207;&#x6362;&#x5230;&#x672C;&#x5730;&#x5206;&#x652F;&#xFF09;</em></font></p>
+<p>&#xFF08;2&#xFF09; &#x5199;&#x4EE3;&#x7801;.......</p>
+<p>&#xFF08;3&#xFF09; &#x786E;&#x8BA4;&#x53D8;&#x66F4;&#x5E76;&#x63D0;&#x4EA4;&#xFF1A;
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git status <font color="#00a67c"><em>&#xFF08;&#x67E5;&#x770B;&#x6587;&#x4EF6;&#x6539;&#x53D8;&#x8BB0;&#x5F55;&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git diff <font color="#00a67c"><em>&#xFF08;&#x67E5;&#x770B;&#x4EE3;&#x7801;&#x7EA7;&#x6539;&#x53D8;&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git add <font color="#00a67c"><em>&#xFF08;&#x786E;&#x8BA4;&#x6539;&#x53D8;&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git commit -m &#x63D0;&#x4EA4;&#x6CE8;&#x91CA; <font color="#00a67c"><em>&#xFF08;&#x63D0;&#x4EA4;&#x5230;&#x5F53;&#x524D;&#x5206;&#x652F;&#x7684;&#x672C;&#x5730;&#x5DE5;&#x4F5C;&#x533A;&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git push [&#x8FDC;&#x7A0B;&#x5206;&#x652F;&#xFF1A;origin] [&#x672C;&#x5730;&#x5206;&#x652F;&#x7684;&#x540D;&#x79F0;] <font color="#00a67c"><em>&#xFF08;&#x4E0A;&#x4F20;&#x672C;&#x5730;&#x5206;&#x652F;&#x5230;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#xFF09;</em></font></p>
+<p>&#xFF08;4&#xFF09; &#x53BB;Git&#x7BA1;&#x7406;&#x7F51;&#x7AD9;&#xFF08;&#x5982;Github&#xFF09;&#x521B;&#x5EFA;Merge Request</p>
+<p>&#xFF08;5&#xFF09; &#x7B49;&#x5F85;&#x7BA1;&#x7406;&#x5458;&#xFF08;&#x6709;&#x9009;&#x62E9;&#x5730;&#xFF09;&#x5408;&#x5E76;&#x6240;&#x6709;&#x4EBA;&#x7684;Merge Request</p>
+<p>&#xFF08;6&#xFF09; &#x7BA1;&#x7406;&#x5458;&#x5408;&#x5E76;&#x540E;&#xFF0C;&#x4ECE;&#x8FDC;&#x7A0B;&#x4EE3;&#x7801;&#x4ED3;&#x5E93;&#x66F4;&#x65B0;&#x672C;&#x5730;&#x5206;&#x652F;&#xFF1A;
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git checkout master <font color="#00a67c"><em>&#xFF08;&#x5207;&#x6362;&#x81F3;master&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git pull <font color="#00a67c"><em>&#xFF08;&#x4ECE;&#x8FDC;&#x7A0B;master&#x66F4;&#x65B0;&#x81F3;&#x672C;&#x5730;master&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git checkout [&#x672C;&#x5730;&#x5206;&#x652F;&#x540D;&#x79F0;] <font color="#00a67c"><em>&#xFF08;&#x5207;&#x6362;&#x81F3;&#x672C;&#x5730;&#x5206;&#x652F;&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;git rebase master [&#x672C;&#x5730;&#x5206;&#x652F;&#x540D;&#x79F0;] <font color="#00a67c"><em>&#xFF08;&#x4ECE;&#x672C;&#x5730;master&#x62C9;&#x53D6;&#x4EE3;&#x7801;&#x66F4;&#x65B0;&#x5F53;&#x524D;&#x5206;&#x652F;&#xFF09;</em></font></p>
+<p>&#xFF08;7&#xFF09; &#x62C9;&#x53D6;&#x66F4;&#x65B0;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x82E5;&#x6709;&#x51B2;&#x7A81;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;
+<br>&#x3000;&#x3000;&#x3000;&#x3000;&#x2460; &#x4FEE;&#x6539;&#x4EE3;&#x7801;&#x6587;&#x4EF6;&#x5E76;&#x89E3;&#x51B3;&#x51B2;&#x7A81;
+<br>&#x3000;&#x3000;&#x3000;&#x3000;&#x2461; git add . <font color="#00a67c"><em>&#xFF08;&#x52A0;&#x5165;&#x5F85;&#x63D0;&#x4EA4;&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;&#x2462; git rebase --continue <font color="#00a67c"><em>&#xFF08;&#x7EE7;&#x7EED;&#x6267;&#x884C;&#x524D;&#x9762;&#x7B2C;6&#x6B65;&#x7684;rebase&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;&#x2463; &#x5982;&#x679C;&#x4ECD;&#x7136;&#x6709;&#x51B2;&#x7A81;&#xFF0C;&#x91CD;&#x590D;&#x524D;&#x9762;&#x2460;&#x2461;&#x2462;&#x6B65;&#x9AA4;
+<br>&#x3000;&#x3000;&#x3000;&#x3000;&#x2464; git rebase --skip <font color="#00a67c"><em>&#xFF08;&#x65E0;&#x6CD5;&#x89E3;&#x51B3;&#x51B2;&#x7A81;&#x65F6;&#x7684;&#x5904;&#x7406;&#x624B;&#x6CD5;1&#xFF1A;&#x76F4;&#x63A5;&#x7528;master&#x8986;&#x76D6;&#x672C;&#x5730;&#x5206;&#x652F;&#xFF09;</em></font>
+<br>&#x3000;&#x3000;&#x3000;&#x3000;&#x2465; git push -f origin [&#x672C;&#x5730;&#x5206;&#x652F;&#x540D;&#x79F0;] <font color="#00a67c"><em>&#xFF08;&#x65E0;&#x6CD5;&#x89E3;&#x51B3;&#x51B2;&#x7A81;&#x65F6;&#x7684;&#x5904;&#x7406;&#x624B;&#x6CD5;2&#xFF1A;&#x5F3A;&#x5236;&#x7528;&#x672C;&#x5730;&#x7684;&#x4EE3;&#x7801;&#x53BB;&#x8986;&#x76D6;&#x6389;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#x7684;&#x4EE3;&#x7801;&#x3002;&#x5176;&#x4E2D;origin&#x4E3A;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#x540D;&#xFF09;</em></font></p>
+<p>&#xFF08;8&#xFF09; &#x53BB;Git&#x7BA1;&#x7406;&#x7F51;&#x7AD9;&#xFF08;&#x5982;Github&#xFF09;&#x91CD;&#x65B0;&#x521B;&#x5EFA;Merge Request</p>
+<p>&#xFF08;9&#xFF09; &#x7B49;&#x5F85;&#x7BA1;&#x7406;&#x5458;&#x5408;&#x5E76;Merge Request.......</p>
+<p>&#xFF08;10&#xFF09;&#x91CD;&#x590D;&#x4E0A;&#x8FF0;&#x5BF9;&#x5E94;&#x6B65;&#x9AA4;.......</p>
+<hr>
+<h2 id="&#x8D44;&#x6E90;&#x4E0B;&#x8F7D;"><a name="&#x8D44;&#x6E90;&#x4E0B;&#x8F7D;" class="anchor-navigation-ex-anchor" href="#&#x8D44;&#x6E90;&#x4E0B;&#x8F7D;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8D44;&#x6E90;&#x4E0B;&#x8F7D;</h2>
+<blockquote>
+<p><strong>[info] <a href="https://download.csdn.net/download/lyy289065406/10559792" target="_blank">&#x672C;&#x6587;&#x5168;&#x6587;&#x4E0B;&#x8F7D;</a></strong></p>
+</blockquote>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; EXP 2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6700;&#x540E;&#x4FEE;&#x6539;&#x65F6;&#x95F4; &#xFF1A; 
+2019-12-01 13:24:27
+</span></footer>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Git命令行安装与使用笔记","level":"3.6.2","depth":2,"next":{"title":"系统架构","level":"3.7","depth":1,"path":"markdown/notes/arch/README.md","ref":"markdown/notes/arch/README.md","articles":[]},"previous":{"title":"Ansible-Tower 部署笔记","level":"3.6.1","depth":2,"path":"markdown/notes/scm/AnsibleTower部署笔记.md","ref":"markdown/notes/scm/AnsibleTower部署笔记.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","theme-api","sitemap-general","-favicon","canvas-nest","-insert-logo","hide-element","simple-page-toc","back-to-top-button","anchor-navigation-ex","expandable-chapters-small","splitter","search-pro","-sharing","sharing-plus","edit-link","-page-copyright","tbfed-pagefooter","donate","pageview-count","image-captions","popup","auto-scroll-table","terminal","sectionx","todo","alerts","flexible-alerts","-code","copy-code-button","prism"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy EXP 2019","modify_label":"最后修改时间 ： ","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"//":"样式可选，内置在插件内","css":["prismjs/themes/prism-okaidia.css"]},"simple-page-toc":{"//":"所生成的章节目录最大深度","maxDepth":3,"skipFirstH1":true},"todo":{},"splitter":{},"search-pro":{},"search":{},"page-copyright":{"wisdom":"Designer, Frontend Developer & overall web enthusiast","noPowered":false,"copyright":"Copyright &#169; EXP","style":"normal","timeColor":"#666","utcOffset":"8","format":"YYYY-MM-dd hh:mm:ss","signature":"EXP","copyrightColor":"#666","description":"modified at"},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"auto-scroll-table":{},"popup":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"canvas-nest":{"key1":true,"key2":true},"code":{"//":"为代码块添加复制按钮","copyButtons":true},"donate":{"title":"感谢阅读 (^_^) 如有帮助，谢予支持","button":"赞助","wechat":"res/img/donate/wechat.png","alipay":"res/img/donate/alipay.png","wechatText":"微信","alipayText":"支付宝"},"sitemap-general":{"//":"所生成的站点地图路径前缀","prefix":"https://lyy289065406.github.io/exp-blog/gitbook/"},"hide-element":{"//":"隐藏导航栏底部的 gitbook 超链","elements":[".gitbook-link"]},"fontsettings":{"family":"sans","size":2,"theme":"white"},"sectionx":{"//":"分块标题使用的标签","tag":"b"},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-anchor","level1Icon":"fa fa-circle","level2Icon":"fa fa-circle-o","level3Icon":"fa fa-circle-o","showLevelIcon":true},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"fa fa-circle","level2Icon":"fa fa-circle-o","level3Icon":"fa fa-circle-o","showLevelIcon":true},"printLog":false,"showGoTop":false,"showLevel":false},"favicon":{"shortcut":"/res/img/logo/favicon_48x48.ico","bookmark":"/res/img/logo/favicon_48x48.ico","appleTouch":"/res/img/logo/favicon_48x48.ico","appleTouchMore":{"64x64":"/res/img/logo/favicon_48x48.ico","128x128":"/res/img/logo/favicon_48x48.ico","512x512":"/res/img/logo/favicon_48x48.ico.png"}},"theme-comscore":{},"theme-api":{"languages":[],"split":true,"theme":"light"},"back-to-top-button":{},"pageview-count":{},"alerts":{},"expandable-chapters-small":{},"flexible-alerts":{"style":"callout","note":{"label":"Note","icon":"fa fa-info-circle","className":"info"},"tip":{"label":"Tip","icon":"fa fa-lightbulb-o","className":"tip"},"warning":{"label":"Warning","icon":"fa fa-exclamation-triangle","className":"warning"},"danger":{"label":"Attention","icon":"fa fa-ban","className":"danger"}},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"weibo":true,"qq":true,"all":["douban","google","instapaper","linkedin","twitter","messenger","qzone","viber","whatsapp"]},"terminal":{"copyButtons":true,"fade":false,"style":"flat"},"edit-link":{"label":"EDIT THIS PAGE","base":"https://github.com/lyy289065406/exp-blog/edit/master/gitbook"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false,"//":"是否显示章节序号"},"insert-logo":{"url":"/res/img/logo//exp-blog - logo-min.png","style":"background: none; min-height: 30px; max-height: 50px"},"image-captions":{"//":"图片注解格式","caption":"【图 _PAGE_IMAGE_NUMBER_】 _CAPTION_","variable_name":"_pictures"}},"plugin-comment":{"//":"插件功能说明（以 - 号开头表示不启用该插件，多用于会冲突的默认插件）","tbfed-pagefooter":"添加页脚版权信息（精简版）","prism":"代码高亮（样式可选，内置在插件内）","simple-page-toc":"生成当前页面的目录结构，在需要生成的地方添加： <!-- toc -->","todo":"复选框支持","splitter":"可调节侧栏宽度","search-pro":"支持中文的高级搜索","page-copyright":"添加页脚版权信息（含二维码，相对复杂）","sharing-plus":"分享当前页面（比默认插件多了更多分享方式）","auto-scroll-table":"表格水平滚动条（过宽时自动添加）","popup":"点击图片弹出大图","canvas-nest":"基于 html5 绘制的网页背景效果","code":"为代码块添加复制按钮和行号（行号会影响代码样式）","donate":"添加打赏系统","sitemap-general":"在网站根目录生成站点地图 sitemap.xml","hide-element":"通过 HTML 元素的 class 名字来隐藏不想看到的元素","headings":"在章节标题前添加锚点","sectionx":"页面分块支持","anchor-navigation-ex":"添加当前页面的菜单导航","favicon":"用于更改网站的 favicon.ico （但因为加载顺序问题，无法覆盖原生的 favicon 图片）","theme-comscore":"主题插件：使用不同颜色标识章节标题","theme-api":"主题插件：支持 API 动态模块，但是 Guthub Pages 不支持 octopress 类的插件，这里纯粹使用其宽屏效果","back-to-top-button":"添加返回顶部按钮","pageview-count":"添加阅读量计数系统（借用第三方接口 https://hitcounter.pythonanywhere.com/）","alerts":"支持 4 种不同样式的引用框警示","expandable-chapters-small":"支持左侧目录折叠（第二级目录开始默认叠起）","flexible-alerts":"比 alerts 更易用的引用框警示","copy-code-button":"为代码块添加复制按钮","terminal":"使代码块支持模拟终端回显","edit-link":"若源码页面存储在 Github 上，可以链接到对应源码的编辑页面","insert-logo":"在左侧导航栏顶部插入网站 logo","image-captions":"抓取内容中图片的 alt 或 title 属性，在图片下显示图片注解"},"theme":"default","author":"EXP","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"markdown/feelings/请还我安静的4小时.html#fig4.2.5.1","level":"4.2.5","list_caption":"Figure: 我理想中的工作时间表","alt":"我理想中的工作时间表","nro":1,"url":"/res/img/article/20180613_02.png","index":1,"caption_template":"【图 _PAGE_IMAGE_NUMBER_】 _CAPTION_","label":"我理想中的工作时间表","attributes":{},"skip":false,"key":"4.2.5.1"},{"backlink":"markdown/feelings/请还我安静的4小时.html#fig4.2.5.2","level":"4.2.5","list_caption":"Figure: 我现实中的工作时间表","alt":"我现实中的工作时间表","nro":2,"url":"/res/img/article/20180613_03.png","index":2,"caption_template":"【图 _PAGE_IMAGE_NUMBER_】 _CAPTION_","label":"我现实中的工作时间表","attributes":{},"skip":false,"key":"4.2.5.2"},{"backlink":"markdown/feelings/月缺梦圆.html#fig4.2.8.1","level":"4.2.8","list_caption":"Figure: 月亮总是可以把一瞬间的思念，化作永恒…","alt":"月亮总是可以把一瞬间的思念，化作永恒…","nro":3,"url":"/res/img/article/20180613_01.png","index":1,"caption_template":"【图 _PAGE_IMAGE_NUMBER_】 _CAPTION_","label":"月亮总是可以把一瞬间的思念，化作永恒…","attributes":{},"skip":false,"key":"4.2.8.1"}]},"title":"EXP-BLOG","language":"en","links":{"sidebar":{"EXP's Github":"https://github.com/lyy289065406"}},"gitbook":"*","description":"EXP 技术博客"},"file":{"path":"markdown/notes/scm/Git命令行安装与使用笔记.md","mtime":"2019-12-01T13:24:27.281Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-01T13:24:35.642Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-canvas-nest/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-auto-scroll-table/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-flexible-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-theme-api/theme-api.js"></script>
+        
+    
+
+    </body>
+</html>
+
