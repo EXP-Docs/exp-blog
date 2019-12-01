@@ -34,7 +34,8 @@
 * [网络](markdown/notes/net/README.md)
 * [配置管理](markdown/notes/scm/README.md)
     * [Ansible-Tower 部署笔记](markdown/notes/scm/AnsibleTower部署笔记.md)
-    * [Git命令行安装与使用笔记](markdown/notes/scm/Git命令行安装与使用笔记.md)
+    * [Git 命令行安装与使用笔记](markdown/notes/scm/Git命令行安装与使用笔记.md)
+    * [VisualSVN 使用手册](markdown/notes/scm/VisualSVN使用手册.md)
 * [系统架构](markdown/notes/arch/README.md)
 
 
