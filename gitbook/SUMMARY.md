@@ -11,6 +11,7 @@
     * [POJ 解题报告](markdown/technical/algorithm/poj/README.md)
 * [安全](markdown/technical/safe/README.md)
     * [渗透测试](markdown/technical/safe/pentest/README.md)
+        * [白帽子渗透测试入门资源](markdown/technical/safe/pentest/白帽子渗透测试入门资源.md)
     * [CTF 解题报告](https://github.com/lyy289065406/CTF-Solving-Reports)
 * [爬虫](markdown/technical/crawler/README.md)
 * [深度学习](markdown/technical/deeplearn/README.md)
@@ -33,6 +34,7 @@
 * [网络](markdown/notes/net/README.md)
 * [配置管理](markdown/notes/scm/README.md)
     * [Ansible-Tower 部署笔记](markdown/notes/scm/AnsibleTower部署笔记.md)
+    * [Git命令行安装与使用笔记](markdown/notes/scm/Git命令行安装与使用笔记.md)
 * [系统架构](markdown/notes/arch/README.md)
 
 
