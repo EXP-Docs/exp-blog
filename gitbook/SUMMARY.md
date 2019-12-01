@@ -11,6 +11,7 @@
     * [POJ 解题报告](markdown/technical/algorithm/poj/README.md)
 * [安全](markdown/technical/safe/README.md)
     * [渗透测试](markdown/technical/safe/pentest/README.md)
+        * [白帽子渗透测试入门资源](markdown/technical/safe/pentest/白帽子渗透测试入门资源.md)
     * [CTF 解题报告](https://github.com/lyy289065406/CTF-Solving-Reports)
 * [爬虫](markdown/technical/crawler/README.md)
 * [深度学习](markdown/technical/deeplearn/README.md)

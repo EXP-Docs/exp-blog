@@ -6,7 +6,7 @@
 
 ------
 
-| <font color="black">EXP's Github 仓库</font> | <font color="black">状态</font> | <font color="black">说明</font> |
+| EXP's Github 仓库 | 状态 | 说明 |
 |:----:|:----:|:----|
 | [exp-blog](https://github.com/lyy289065406/exp-blog) | 公开 | EXP 技术博客 |
 | [gitbook-server-docker](https://github.com/lyy289065406/gitbook-server-docker) | 公开 | 使用 Docker 构建的 GitBook 服务器 |
