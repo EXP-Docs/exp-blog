@@ -286,4 +286,3 @@ ${win_ip} ansible_user="${win_username}" ansible_password="${win_password}" ansi
 ![](/res/img/article/20181122_04.png)
 
 
-------------
