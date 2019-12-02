@@ -5,7 +5,7 @@
 <h2><i style="text-indent: 0; display: inline-block; margin-right: 10px;" class="fa fa-spinner fa-spin"></i>站点介绍</h2>
 
 
-本站站点是：**EXP 随笔小筑**（<a href="https://lyy289065406.github.io/exp-blog" title="EXP 随笔小筑" data-toggle="tooltip" target="_blank">https://lyy289065406.github.io/exp-blog</a>）
+本站站点是：**EXP 技术博客**（<a href="https://lyy289065406.github.io/exp-blog" title="EXP 技术博客" data-toggle="tooltip" target="_blank">https://lyy289065406.github.io/exp-blog</a>）
 
 
 本站的文章 <font color="red">95% 为站长在不同时期的**原创**作品</font>，初衷是为了记录学习过程中的点点滴滴以验证自身，因此所分享的内容主要取决于站长当时正在做什么方面的研究，导致覆盖到的领域可能相对比较广泛。
