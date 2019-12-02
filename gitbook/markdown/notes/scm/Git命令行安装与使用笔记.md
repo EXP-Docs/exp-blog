@@ -496,4 +496,8 @@ Git的配置文件为.gitconfig，它可以在用户主目录下（全局配置�
 
 ## 资源下载
 
-> **[info] [本文全文下载](https://download.csdn.net/download/lyy289065406/10559792)**
+> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
+> 
+> [CSDN 下载](https://download.csdn.net/download/lyy289065406/10559792)
+
+
