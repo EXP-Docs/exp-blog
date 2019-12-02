@@ -12,7 +12,7 @@
 
 而 Ansible-Tower （旧称 AWX）作为其配套界面，使得 Ansible 更容易上手。
 
-![](/res/img/article/20181122_01.png)
+![](/res/img/article/20181122/01.png)
 
 这里提供一些官方资料：
 
@@ -251,7 +251,7 @@ $ sudo ./setup.sh
 - 输入命令 `$PSVersionTable.CLRVersion` 可查看当前 .NET Framework 版本
 - 若 PowerShell 版本不满足要求，可参考 [**此处**](https://docs.ansible.com/ansible/latest/user_guide/windows_setup.html#upgrading-powershell-and-net-framework) 的升级步骤进行升级
 
-![](/res/img/article/20181122_02.png)
+![](/res/img/article/20181122/02.png)
 
 
 ------------
@@ -266,7 +266,7 @@ $ sudo ./setup.sh
 - 安装完成后，输入命令 `winrm enumerate winrm/config/Listener` 或 `winrm qc` 可查看 WinRM 的服务状态
 - 确认 WinRM 正在监听 HTTPS 5986 端口即配置成功，注意防火墙也要开放相关端口
 
-![](/res/img/article/20181122_03.png)
+![](/res/img/article/20181122/03.png)
 
 ------------
 
@@ -283,6 +283,6 @@ ${win_ip} ansible_user="${win_username}" ansible_password="${win_password}" ansi
 
 然后执行命令 `ansible ${win_ip} -m win_ping` 即可，若响应为 pong 则配置成功：
 
-![](/res/img/article/20181122_04.png)
+![](/res/img/article/20181122/04.png)
 
 
