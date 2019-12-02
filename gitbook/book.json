@@ -42,8 +42,8 @@
         "terminal": "使代码块支持模拟终端回显",
         "sectionx": "页面分块支持",
         "todo": "复选框支持", 
-        "alerts": "支持 4 种不同样式的引用框警示",
-        "flexible-alerts": "比 alerts 更易用的引用框警示",
+        "alerts": "支持 4 种不同样式的警示引用框",
+        "flexible-alerts": "比 alerts 功能更丰富的警示引用框",
         "code": "为代码块添加复制按钮和行号（行号会影响代码样式）",
         "copy-code-button": "为代码块添加复制按钮",
         "prism": "代码高亮（样式可选，内置在插件内）"
