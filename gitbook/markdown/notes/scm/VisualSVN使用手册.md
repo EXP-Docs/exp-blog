@@ -37,17 +37,17 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源***客户端**
 
 运行 VisualSVN-Server-2.1.10.msi 安装程序后，点击Next按钮继续。
 
-![图3-1](/res/img/article/20120214_01.png)
+![图3-1](/res/img/article/20120214/01.png)
 <br/>
 
 勾选“I accept the terms in the License Agreement”选择框，点击Next按钮继续下一步操作。
 
-![图3-2](/res/img/article/20120214_02.png)
+![图3-2](/res/img/article/20120214/02.png)
 <br/>
 
 选择完全安装方式，点击Next按钮继续。
 
-![图3-3](/res/img/article/20120214_03.png)
+![图3-3](/res/img/article/20120214/03.png)
 <br/>
 
 到这里开始要注意：
@@ -58,13 +58,13 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源***客户端**
 
 一般建议选择安全链接【https协议】，即勾选选择框，端口使用默认的即可。设置完毕点击Next按钮继续下一步，然后一直到安装完成即可。
 
-![图3-4](/res/img/article/20120214_04.png)
+![图3-4](/res/img/article/20120214/04.png)
 <br/>
 
-![图3-5](/res/img/article/20120214_05.png)
+![图3-5](/res/img/article/20120214/05.png)
 <br/>
 
-![图3-6](/res/img/article/20120214_06.png)
+![图3-6](/res/img/article/20120214/06.png)
 <br/>
 
 ## 4. VisualSVN Server的配置
@@ -76,48 +76,48 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源***客户端**
 -  “Subversion Authentication”为账户（User和Groups）信息。
 -  “Repositories”为SVN代码库信息。
 
-![图4-1](/res/img/article/20120214_07.png)
+![图4-1](/res/img/article/20120214/07.png)
 <br/>
 
 首先添加一个代码库。右击“Repository”，出现下图所示的右键菜单，任意选择一种方式均可创建一个新的代码库。
 
-![图4-2](/res/img/article/20120214_08.png)
+![图4-2](/res/img/article/20120214/08.png)
 <br/>
 
 然后在文本框中输入代码库名称。
 
 需要注意的是，若选择框“Creat default structure”被选中，则在代码库StartKit下面会创建trunk、branches、tags三个子目录；不选中，则只创建空的代码库StartKit。点击OK按钮，代码库StartKit则创建成功。
 
-![图4-3](/res/img/article/20120214_09.png)
+![图4-3](/res/img/article/20120214/09.png)
 <br/>
 
 创建完代码库后，没有任何内容在里面。添加内容的方法会在后面说明，这里暂且略过。
 
-![图4-4](/res/img/article/20120214_10.png)
+![图4-4](/res/img/article/20120214/10.png)
 <br/>
 
 下面，开始创建用户Users。在左侧的Users上点击右键，出现下图所示的右键菜单，任意选择一种方式均可创建一个新的用户。
 
-![图4-5](/res/img/article/20120214_11.png)
+![图4-5](/res/img/article/20120214/11.png)
 <br/>
 
 然后设置新用户的用户名和密码。输入信息后，点击OK按钮，就创建一个用户了。按照这种方式，创建4个用户：starter、Developer1、tester1、manager1。
 
-![图4-6](/res/img/article/20120214_12.png)
+![图4-6](/res/img/article/20120214/12.png)
 <br/>
 
 然后把这些用户授权给刚才创建的代码库StartKit。只有被授权的用户才能使用StartKit代码库内的资源，与其他用户进行资源共享。具体方法如下：
 
 首先右击刚才创建的代码库StartKit, 选择“Properties”，弹出如下界面：
 
-![图4-7](/res/img/article/20120214_13.png)
+![图4-7](/res/img/article/20120214/13.png)
 <br/>
 
 点击"Add..."按钮，然后选择刚才创建的4个新用户，点击OK按钮则完成了授权工作。
 
 > **[info]** 大家可能注意到了图中的Groups。是的，我们也可以先创建组，把用户添加到各个组中，然后对组进行授权，操作比较简单，在此略过。
 
-![图4-8](/res/img/article/20120214_14.png)
+![图4-8](/res/img/article/20120214/14.png)
 <br/>
 
 把用户授权给代码库后，还要继续对每个用户（或组）进行详细的权限设置：
@@ -128,7 +128,7 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源***客户端**
 
 需要注意的是，在用户列表中存在一个“Everyone”用户，为缺省用户，暂时无视之即可。
 
-![图4-9](/res/img/article/20120214_15.png)
+![图4-9](/res/img/article/20120214/15.png)
 <br/>
 
 设置完权限后，点击“确定”按钮，这4个用户就具有了访问StartKit代码库的不同权限。
@@ -151,25 +151,25 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源***客户端**
 
 运行 TortoiseSVN-1.7.4.22459-x64-svn-1.7.2.msi安装程序后，点击Next按钮继续。
 
-![图5-1](/res/img/article/20120214_16.png)
+![图5-1](/res/img/article/20120214/16.png)
 <br/>
 
 此时点选“I accept the terms in the License Agreement”选择框，点击Next按钮继续下一步操作。
 
-![图5-2](/res/img/article/20120214_17.png)
+![图5-2](/res/img/article/20120214/17.png)
 <br/>
 
 然后选择安装目录，任意即可。设置完毕点击Next按钮继续下一步，然后一直到安装完成。
 
-![图5-3](/res/img/article/20120214_18.png)
+![图5-3](/res/img/article/20120214/18.png)
 <br/>
 
-![图5-4](/res/img/article/20120214_19.png)
+![图5-4](/res/img/article/20120214/19.png)
 <br/>
 
 点击Finish按钮后TortoiseSVN即安装完毕，但此时可能会提示重启系统，其实不重启也没有关系。
 
-![图5-5](/res/img/article/20120214_20.png)
+![图5-5](/res/img/article/20120214/20.png)
 <br/>
 
 ## 6. VisualSVN Server与TortoiseSVN的基本组合使用
@@ -186,7 +186,7 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源***客户端**
 
 SVN资源库为CodeLib（代码库）和FileLib（文件库），其所在的位置可在VisualSVN Server启动界面查得：
 
-![图6-1](/res/img/article/20120214_89.png)
+![图6-1](/res/img/article/20120214/89.png)
 <br/>
 
 用户及其权限分别为：（Everyone是缺省用户，暂无视之）
@@ -198,50 +198,50 @@ SVN资源库为CodeLib（代码库）和FileLib（文件库），其所在的位
 
 这里设置4个用户的密码均为123456。
 
-![图6-2](/res/img/article/20120214_21.png)
+![图6-2](/res/img/article/20120214/21.png)
 <br/>
 
 然后说一下用TortoiseSVN把源代码迁入SVN服务器的例子。
 
 首先在Eclipse新建项目TestSVN：
 
-![图6-3](/res/img/article/20120214_22.png)
+![图6-3](/res/img/article/20120214/22.png)
 <br/>
 
 然后打开Eclipse的工作空间，可以找到项目TestSVN的文件夹，如下图：
 
-![图6-4](/res/img/article/20120214_23.png)
+![图6-4](/res/img/article/20120214/23.png)
 <br/>
 
 右击要迁入SVN服务器的项目文件夹TestSVN，可以看到TortoiseSVN出现在右键选项中。若选择Setting则可进行相关的设置，这里不做详细说明。我们选择Import把项目TestSVN迁入SVN服务器。
 
-![图6-5](/res/img/article/20120214_24.png)
+![图6-5](/res/img/article/20120214/24.png)
 <br/>
 
 此时弹出如下图所示的界面， URL ： https://Exp-PC/svn/CodeLib 就是当前要迁入的SVN服务器地址。其中 https://Exp-PC/ 是服务器名，svn是代码库的根目录，CodeLib就是刚才添加的代码库。
 
-![图6-6](/res/img/article/20120214_25.png)
+![图6-6](/res/img/article/20120214/25.png)
 <br/>
 
 注意上图中左下角的“Include ignored files”，在第一次迁入源代码时没有用，可以不勾选。但是，在以后提交代码的时候是非常有用的。
 
 点击OK按钮后则自动把TestSVN项目迁入了SVN服务器。迁入过程如下图所示。迁入完成后再点击OK关闭窗口。
 
-![图6-7](/res/img/article/20120214_26.png)
+![图6-7](/res/img/article/20120214/26.png)
 <br/>
 
 此时在VisualSVN Server中点击CodeLib，可在右方看到刚才迁入SVN服务器的源代码（如下图），若没有显示，右键刷新即可。
 
 **注意**：也可从这里的灰色条栏中看到当前代码库CodeLib的URL地址。
 
-![图6-8](/res/img/article/20120214_27.png)
+![图6-8](/res/img/article/20120214/27.png)
 <br/>
 
 不难发现项目TestSVN的项目文件夹没有了，在CodeLib中只保留了其项目内容。这是因为“根文件夹默认不上传”，因此要把整个TestSVN项目（包括项目文件夹在内）都上传到SVN服务器，可以把整个项目复制到任意一个空文件夹A中，使得文件夹A作为根文件夹，再右击文件夹A进行上传。效果如下图所示。
 
 > **[info]** 资源上传到SVN服务器的是资源的副本，因此一旦资源被上传，即使在本地删除也不会对服务器中的资源有任何影响。
 
-![图6-9](/res/img/article/20120214_28.png)
+![图6-9](/res/img/article/20120214/28.png)
 <br/>
 
 ## 7. 资源的同步与共享
@@ -265,27 +265,27 @@ SVN资源库为CodeLib（代码库）和FileLib（文件库），其所在的位
 
 打开VisualSVN Server界面，右击想要连接的代码库CodeLib，点选“Copy URL to Clipboard”即把代码库的URL复制到剪贴板。
 
-![图7-1-1](/res/img/article/20120214_29.png)
+![图7-1-1](/res/img/article/20120214/29.png)
 <br/>
 
 然后把URL黏贴到浏览器地址栏回车即可。
 
 > **[info]** 部分浏览器可能会拦截，如火狐浏览器可能会出现下图的警告。此时点击“我已充分了解可能的风险”，然后点击“添加例外”，“确认安全例外”即可。 同时请确认windows防火墙已关闭。 其他浏览器也是类似的信任安全操作。
 
-![图7-1-2](/res/img/article/20120214_30.png)
+![图7-1-2](/res/img/article/20120214/30.png)
 <br/>
 
 通过浏览器拦截后，会弹出身份认证窗口。此时只需要把刚才在VisualSVN Server中设置的4个用户之中的一个账号密码输入即可。然后浏览器就会反馈出当前SVN服务器所保有的资源。
 
-![图7-1-3](/res/img/article/20120214_31.png)
+![图7-1-3](/res/img/article/20120214/31.png)
 <br/>
 
-![图7-1-4](/res/img/article/20120214_32.png)
+![图7-1-4](/res/img/article/20120214/32.png)
 <br/>
 
 下载界面如下：
 
-![图7-1-5](/res/img/article/20120214_33.png)
+![图7-1-5](/res/img/article/20120214/33.png)
 <br/>
 
 ------------
@@ -295,10 +295,10 @@ SVN资源库为CodeLib（代码库）和FileLib（文件库），其所在的位
 
 在任意空白位置点击鼠标右键，在弹出的功能菜单中选择“SVN Checkout”。
 
-![图7-2-1](/res/img/article/20120214_34.png)
+![图7-2-1](/res/img/article/20120214/34.png)
 <br/>
 
-![图7-2-2](/res/img/article/20120214_35.png)
+![图7-2-2](/res/img/article/20120214/35.png)
 <br/>
 
 如上图所示（下述的“检出”实质就是把SVN服务器上的资源复制一份副本到本地）：
@@ -309,13 +309,13 @@ SVN资源库为CodeLib（代码库）和FileLib（文件库），其所在的位
 - “Revision”为版本控制选项，功能很重要，将在第11节叙述相关作用。
 - “Show log”为显示被选中的服务器的操作日志。
 
-![图7-2-3](/res/img/article/20120214_36.png)
+![图7-2-3](/res/img/article/20120214/36.png)
 <br/>
 
-![图7-2-4](/res/img/article/20120214_37.png)
+![图7-2-4](/res/img/article/20120214/37.png)
 <br/>
 
-![图7-2-5](/res/img/article/20120214_38.png)
+![图7-2-5](/res/img/article/20120214/38.png)
 <br/>
 
 如上图为检出过程。
@@ -324,13 +324,13 @@ SVN资源库为CodeLib（代码库）和FileLib（文件库），其所在的位
 
 而关联本地与服务器资源一致性的功能由“.svn”文件夹实现，该文件夹默认为隐藏。当删除“.svn”文件夹后本地与服务器断开连接，Icon消失。
 
-![图7-2-6](/res/img/article/20120214_39.png)
+![图7-2-6](/res/img/article/20120214/39.png)
 <br/>
 
-![图7-2-7](/res/img/article/20120214_40.png)
+![图7-2-7](/res/img/article/20120214/40.png)
 <br/>
 
-![图7-2-8](/res/img/article/20120214_41.png)
+![图7-2-8](/res/img/article/20120214/41.png)
 <br/>
 
 ## 8. Eclipse的SVN插件安装
@@ -341,46 +341,46 @@ Google搜索“SVN  Eclipse插件”即可很容易找到SVN插件的安装地�
 
 然后打开Eclipse -> Help -> Install New Software。
 
-![图8-1](/res/img/article/20120214_42.png)
+![图8-1](/res/img/article/20120214/42.png)
 <br/>
 
 把地址 http://subclipse.tigris.org/update_1.6.x 复制到“Work with”下按回车，等待加载如下图的3个插件，点击 “Select all”按钮选中全部，然后点击Next按钮执行下一步，按提示操作即可完成安装。可能安装的时间较漫长，请耐心等待。
 
-![图8-2](/res/img/article/20120214_43.png)
+![图8-2](/res/img/article/20120214/43.png)
 <br/>
 
 ## 9. Eclipse与SVN服务器的连接
 
 安装SVN插件后，找到Eclipse左下角的“+”（快速视图菜单），再点击打开快速视图菜单，选择Other。在弹出的界面中输入“SVN”，点选搜索到的“SVN资源库”，点击OK按钮确认。
 
-![图9-1](/res/img/article/20120214_44.png)
+![图9-1](/res/img/article/20120214/44.png)
 <br/>
 
-![图9-2](/res/img/article/20120214_45.png)
+![图9-2](/res/img/article/20120214/45.png)
 <br/>
 
 此时会出现SVN资源库窗口（如下图）。在空白处右击，选择“新建”，在点选“资源库位置”。然后在弹出的窗口输入SVN服务器的地址，这里使用前面创建的代码库的URL地址：https://Exp-PC/svn/CodeLib 。地址无误则点击Finish按钮确定。
 
-![图9-3](/res/img/article/20120214_46.png)
+![图9-3](/res/img/article/20120214/46.png)
 <br/>
 
-![图9-4](/res/img/article/20120214_47.png)
+![图9-4](/res/img/article/20120214/47.png)
 <br/>
 
-![图9-5](/res/img/article/20120214_48.png)
+![图9-5](/res/img/article/20120214/48.png)
 <br/>
 
 此时会弹出如下图所示的对话框，选择“永久接受”，然后输入用户名和密码。这里必须使用授权给当前正在同步的SVN资源库的用户。 前面第6节中，配置给CodeLib代码库的用户有4个，这里选择其中的一个即可，为避免以后再输入账户密码，可选择“保存密码”。
 
-![图9-6](/res/img/article/20120214_49.png)
+![图9-6](/res/img/article/20120214/49.png)
 <br/>
 
-![图9-7](/res/img/article/20120214_50.png)
+![图9-7](/res/img/article/20120214/50.png)
 <br/>
 
 此时已经可以看到SVN服务器上的代码库，展开则可看到保存在SVN服务器的资源。
 
-![图9-8](/res/img/article/20120214_51.png)
+![图9-8](/res/img/article/20120214/51.png)
 <br/>
 
 ## 10. 利用SVN插件进行代码的同步与共享
@@ -389,10 +389,10 @@ Google搜索“SVN  Eclipse插件”即可很容易找到SVN插件的安装地�
 
 打开Eclipse的“SVN资源库”，找到要下载的源代码项目，右击该项目的根文件夹，选择“检出为”则可把服务器上的项目同步到本地。
 
-![图10-1-1](/res/img/article/20120214_52.png)
+![图10-1-1](/res/img/article/20120214/52.png)
 <br/>
 
-![图10-1-2](/res/img/article/20120214_53.png)
+![图10-1-2](/res/img/article/20120214/53.png)
 <br/>
 
 如上图所示，检出时会提示命名项目名称，任意命名均可（只要与本地已有项目不重名）。命名完毕后直接按Finish按钮。
@@ -401,7 +401,7 @@ Google搜索“SVN  Eclipse插件”即可很容易找到SVN插件的安装地�
 
 如下图所示，从服务器上同步到本地的项目，可以在左边项目列表看到该源代码的来源，以及最后被更新的时间和用户信息。
 
-![图10-1-3](/res/img/article/20120214_54.png)
+![图10-1-3](/res/img/article/20120214/54.png)
 <br/>
 
 ------------
@@ -411,33 +411,33 @@ Google搜索“SVN  Eclipse插件”即可很容易找到SVN插件的安装地�
 
 新建项目TestSVNUpdata，右击项目文件夹，选择Teamshare project在弹出的界面中选择“SVN”，点击Next按钮继续。
 
-![图10-2-1](/res/img/article/20120214_55.png)
+![图10-2-1](/res/img/article/20120214/55.png)
 <br/>
 
-![图10-2-2](/res/img/article/20120214_56.png)
+![图10-2-2](/res/img/article/20120214/56.png)
 <br/>
 
 如下图所示，选择“使用已有资源库位置”，然后在资源库地址列表中点选要上传的SVN服务器，点击Next按钮继续下一步。若资源库地址列表为空，则选择“创建新的资源库的位置”，输入要上传的SVN服务器的URL地址即可。
 
-![图10-2-3](/res/img/article/20120214_57.png)
+![图10-2-3](/res/img/article/20120214/57.png)
 <br/>
 
 到这步选择“使用项目名做为文件夹名”，点Finish后自动切换到Synchronize标签，其中Synchronize显示的是为等待同步到服务器的项目，这里只有项目TestSVNUpdata可供选择。右击TestSVNUpdata项目文件夹，选择“提交”。
 
-![图10-2-4](/res/img/article/20120214_58.png)
+![图10-2-4](/res/img/article/20120214/58.png)
 <br/>
 
-![图10-2-5](/res/img/article/20120214_59.png)
+![图10-2-5](/res/img/article/20120214/59.png)
 <br/>
 
 然后弹出下图的界面，勾选全部，点击OK按钮。
 
-![图10-2-6](/res/img/article/20120214_60.png)
+![图10-2-6](/res/img/article/20120214/60.png)
 <br/>
 
 切换回到“SVN资源库”标签，右击刚才所上传到的SVN资源库，选择“刷新”，则可看到刚才上传的项目，上传成功。
 
-![图10-2-7](/res/img/article/20120214_61.png)
+![图10-2-7](/res/img/article/20120214/61.png)
 <br/>
 
 ------------
@@ -451,13 +451,13 @@ Google搜索“SVN  Eclipse插件”即可很容易找到SVN插件的安装地�
 
 这时会在“Synchronize”标签中列出本地与SVN服务器上不一致的文件列表。文件列表中各个文件的右方会根据不同的情况出现不同的Icon（即SVN图标），它们的含义分别为：
 
-- <img style="float: left; " src="/res/img/article/20120214_62.png" />灰色向右箭头：本地修改过；
-- <img style="float: left; " src="/res/img/article/20120214_63.png" />蓝色向左箭头：SVN上修改过；
-- <img style="float: left; " src="/res/img/article/20120214_64.png" />灰色向右且中间有个加号的箭头：本地比SVN上多出的文件；
-- <img style="float: left; " src="/res/img/article/20120214_65.png" />蓝色向左且中间有个加号的箭头：SVN上比本地多出的文件；
-- <img style="float: left; " src="/res/img/article/20120214_66.png" />灰色向右且中间有个减号的箭头：本地删除了而SVN上未删除的文件；
-- <img style="float: left; " src="/res/img/article/20120214_67.png" />蓝色向左且中间有个减号的箭头：SVN上删除了而本地未删除的文件；
-- <img style="float: left; " src="/res/img/article/20120214_68.png" />红色双向箭头：SVN上修改过,本地也修改过的文件。
+- <img style="float: left; " src="/res/img/article/20120214/62.png" />灰色向右箭头：本地修改过；
+- <img style="float: left; " src="/res/img/article/20120214/63.png" />蓝色向左箭头：SVN上修改过；
+- <img style="float: left; " src="/res/img/article/20120214/64.png" />灰色向右且中间有个加号的箭头：本地比SVN上多出的文件；
+- <img style="float: left; " src="/res/img/article/20120214/65.png" />蓝色向左且中间有个加号的箭头：SVN上比本地多出的文件；
+- <img style="float: left; " src="/res/img/article/20120214/66.png" />灰色向右且中间有个减号的箭头：本地删除了而SVN上未删除的文件；
+- <img style="float: left; " src="/res/img/article/20120214/67.png" />蓝色向左且中间有个减号的箭头：SVN上删除了而本地未删除的文件；
+- <img style="float: left; " src="/res/img/article/20120214/68.png" />红色双向箭头：SVN上修改过,本地也修改过的文件。
 
 ------------
 
@@ -492,12 +492,12 @@ Google搜索“SVN  Eclipse插件”即可很容易找到SVN插件的安装地�
 - （e）服务器第12行需要保留，复制到本地
 - （f）本地第10行不需要保留，删除
 
-![图10-3-2-1](/res/img/article/20120214_69.png)
+![图10-3-2-1](/res/img/article/20120214/69.png)
 <br/>
 
 修改后如下图所示，此时冲突已解决，本地保存后，右击代码文件 -> Team -> 提交，即可更新到服务器。
 
-![图10-3-2-2](/res/img/article/20120214_70.png)
+![图10-3-2-2](/res/img/article/20120214/70.png)
 <br/>
 
 ## 11. \*版本控制
@@ -508,52 +508,52 @@ Google搜索“SVN  Eclipse插件”即可很容易找到SVN插件的安装地�
 
 如下图所示，首先在Eclipse建立一个新的本地项目“版本控制测试”。
 
-![图11-1](/res/img/article/20120214_71.png)
+![图11-1](/res/img/article/20120214/71.png)
 <br/>
 
 然后把该项目上传到SVN服务器：右击项目文件夹 -> Team -> Share project。
 
-![图11-2](/res/img/article/20120214_72.png)
+![图11-2](/res/img/article/20120214/72.png)
 <br/>
 
 然后按下图依次进行操作。
 
-![图11-3](/res/img/article/20120214_73.png)
+![图11-3](/res/img/article/20120214/73.png)
 <br/>
 
-![图11-4](/res/img/article/20120214_74.png)
+![图11-4](/res/img/article/20120214/74.png)
 <br/>
 
-![图11-5](/res/img/article/20120214_75.png)
+![图11-5](/res/img/article/20120214/75.png)
 <br/>
 
 到这步为止，为当前提交到服务器的项目在“编辑提交注释”一栏中填写版本信息。这步很重要，是作为以后版本控制的依据。
 
-![图11-6](/res/img/article/20120214_76.png)
+![图11-6](/res/img/article/20120214/76.png)
 <br/>
 
 填写完版本信息后，点击Finish按钮，自动跳转到“Synchronize”标签（同步标签），在同步列表中出现等待同步到服务器的项目。右击“版本控制测试”项目的文件夹，选择“提交”，然后按提示操作即可把“版本控制测试”项目连同其版本信息写入SVN服务器。
 
 > **[info]** 若提交对话框的注释栏为空，请重新填写版本信息，也可利用下拉选择。
 
-![图11-7](/res/img/article/20120214_77.png)
+![图11-7](/res/img/article/20120214/77.png)
 <br/>
 
 此时SVN服务器上只有“版本控制测试”项目的1.0版本。
 
 现在回到本地，现在对本地的“版本控制测试”项目进行修改：
 
-![图11-8](/res/img/article/20120214_78.png)
+![图11-8](/res/img/article/20120214/78.png)
 <br/>
 
 然后右击项目文件夹，选择“Team”，选择“与资源库同步”。自动跳转到“Synchronize”标签（同步标签）。右击“版本控制测试”项目的文件夹，选择“提交”。在出现的提交界面中填写新的版本号。
 
-![图11-9](/res/img/article/20120214_79.png)
+![图11-9](/res/img/article/20120214/79.png)
 <br/>
 
 确认上传后，现在SVN服务器已经有了“版本测试控制”项目的1.0版本和2.0版本。虽然在SVN资源库中依然只有一个“版本测试控制”项目，这是因为SVN资源库默认是显示项目的最新版本。
 
-![图11-10](/res/img/article/20120214_80.png)
+![图11-10](/res/img/article/20120214/80.png)
 <br/>
 
 **注意**此时服务器上有两个版本1.0和2.0，而本地上只有最新的版本2.0。
@@ -567,16 +567,16 @@ Google搜索“SVN  Eclipse插件”即可很容易找到SVN插件的安装地�
 - “Depth”为检出深度，默认为选中的整个资源文件，按需设置，这里为默认值。
 - “Check out HEAD revision”下方有“Revision”，这里是填写希望检出的版本号，这里先不急着填，先点击“显示日志”。
 
-![图11-11](/res/img/article/20120214_81.png)
+![图11-11](/res/img/article/20120214/81.png)
 <br/>
 
-![图11-12](/res/img/article/20120214_82.png)
+![图11-12](/res/img/article/20120214/82.png)
 <br/>
 
-![图11-13](/res/img/article/20120214_83.png)
+![图11-13](/res/img/article/20120214/83.png)
 <br/>
 
-![图11-14](/res/img/article/20120214_84.png)
+![图11-14](/res/img/article/20120214/84.png)
 <br/>
 
 如上面几张图所示，可以看到点击“显示日志”后，出现了关于项目“版本控制测试”的修改日志列表，日志列表下方对应的是当前被选中的版本号的详细修改信息。但是出现了两个“最初版本1.0”和一个“版本2.0”。现在希望把本地项目恢复到1.0版本，应该选择哪个呢？
@@ -589,20 +589,20 @@ Google搜索“SVN  Eclipse插件”即可很容易找到SVN插件的安装地�
 
 现在我们选择“最初版本1.0”（修订号为85）的版本，点击OK按钮。自动返回到检出界面，而“Check out HEAD revision”已不再被勾选，“Revision”一栏自动被填写了对应修订号85。点击Finish按钮，提示覆盖本地项目，点击OK按钮即可。
 
-![图11-15](/res/img/article/20120214_85.png)
+![图11-15](/res/img/article/20120214/85.png)
 <br/>
 
-![图11-16](/res/img/article/20120214_86.png)
+![图11-16](/res/img/article/20120214/86.png)
 <br/>
 
 返回本地项目查看，已被恢复至1.0版本（如下图）。
 
-![图11-17](/res/img/article/20120214_87.png)
+![图11-17](/res/img/article/20120214/87.png)
 <br/>
 
 类似地，现在也可以从服务器中把最新的版本2.0重新检出到本地，方法一样，具体步骤不再阐明。
 
-![图11-18](/res/img/article/20120214_88.png)
+![图11-18](/res/img/article/20120214/88.png)
 <br/>
 
 ------
