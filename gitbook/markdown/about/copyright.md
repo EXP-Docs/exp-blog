@@ -1,3 +1,7 @@
+# 版权声明
+
+------
+
 <h2><i style="text-indent: 0; display: inline-block; margin-right: 10px;" class="fa fa-commenting"></i>前言</h2>
 <p>我们的站点是：EXP技术博客（<a href="https://lyy289065406.github.io/exp-blog" title="EXP技术博客" data-toggle="tooltip" target="_blank">https://lyy289065406.github.io/exp-blog</a>）</p>
 <p>您使用或继续使用我们（<a href="https://lyy289065406.github.io/exp-blog" title="https://lyy289065406.github.io/exp-blog" data-toggle="tooltip" target="_blank">EXP技术博客</a>）的服务，即意味着同意我们按照本《隐私策略和版权声明》收集、使用、储存和分享您的相关信息。</p>

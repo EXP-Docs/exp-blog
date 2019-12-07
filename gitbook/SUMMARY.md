@@ -31,6 +31,9 @@
 * [数据结构](markdown/notes/datastruct/README.md)
 * [设计模式](markdown/notes/design/README.md)
 * [数据库](markdown/notes/database/README.md)
+    * [Oracle 学习笔记](markdown/notes/database/Oracle学习笔记.md)
+    * [Mariadb 周期性崩溃处理记录](markdown/notes/database/Mariadb周期性崩溃处理记录.md)
+    * [Redis 部署笔记](markdown/notes/database/Redis部署笔记.md)
 * [网络](markdown/notes/net/README.md)
     * [Corba 接口学习笔记](markdown/notes/net/Corba接口学习笔记.md)
     * [Rinetd 部署笔记](markdown/notes/net/Rinetd部署笔记.md)
@@ -39,6 +42,8 @@
     * [Git 命令行安装与使用笔记](markdown/notes/scm/Git命令行安装与使用笔记.md)
     * [VisualSVN 使用手册](markdown/notes/scm/VisualSVN使用手册.md)
 * [系统架构](markdown/notes/arch/README.md)
+    * [快速部署单机 zookeeper 集群](markdown/notes/arch/快速部署单机zookeeper集群.md)
+    * [快速部署单机 kafka 集群](markdown/notes/arch/快速部署单机kafka集群.md)
 
 
 ## 杂七杂八
