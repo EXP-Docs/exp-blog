@@ -32,6 +32,8 @@
 * [设计模式](markdown/notes/design/README.md)
 * [数据库](markdown/notes/database/README.md)
     * [Oracle 学习笔记](markdown/notes/database/Oracle学习笔记.md)
+    * [Mariadb 周期性崩溃处理记录](markdown/notes/database/Mariadb周期性崩溃处理记录.md)
+    * [Redis 部署笔记](markdown/notes/database/Redis部署笔记.md)
 * [网络](markdown/notes/net/README.md)
     * [Corba 接口学习笔记](markdown/notes/net/Corba接口学习笔记.md)
     * [Rinetd 部署笔记](markdown/notes/net/Rinetd部署笔记.md)
