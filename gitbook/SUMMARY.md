@@ -40,6 +40,7 @@
     * [VisualSVN 使用手册](markdown/notes/scm/VisualSVN使用手册.md)
 * [系统架构](markdown/notes/arch/README.md)
     * [快速部署单机 zookeeper 集群](markdown/notes/arch/快速部署单机zookeeper集群.md)
+    * [快速部署单机 kafka 集群](markdown/notes/arch/快速部署单机kafka集群.md)
 
 
 ## 杂七杂八

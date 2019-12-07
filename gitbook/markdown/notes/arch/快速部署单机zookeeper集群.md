@@ -286,10 +286,7 @@ public class TestZooKeeperClient {
 
 ## 资源下载
 
-<a  class="dl" href="https://download.csdn.net/download/lyy289065406/10580590" target="_blank" rel="nofollow" data-original-title="" title=""><i class="fa fa-cloud-download"></i>本文全文 下载</a> <a  class="dl" href="https://download.csdn.net/download/lyy289065406/10580686" target="_blank" rel="nofollow" data-original-title="" title=""><i class="fa fa-cloud-download"></i>ZKInspector 下载</a>
-
-
 > [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
 > 
-> [复本文全文下载](https://download.csdn.net/download/lyy289065406/10580590)
+> [本文全文下载](https://download.csdn.net/download/lyy289065406/10580590)
 <br/> [ZKInspector 下载](https://download.csdn.net/download/lyy289065406/10580686)
