@@ -114,9 +114,9 @@ python version = 2.7.15rc1 (default, Nov 12 2018, 14:31:15) [GCC 7.3.0]
 ```
 
 > **关于 Asible 的相关配置**：
-　　　○ 配置文件位置为 `/etc/ansible/ansible.cfg`
-　　　○ 主机清单文件为 `/etc/ansible/hosts` （用于配置主机分组、连接方式等）
-　　　○ playbooks 目录位置默认为 `/etc/ansible/` ，若目录不存在，可手工创建
+<br/>　　　○ 配置文件位置为 `/etc/ansible/ansible.cfg`
+<br/>　　　○ 主机清单文件为 `/etc/ansible/hosts` （用于配置主机分组、连接方式等）
+<br/>　　　○ playbooks 目录位置默认为 `/etc/ansible/` ，若目录不存在，可手工创建
 
 
 ------------
