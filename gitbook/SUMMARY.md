@@ -32,6 +32,8 @@
 * [设计模式](markdown/notes/design/README.md)
 * [数据库](markdown/notes/database/README.md)
 * [网络](markdown/notes/net/README.md)
+    * [Corba 接口学习笔记](markdown/notes/net/Corba接口学习笔记.md)
+    * [Rinetd 部署笔记](markdown/notes/net/Rinetd部署笔记.md)
 * [配置管理](markdown/notes/scm/README.md)
     * [Ansible-Tower 部署笔记](markdown/notes/scm/AnsibleTower部署笔记.md)
     * [Git 命令行安装与使用笔记](markdown/notes/scm/Git命令行安装与使用笔记.md)
@@ -42,6 +44,7 @@
 ## 杂七杂八
 
 * [资源分享](markdown/resource/README.md)
+    * [2015系统架构师复习资料](markdown/resource/2015系统架构师复习资料.md)
 * [心路历程](markdown/feelings/README.md)
     * [半杯水](markdown/feelings/半杯水.md)
     * [一位ACMer过来人的心得](markdown/feelings/一位ACMer过来人的心得.md)
