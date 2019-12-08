@@ -34,9 +34,6 @@
     * [Oracle 学习笔记](markdown/notes/database/Oracle学习笔记.md)
     * [Mariadb 周期性崩溃处理记录](markdown/notes/database/Mariadb周期性崩溃处理记录.md)
     * [Redis 部署笔记](markdown/notes/database/Redis部署笔记.md)
-* [网络](markdown/notes/net/README.md)
-    * [Corba 接口学习笔记](markdown/notes/net/Corba接口学习笔记.md)
-    * [Rinetd 部署笔记](markdown/notes/net/Rinetd部署笔记.md)
 * [配置管理](markdown/notes/scm/README.md)
     * [Ansible-Tower 部署笔记](markdown/notes/scm/AnsibleTower部署笔记.md)
     * [Git 命令行安装与使用笔记](markdown/notes/scm/Git命令行安装与使用笔记.md)
@@ -44,12 +41,21 @@
 * [系统架构](markdown/notes/arch/README.md)
     * [快速部署单机 zookeeper 集群](markdown/notes/arch/快速部署单机zookeeper集群.md)
     * [快速部署单机 kafka 集群](markdown/notes/arch/快速部署单机kafka集群.md)
+* [网络协议](markdown/notes/net/README.md)
+    * [Corba 接口学习笔记](markdown/notes/net/Corba接口学习笔记.md)
+    * [Rinetd 部署笔记](markdown/notes/net/Rinetd部署笔记.md)
+* [网站建设](markdown/notes/website/README.md)
+    * [WordPress 部署笔记](markdown/notes/website/WordPress部署笔记.md)
+    * [WordPress 插件推荐](markdown/notes/website/WordPress插件推荐.md)
+    * [加速访问 WordPress](markdown/notes/website/加速访问WordPress.md)
 
 
 ## 杂七杂八
 
 * [资源分享](markdown/resource/README.md)
-    * [2015系统架构师复习资料](markdown/resource/2015系统架构师复习资料.md)
+    * [2015 系统架构师复习资料](markdown/resource/2015系统架构师复习资料.md)
+    * [WP插件：Auto Add Copyright](markdown/resource/WP插件_AutoAddCopyright.md)
+    * [WP插件：Baidu Links Submit](markdown/resource/WP插件_BaiduLinksSubmit.md)
 * [心路历程](markdown/feelings/README.md)
     * [半杯水](markdown/feelings/半杯水.md)
     * [一位ACMer过来人的心得](markdown/feelings/一位ACMer过来人的心得.md)
