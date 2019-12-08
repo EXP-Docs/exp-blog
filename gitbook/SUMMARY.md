@@ -19,6 +19,10 @@
 * [区块链](markdown/technical/blockchain/README.md)
 * [大数据](markdown/technical/bigdata/README.md)
 * [逆向工程](markdown/technical/re/README.md)
+    * [WINDOWS内核学习清单](markdown/technical/re/WINDOWS内核学习清单.md)
+    * [嵌入式开发学习笔记](markdown/technical/re/嵌入式开发学习笔记.md)
+    * [驱动开发入门1：开发环境搭建](markdown/technical/re/驱动开发入门1.md)
+    * [驱动开发入门2：双机调试环境搭建](markdown/technical/re/驱动开发入门2.md)
 
 
 ## 学习笔记
