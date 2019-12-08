@@ -46,12 +46,16 @@
     * [Rinetd 部署笔记](markdown/notes/net/Rinetd部署笔记.md)
 * [网站建设](markdown/notes/website/README.md)
     * [WordPress 部署笔记](markdown/notes/website/WordPress部署笔记.md)
+    * [WordPress 插件推荐](markdown/notes/website/WordPress插件推荐.md)
+    * [加速访问 WordPress](markdown/notes/website/加速访问WordPress.md)
 
 
 ## 杂七杂八
 
 * [资源分享](markdown/resource/README.md)
-    * [2015系统架构师复习资料](markdown/resource/2015系统架构师复习资料.md)
+    * [2015 系统架构师复习资料](markdown/resource/2015系统架构师复习资料.md)
+    * [WP插件：Auto Add Copyright](markdown/resource/WP插件_AutoAddCopyright.md)
+    * [WP插件：Baidu Links Submit](markdown/resource/WP插件_BaiduLinksSubmit.md)
 * [心路历程](markdown/feelings/README.md)
     * [半杯水](markdown/feelings/半杯水.md)
     * [一位ACMer过来人的心得](markdown/feelings/一位ACMer过来人的心得.md)

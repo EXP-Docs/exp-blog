@@ -371,7 +371,7 @@ rm -rf wordpress/
 
 > systemctl restart vsftpd.service
 
-最后打开浏览器：http://127.0.0.1，就可以开始配置Wordpress了。
+最后打开浏览器：http://127.0.0.1 ，就可以开始配置Wordpress了。
 
 初始安装会在页面要求设置数据库的库名、帐密，设置为前文设置的值即可。
 
