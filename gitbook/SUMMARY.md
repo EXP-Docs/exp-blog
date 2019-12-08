@@ -12,6 +12,7 @@
 * [安全](markdown/technical/safe/README.md)
     * [渗透测试](markdown/technical/safe/pentest/README.md)
         * [白帽子渗透测试入门资源](markdown/technical/safe/pentest/白帽子渗透测试入门资源.md)
+        * [各种语言一句话反弹 shell](markdown/technical/safe/pentest/各种语言一句话反弹shell.md)
     * [CTF 解题报告](https://github.com/lyy289065406/CTF-Solving-Reports)
 * [爬虫](markdown/technical/crawler/README.md)
 * [深度学习](markdown/technical/deeplearn/README.md)
@@ -32,7 +33,6 @@
 * [设计模式](markdown/notes/design/README.md)
 * [数据库](markdown/notes/database/README.md)
     * [Oracle 学习笔记](markdown/notes/database/Oracle学习笔记.md)
-    * [Mariadb 周期性崩溃处理记录](markdown/notes/database/Mariadb周期性崩溃处理记录.md)
     * [Redis 部署笔记](markdown/notes/database/Redis部署笔记.md)
 * [配置管理](markdown/notes/scm/README.md)
     * [Ansible-Tower 部署笔记](markdown/notes/scm/AnsibleTower部署笔记.md)
@@ -49,6 +49,9 @@
     * [WordPress 部署笔记](markdown/notes/website/WordPress部署笔记.md)
     * [WordPress 插件推荐](markdown/notes/website/WordPress插件推荐.md)
     * [加速访问 WordPress](markdown/notes/website/加速访问WordPress.md)
+    * [Mariadb 周期性崩溃处理记录](markdown/notes/website/Mariadb周期性崩溃处理记录.md)
+    * [记一次 TTFB 的优化过程](markdown/notes/website/记一次TTFB的优化过程.md)
+    * [禁用 XMLRPC 避免 DDOS](markdown/notes/website/禁用XMLRPC避免DDOS.md)
 
 
 ## 杂七杂八
@@ -57,6 +60,8 @@
     * [2015 系统架构师复习资料](markdown/resource/2015系统架构师复习资料.md)
     * [WP插件：Auto Add Copyright](markdown/resource/WP插件_AutoAddCopyright.md)
     * [WP插件：Baidu Links Submit](markdown/resource/WP插件_BaiduLinksSubmit.md)
+    * [WP挂件：文章/访问统计](markdown/resource/WP挂件_Statistics.md)
+    * [WP挂件：高仿 CSDN About ME](markdown/resource/WP挂件_CSDNaboutMe.md)
 * [心路历程](markdown/feelings/README.md)
     * [半杯水](markdown/feelings/半杯水.md)
     * [一位ACMer过来人的心得](markdown/feelings/一位ACMer过来人的心得.md)
