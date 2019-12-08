@@ -3,6 +3,8 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/algorithm/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/algorithm/acm/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/algorithm/acm/ACM测试数据合集.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/algorithm/acm/ACM国家集训队论文集.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/algorithm/poj/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/safe/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/safe/pentest/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -10,6 +12,7 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/safe/pentest/各种语言一句话反弹shell.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/crawler/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/deeplearn/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/deeplearn/图像识别_Cpp读取BMP位图入门.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/blockchain/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/bigdata/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/re/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -29,7 +32,6 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/Cpp自定义格式输出.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/Cpp的六种常用输入.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/在Cpp中实现声音播放.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/图像识别_Cpp读取BMP位图入门.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/java/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/java/如何有效率地追求女神.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/java/Logback动态日志配置教程.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
