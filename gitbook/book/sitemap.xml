@@ -7,6 +7,7 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/safe/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/safe/pentest/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/safe/pentest/白帽子渗透测试入门资源.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/safe/pentest/各种语言一句话反弹shell.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/crawler/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/deeplearn/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/blockchain/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -22,7 +23,6 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/design/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/database/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/database/Oracle学习笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/database/Mariadb周期性崩溃处理记录.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/database/Redis部署笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/scm/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/scm/AnsibleTower部署笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -39,10 +39,15 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/website/WordPress部署笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/website/WordPress插件推荐.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/website/加速访问WordPress.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/website/Mariadb周期性崩溃处理记录.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/website/记一次TTFB的优化过程.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/website/禁用XMLRPC避免DDOS.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/resource/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/resource/2015系统架构师复习资料.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/resource/WP插件_AutoAddCopyright.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/resource/WP插件_BaiduLinksSubmit.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/resource/WP挂件_Statistics.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/resource/WP挂件_CSDNaboutMe.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/feelings/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/feelings/半杯水.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/feelings/一位ACMer过来人的心得.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
