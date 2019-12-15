@@ -5,7 +5,7 @@
 
 > [!NOTE|style:flat|label:相关索引]
 > 
-> 全算法模板整页查看： [【国际线路】](http://exp-blog.com/site/tool/acm-template/index.html) [【国内线路】](https://lyy289065406.gitee.io/site-package/tool/acm-template/index.html)
+> 全算法模板整页查看： [【国际线路】](https://lyy289065406.github.io/site-package/tool/acm-template/index.html) [【国内线路】](https://lyy289065406.gitee.io/site-package/tool/acm-template/index.html)
 
 ------
 
