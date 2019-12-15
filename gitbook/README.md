@@ -8,7 +8,7 @@
 
 | EXP's Github 仓库 | Web Page | 分类 | 权限 | 说明 |
 |:----:|:----:|:----:|:----:|:----|
-| [exp-blog](https://github.com/lyy289065406/exp-blog) | [Link](https://lyy289065406.github.io/exp-blog/gitbook/book/) | 资料 | 公开 | EXP 技术博客 |
+| [exp-blog](https://github.com/lyy289065406/exp-blog) | [Link](https://lyy289065406.github.io/exp-blog/) | 资料 | 公开 | EXP 技术博客 |
 | [gitbook-server-docker](https://github.com/lyy289065406/gitbook-server-docker) | - | 工具 | 公开 | 使用 Docker 构建的 GitBook 服务器 |
 | [site-package](https://github.com/lyy289065406/site-package) | [Link](https://lyy289065406.github.io/site-package/) |  工具 | 公开 | 站长工具：站点功能组件 |
 | [api-online](https://github.com/lyy289065406/api-online) | [Link](https://lyy289065406.github.io/api-online/) |  资料 | 公开 | 在线 API |
@@ -48,4 +48,5 @@
 | [The-C-Programming-Language](https://github.com/lyy289065406/The-C-Programming-Language) | - |  资料 | 公开 | 《C++程序设计语言（十周年纪念版）》 课后练习 |
 | [ro-single-server](https://github.com/lyy289065406/ro-single-server) | [Link](https://lyy289065406.github.io/api-online/javadoc/RO-EA-API/index.html) |  游戏 | 私有 | 仙境RO传说-单机版-服务端（支持联机） |
 | [ro-single-client](https://github.com/lyy289065406/ro-single-client) | - |  游戏 | 私有 | 仙境RO传说-单机版-客户端（登陆补丁） |
+| [re0-web](https://github.com/lyy289065406/re0-web) | [Link](https://lyy289065406.github.io/re0-web/) | 小说 | 公开 | RE0：从零开始的异世界生活 （WEB版） |
 | [environment](https://github.com/lyy289065406/environment) | [Link](https://lyy289065406.github.io/environment/) |  资源 | 公开 | 环境安装包 |
