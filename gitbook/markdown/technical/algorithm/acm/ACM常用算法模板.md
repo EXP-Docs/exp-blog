@@ -7,7 +7,6 @@
 > 
 > 全算法模板整页查看： [【国际线路】](https://lyy289065406.github.io/site-package/tool/acm-template/index.html) [【国内线路】](https://lyy289065406.gitee.io/site-package/tool/acm-template/index.html)
 
-------
 
 
 | [<font color="red">数学问题</font>](#math-0) | &nbsp; | &nbsp; |
@@ -17,13 +16,11 @@
 | [最大公约数、最小公倍数](#math-7) | [组合序列](#math-8) | [快速傅立叶变换（FFT）](#math-9) |
 | [Ronberg算法计算积分](#math-10) | [行列式计算](#math-11) | [求排列组合数](#math-12) |
 
-------
 
 | [<font color="red">字符串处理</font>](#string-0) | &nbsp; | &nbsp; |
 |:---:|:---:|:---:|
 | [字符串替换](#string-1) | [字符串查找](#string-2) | [字符串截取](#string-3) |
 
-------
 
 | [<font color="red">计算几何</font>](#geometry-0) | &nbsp; | &nbsp; |
 |:---:|:---:|:---:|
@@ -32,7 +29,6 @@
 | [判断两线段是否相交](#geometry-7) | [判断线段与直线是否相交](#geometry-8) | [点到线段最短距离](#geometry-9) |
 | [求两直线的交点](#geometry-10) | [判断一个封闭图形是凹集还是凸集](#geometry-11) | [Graham扫描法寻找凸包](#geometry-12) |
 
-------
 
 | [<font color="red">数论</font>](#number-0) | &nbsp; | &nbsp; |
 |:---:|:---:|:---:|
@@ -40,14 +36,12 @@
 | [求解模线性方程](#number-4) | [求解模线性方程组(中国余数定理)](#number-5) | [筛法素数产生器](#number-6) |
 | [判断一个数是否素数](#number-7) | &nbsp; | &nbsp; |
 
-------
 
 | [<font color="red">图论</font>](#graph-0) | &nbsp; |
 |:---:|:---:|:---:|
 | [Prim算法求最小生成树](#graph-1) | [Dijkstra算法求单源最短路径](#graph-2) |
 | [Bellman-ford算法求单源最短路径](#graph-3) | [Floyd算法求每对节点间最短路径](#graph-4) |
 
-------
 
 
 | [<font color="red">排序/搜索</font>](#sort-0) | &nbsp; |
@@ -55,7 +49,6 @@
 | [快速排序](#sort-1) | [希尔排序](#sort-2) |
 | [选择排序](#sort-3) | [二分查找](#sort-4) |
 
-------
 
 
 | [<font color="red">数据结构</font>](#structure-0) | &nbsp; | &nbsp; |
@@ -64,8 +57,6 @@
 | [链栈](#structure-4) | [二叉树](#structure-5) | &nbsp; |
 
 ------
-
-
 
 
 
