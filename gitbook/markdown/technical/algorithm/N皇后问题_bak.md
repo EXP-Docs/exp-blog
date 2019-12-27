@@ -3,27 +3,25 @@
 ------
 
 
-- ***[原]***  *E.J.Hoffman;  J.C.Loessi;  R.C.Moore*
-- *The Johns Hopkins University Applied Physics Laboratory*
-- ***[译]***  *EXP  2017-12-29*
+<center>***[原]**  E.J.Hoffman;  J.C.Loessi;  R.C.Moore*</center>
+<center>*The Johns Hopkins University Applied Physics Laboratory*</center>
+<center>***[译]**  EXP  2017-12-29*</center>
 
-
-> [!NOTE|style:flat|label:注意]
-> 
+----------
+> &nbsp;
 > <font color="red">由于原文使用了“**m皇后**”进行描述，所以本文从现在开始也使用“**m皇后**”进行描述。</font>
-<br/> <font color="red">我这里就**不调整**为大多数人习惯的“**n皇后**”了，避免某些数学公式参数混淆。</font>
+> <font color="red">我这里就**不调整**为大多数人习惯的“**n皇后**”了，避免某些数学公式参数混淆。</font>
 
 ----------
 
-> **[success]** ***【写在前面】***
-
-这是现在网上流传的一套关于M皇后问题的构造法公式，但是这套公式是怎么得来的，却鲜有人知。而文本会详细阐述这套公式的推导过程：
+***【写在前面】***
+　　<font color="blue">这是现在网上流传的一套关于M皇后问题的构造法公式，但是这套公式是怎么得来的，却鲜有人知。
+而文本会详细阐述这套公式的推导过程：</font>
 
 对于 $m \geq 4$ 的 **m皇后** 问题：
-
-- 若 $m \bmod 6 \neq 2$ 且 $m \bmod 6 \neq 3$ ，则可通过（A1）或（A2）导出解序列。
-- 若 $m \bmod 6 = 2$ 或 $m \bmod 6 = 3$ ，则可通过（B1）或（B2）或（B3）或（B4）导出解序列。
-- 其中当 $m$ 是偶数时, $n=\dfrac{m}{2}$ ；当 $m$ 是奇数时 $n=\dfrac{m-1}{2}$ ，
+　　若 $m \bmod 6 \neq 2$ 且 $m \bmod 6 \neq 3$ ，则可通过（A1）或（A2）导出解序列。
+　　若 $m \bmod 6 = 2$ 或 $m \bmod 6 = 3$ ，则可通过（B1）或（B2）或（B3）或（B4）导出解序列。
+　　其中当 $m$ 是偶数时, $n=\dfrac{m}{2}$ ；当 $m$ 是奇数时 $n=\dfrac{m-1}{2}$ ，
 
 $$
 \small{
@@ -43,7 +41,9 @@ $$
 $$
 
 ------------
+[toc]
 
+------------
 ## 1. 前言
 文本核心内容主要译自E. J. Hoffman、J. C. Loessi 和R. C. Moore发表于Mathematics Magazine《数学杂志》上的学术论文《Constructions for the Solution of the m Queens Problem》（已被美国数学协会Mathematical Association of America公开），具体期数为Vol. 42, No. 2 (Mar., 1969), pp. 66-72。
 　　*该文献可从以下途径购买*：
@@ -91,9 +91,9 @@ m皇后问题最初是由Gauss（高斯）提出的，该问题描述如下：
 其中MINOR_CONSTANT称之为次对角常数，显然有 $1 \leq MINOR\\_CONSTANT \leq m$ ，将其定义为方格 $(i, j)$ 的<font color="red">次对角编号</font>。
 
 <br/>
-
-![m皇后问题的解模型](/res/img/article/20180615/01.png)
-
+![图 1  m皇后问题的解模型](http://203.195.132.63/wp-content/uploads/2018/06/ce051a1aff60d00814922b6362dd4198.png)
+<center>**图 1  m皇后问题的解模型**</center>
+<br/>
 
 至此，m皇后问题的**解模型**可以定义为如下：
 　　放置m个皇后到一个m×m的方格矩阵，使得皇后们的所在的方格同时满足下面所有条件：
@@ -123,10 +123,10 @@ m皇后问题最初是由Gauss（高斯）提出的，该问题描述如下：
 　　PA-2：放置皇后到方格 $(i_l, j_l)$ ，其中：
 <center>$i_l=2n+1-l, \quad  j_l=2n+1-2l \quad  (l=1,2,3,...,n)$</center>
 
-
-![使用构造式A解决12皇后问题的解](/res/img/article/20180615/02.png)
-
-
+<br/>
+![图 2 使用构造式A解决12皇后问题的解](http://203.195.132.63/wp-content/uploads/2018/06/51bb853ecfeb5452e324d40e9b6f70dd.png)
+<center>**图 2 使用构造式A解决12皇后问题的解**</center>
+<br/>
 
 ------------
 
@@ -139,8 +139,10 @@ m皇后问题最初是由Gauss（高斯）提出的，该问题描述如下：
 　　PB-2：放置皇后到方格 $(i_l, j_l)$ ，其中：
 <center>$i_l=2n+1-l, \quad  j_l=2n-\\{\[2(l-1)+n-1\] \bmod m\\} \quad  (l=1,2,3,...,n)$</center>
 
-![使用构造式B解决14皇后问题的解](/res/img/article/20180615/03.png)
-
+<br/>
+![图 3 使用构造式B解决14皇后问题的解](http://203.195.132.63/wp-content/uploads/2018/06/b39ca1d42ef357842c0c52fa5fc9470c.png)
+<center>**图 3 使用构造式B解决14皇后问题的解**</center>
+<br/>
 
 ------------
 
@@ -149,8 +151,10 @@ m皇后问题最初是由Gauss（高斯）提出的，该问题描述如下：
 构造式C是构造式A或B的<font color="red">扩展推导式</font>，仅适用于**m+1是奇数**的情况：
 　　当已使用构造式A或B求得一个m×m的皇后问题的解时，若同时增加第 m+1 行和第 m+1 列，那么第 m+1 个皇后应放置在坐标为 $(m+1, m+1)$ 的方格。
 
-![构造式C解集图示（在前面构造式B的示例解集基础上增加一行一列）](/res/img/article/20180615/04.png)
-
+<br/>
+![图 4 构造式C解集图示（在前面构造式B的示例解集基础上增加一行一列）](http://203.195.132.63/wp-content/uploads/2018/06/7da88a3a8893c1c7abdd3b5cec2635a0.png)
+<center>**图 4 构造式C解集图示（在前面构造式B的示例解集基础上增加一行一列）**</center>
+<br/>
 
 ------------
 
@@ -177,8 +181,10 @@ m皇后问题最初是由Gauss（高斯）提出的，该问题描述如下：
 <br/>
 **构造式含义**：若把棋盘在横中轴线切开，很明显解集是呈中心旋转对称的，其中上半部分对应PA-1的解集，下半部分对应PA-2的解集：
 
-![构造式A解集图示](/res/img/article/20180615/05.png)
-
+<br/>
+![图 5 构造式A解集图示](http://203.195.132.63/wp-content/uploads/2018/06/9be05ec1491b7e8d941704aa7c74fac6.png)
+<center>**图 5 构造式A解集图示**</center>
+<br/>
 
 ------------
 
@@ -286,10 +292,10 @@ $
 
 **构造式含义**：若把棋盘在横中轴线切开，很明显解集是呈中心旋转对称的，其中上半部分对应 PB-1 的解集，下半部分对应 PB-2 的解集。同时根据列编号mod m部分的取值（≥m或＜m），PB-1 与 PB-2 的解集又分别拆分成两个分段函数子集：
 
-
-![构造式B解集图示](/res/img/article/20180615/06.png)
-
-
+<br/>
+![图 6 构造式B解集图示](http://203.195.132.63/wp-content/uploads/2018/06/a05ec1b81c94cd5da37d71c1850101c0.png)
+<center>**图 6 构造式B解集图示**</center>
+<br/>
 
 ------------
 
@@ -575,8 +581,10 @@ $　其中：$\small{1 \leq k,l < \dfrac{n+3}{2} \quad , \quad \dfrac{n+3}{2} \l
 ##### 4.3.3.1. 两条【引理】
 我们**定义**棋盘上由方格 $(1, 1)$、$(2, 2)$、$(3, 3)$、...、$(m, m)$连线所得的对角线为**标准对角线**，亦即标准对角线的行列编号必有 $i==j$。
 
-![构造式C解集图示](/res/img/article/20180615/07.png)
-
+<br/>
+![图 7 构造式C解集图示](http://203.195.132.63/wp-content/uploads/2018/06/dab6eb802f52c542a514b3058072e403.png)
+<center>**图 7 构造式C解集图示**</center>
+<br/>
 
 
 **在证明构造式C之前，首先需要证明两条引理**：
