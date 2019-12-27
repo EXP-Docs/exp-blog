@@ -2,6 +2,11 @@
 
 ------
 
+latex https://www.zhihu.com/question/26887527
+![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
+
+https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima
+
 
 - ***[原]***  *E.J.Hoffman;  J.C.Loessi;  R.C.Moore*
 - *The Johns Hopkins University Applied Physics Laboratory*
