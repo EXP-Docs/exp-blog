@@ -29,9 +29,7 @@ JetPack插件可以说是云插件，许多功能要链接到云端服务器才�
 
 很强悍的SEO优化插件，在国外非常流行，据说超过25%的站点都在使用它提高搜索排名。但是**在国内**还是要**慎用**，此插件有部分功能可能要访问国外IP，**启用后明显感觉到网站打开速度变慢**。
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [Yoast-Complete-SEO-Premium-Pack-7.4.2 英文破解版下载](https://download.csdn.net/download/lyy289065406/10508921)
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10508921" target="_blank"><i class="fa fa-cloud-download"></i>Yoast-Complete-SEO-Premium-Pack-7.4.2 英文破解版下载</a>
 
 
 此插件包解压即用，所有功能都被破解，但不能登录不能升级，不然就无法再用了。其内**集合了5个插件，一般网站主要安装前2个**即可：
@@ -361,9 +359,8 @@ WordPress自带的**评论过滤插件**，可以防止机器人灌水、放外�
 
 鉴于我比较喜欢这个插件的风格，因此我把2015版本的BUG修正后，重新发布了这个2018修正版：
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [Baidu Links Submit  v2.0（20180704）下载](https://download.csdn.net/download/lyy289065406/10519791)
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10519791" target="_blank"><i class="fa fa-cloud-download"></i>Baidu Links Submit  v2.0（20180704）下载</a>
+
 
 该插件的原理其实就是封装了 “**百度站长平台->链接提交->自动提交->主动推送（实时）**” 的功能。<font color="red">因此使用了此插件后，原本用于主动实时提交到百度的其他类似功能的插件或JS代码就要删掉了，避免二次提交导致百度翻脸</font>。
 
@@ -404,9 +401,7 @@ WordPress自带的**评论过滤插件**，可以防止机器人灌水、放外�
 
 此插件的详细介绍可见[《WP插件：Auto Add Copyright – 被复制时自动追加版权链接》](../../resource/WP插件_AutoAddCopyright.html)。
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [Auto Add Copyright   v1.0（20180707）下载](https://download.csdn.net/download/lyy289065406/10527059)
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10527059" target="_blank"><i class="fa fa-cloud-download"></i>Auto Add Copyright   v1.0（20180707）下载</a>
 
 ![](/res/img/article/20180629/30.png)
 

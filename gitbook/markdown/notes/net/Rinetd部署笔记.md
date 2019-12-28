@@ -88,7 +88,6 @@ Rinetd的启动需要指定规则配置文件，而停止需要杀掉进程：
 
 ## 资源下载
 
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10551468" target="_blank"><i class="fa fa-cloud-download"></i>本文全文下载</a>
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [本文全文下载](https://download.csdn.net/download/lyy289065406/10551468)
+

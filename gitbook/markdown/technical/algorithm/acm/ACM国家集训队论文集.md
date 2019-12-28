@@ -6,9 +6,7 @@
 
 ## 论文下载
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [腾讯微云下载（密码：m9xwtc）](https://share.weiyun.com/59atptR)
+<a class="download" href="https://share.weiyun.com/59atptR" target="_blank"><i class="fa fa-cloud-download"></i>腾讯微云下载（密码：m9xwtc）</a>
 
 
 
