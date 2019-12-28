@@ -27,6 +27,8 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/re/驱动开发入门2.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/GetProcInfo.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/GetSysmon.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/Cpp的两种换行符区别.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/关于Cpp标准库的名字空间.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/Cpp常用的system命令.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -44,6 +46,8 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/python/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/ruby/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/ass/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/shell/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/shell/PullGitRepos.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/datastruct/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/design/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/database/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
