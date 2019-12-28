@@ -27,3 +27,21 @@
 	content: "\f107";
 }
 
+.book-summary {
+    background: #2d3134
+}
+
+.book-summary ul.summary li.header {
+    color: #abdbf7;
+    font-weight: bold;
+}
+
+.book-summary ul.summary li.active>a {
+    color: #FFEB3B;
+    font-weight: bold;
+}
+
+.book-summary ul.summary li a, .book-summary ul.summary li span {
+    color: #FCFCFC;
+    font-weight: bold;
+}

@@ -17,7 +17,10 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
             toggle($(e.target).closest(CHAPTER));
           })
       );
-    expand(lsItem());
+
+    // 默认展开目录
+    // expand(lsItem());
+
     //expand current selected chapter with it's parents
     var activeChapter = $(CHAPTER + '.active');
     expand(activeChapter);
