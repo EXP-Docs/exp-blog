@@ -46,7 +46,4 @@
 
 ## 插件下载
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [Auto Add Copyright   v1.0（20180707）下载](https://download.csdn.net/download/lyy289065406/10527059)
-
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10527059" target="_blank"><i class="fa fa-cloud-download"></i>Auto Add Copyright   v1.0（20180707）下载</a>

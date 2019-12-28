@@ -2,6 +2,13 @@
 
 ------
 
+如何在 Github Markdown 使用 latex
+https://www.zhihu.com/question/26887527
+https://www.codecogs.com/latex/eqneditor.php?lang=zh-cn
+<img style="display:inline-block" src="http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)}" />
+https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima
+
+------
 
 <center>***[原]**  E.J.Hoffman;  J.C.Loessi;  R.C.Moore*</center>
 <center>*The Johns Hopkins University Applied Physics Laboratory*</center>

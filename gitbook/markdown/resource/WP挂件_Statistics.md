@@ -23,9 +23,7 @@
 ## 挂件下载
 
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [WP-Statistics侧栏统计挂件 下载](https://download.csdn.net/download/lyy289065406/10484948)
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10484948" target="_blank"><i class="fa fa-cloud-download"></i>WP-Statistics侧栏统计挂件 下载</a>
 
 
 
