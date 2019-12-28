@@ -37,6 +37,8 @@
 
 * [开发语言](markdown/notes/language/README.md)
     * [C/C++](markdown/notes/language/c/README.md)
+        * [获取进程信息](markdown/notes/language/c/GetProcInfo.md)
+        * [获取 Sysmon 事件信息](markdown/notes/language/c/GetSysmon.md)
         * [C++ 的两种换行符区别](markdown/notes/language/c/Cpp的两种换行符区别.md)
         * [关于 C++ 标准库的名字空间](markdown/notes/language/c/关于Cpp标准库的名字空间.md)
         * [C++ 常用的 system 命令](markdown/notes/language/c/Cpp常用的system命令.md)
@@ -54,6 +56,8 @@
     * [Python](markdown/notes/language/python/README.md)
     * [Ruby](markdown/notes/language/ruby/README.md)
     * [汇编](markdown/notes/language/ass/README.md)
+    * [Shell](markdown/notes/language/shell/README.md)
+        * [从 Git 仓库拉取代码](markdown/notes/language/shell/PullGitRepos.md)
 * [数据结构](markdown/notes/datastruct/README.md)
 * [设计模式](markdown/notes/design/README.md)
 * [数据库](markdown/notes/database/README.md)
