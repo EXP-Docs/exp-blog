@@ -13,10 +13,7 @@
 ## 挂件下载
 
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [WordPress侧边栏 "关于我" 挂件 下载](https://download.csdn.net/download/lyy289065406/10564498)
-
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10564498" target="_blank"><i class="fa fa-cloud-download"></i>WordPress侧边栏 "关于我" 挂件 下载</a>
 
 
 

@@ -279,7 +279,7 @@ CLASSPATH：.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
 
 #### 6.2.2. 安装Borland VisiBroker Edition
 
-下载Borland.Enterprise.Server.v6.5.AppServer.Edition-ZWTiSO.zip，解压得到zkbsea65.bin，用虚拟光驱（假设盘符为G）打开该文件，以下为安装过程：
+下载 Borland.Enterprise.Server.v6.5.AppServer.Edition-ZWTiSO.zip，解压得到 zkbsea65.bin，用虚拟光驱（假设盘符为G）打开该文件，以下为安装过程：
 
 - （1）执行G:\Windows\installer.exe；
 - （2）选择BES VisiBroker Edition；

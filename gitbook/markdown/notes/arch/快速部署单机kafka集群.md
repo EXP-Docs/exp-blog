@@ -343,8 +343,4 @@ Kafka运维填坑：[https://www.jianshu.com/p/d2cbaae38014](https://www.jianshu
 
 ## 资源下载
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [本文全文下载](https://download.csdn.net/download/lyy289065406/10582660)
-
-
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10582660" target="_blank"><i class="fa fa-cloud-download"></i>本文全文下载</a>

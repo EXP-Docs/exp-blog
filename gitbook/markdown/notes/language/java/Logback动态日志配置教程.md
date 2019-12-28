@@ -4,9 +4,7 @@
 
 ## 参考资料
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [Logback中文手册 下载](https://download.csdn.net/download/lyy289065406/10521488)
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10521488" target="_blank"><i class="fa fa-cloud-download"></i>Logback中文手册 下载</a>
 
 
 
@@ -256,10 +254,8 @@ MDC中的put方法其实就是将键值对放入一个Hashtable对象中，然�
 
 ## 6. 完整的样例源码
 
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10521610" target="_blank"><i class="fa fa-cloud-download"></i>logback动态日志-Java源码 下载</a>
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [logback动态日志-Java源码 下载](https://download.csdn.net/download/lyy289065406/10521610)
 
 解压后导入Eclipse即可（编码为UTF-8）。
 

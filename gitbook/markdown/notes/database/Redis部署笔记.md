@@ -1213,8 +1213,4 @@ public class TestRedisClient {
 
 ## 10. 资源下载
 
-
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [本文全文下载](https://download.csdn.net/download/lyy289065406/10665855)
-<br/> [文中配置文件/脚本下载（密码：359wqw）](https://share.weiyun.com/5EbAOfV)
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10665855" target="_blank"><i class="fa fa-cloud-download"></i>本文全文下载</a> <a class="download" href="https://share.weiyun.com/5EbAOfV" target="_blank"><i class="fa fa-cloud-download"></i>文中配置文件/脚本下载（密码：359wqw）</a>

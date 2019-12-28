@@ -609,8 +609,5 @@ Google搜索“SVN  Eclipse插件”即可很容易找到SVN插件的安装地�
 
 ## 资源下载
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [本文全文下载](https://download.csdn.net/download/lyy289065406/4128863)
-<br/> [配套PPT讲义下载](https://download.csdn.net/download/lyy289065406/10533477)
+<a class="download" href="http://download.csdn.net/download/lyy289065406/4128863" target="_blank"><i class="fa fa-cloud-download"></i>本文全文下载</a> <a class="download" href="http://download.csdn.net/download/lyy289065406/10533477" target="_blank"><i class="fa fa-cloud-download"></i>配套PPT讲义下载</a>
 
