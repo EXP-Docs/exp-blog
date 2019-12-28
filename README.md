@@ -1,6 +1,6 @@
 # EXP-BLOG
 
-> EXP 技术博客
+> [EXP 技术博客](https://lyy289065406.github.io/exp-blog/index.html)
 
 ------
 
