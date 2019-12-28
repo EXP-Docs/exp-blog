@@ -35,9 +35,8 @@ Baidu Links Submit 插件最初来源于 [百度站长论坛](http://bbs.zhanzha
 
 鉴于我比较喜欢这个插件的风格，因此我把2015版本的BUG修正后，重新发布了这个2018修正版：
 
-> [!NOTE|style:flat|icon:fa fa-cloud-download|label:Download]
-> 
-> [Baidu Links Submit  v2.0（20180704）下载](https://download.csdn.net/download/lyy289065406/10519791)
+<a class="download" href="http://download.csdn.net/download/lyy289065406/10519791" target="_blank"><i class="fa fa-cloud-download"></i>Baidu Links Submit  v2.0（20180704）下载</a>
+
 
 把插件内的 **baidu-links-submit文件夹** 解压到 **/wp-content/plugins/ 目录** 即可完成安装。（由于此插件需要打印日志到文件，因此<font color="red">Linux系统注意不要使用root用户解压</font>，否则WordPress可能没有写日志文件的权限）
 
