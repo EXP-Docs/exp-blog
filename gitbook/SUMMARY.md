@@ -48,6 +48,7 @@
         * [C++ 的六种常用输入](markdown/notes/language/c/Cpp的六种常用输入.md)
         * [在 C++ 中实现声音播放](markdown/notes/language/c/在Cpp中实现声音播放.md)
     * [Java](markdown/notes/language/java/README.md)
+        * [Java 的编转码浅析](markdown/notes/language/java/Java的编转码浅析.md)
         * [Java 性能调优：如何有效率地追求女神？](markdown/notes/language/java/如何有效率地追求女神.md)
         * [Logback 动态日志配置教程](markdown/notes/language/java/Logback动态日志配置教程.md)
     * [Python](markdown/notes/language/python/README.md)
