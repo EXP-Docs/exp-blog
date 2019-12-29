@@ -42,7 +42,7 @@
 - (4) 递推
 - (5) 构造法： （[POJ-3295](http://exp-blog.com/2018/06/15/pid-417/),[POJ-3239](http://exp-blog.com/2018/06/15/pid-420/)）
 - (6.1) 模拟法： （[POJ-1008](http://exp-blog.com/2018/06/17/pid-509/),[POJ-1068](http://exp-blog.com/2018/06/17/pid-512/),[POJ-2632](http://exp-blog.com/2018/06/17/pid-515/),[POJ-1573](http://exp-blog.com/2018/06/17/pid-527/),[POJ-2993](http://exp-blog.com/2018/06/17/pid-534/),[POJ-2996](http://exp-blog.com/2018/06/17/pid-530/),[POJ-3087](http://exp-blog.com/2018/06/17/pid-541/)）
-- (6.2) 模拟法（高精度算法）： （[POJ-1001](http://exp-blog.com/2018/06/17/pid-568/),[POJ-1503](http://exp-blog.com/2018/06/17/pid-573/),[POJ-2389](http://exp-blog.com/2018/06/17/pid-576/),[POJ-2602](http://exp-blog.com/2018/06/17/pid-580/),[POJ-3982](http://exp-blog.com/2018/06/17/pid-584/),[21位大数的水仙花数](http://exp-blog.com/2018/06/17/pid-544/)）
+- (6.2) 模拟法（高精度算法）： （[POJ-1001](http://exp-blog.com/2018/06/17/pid-568/),[POJ-1503](http://exp-blog.com/2018/06/17/pid-573/),[POJ-2389](http://exp-blog.com/2018/06/17/pid-576/),[POJ-2602](http://exp-blog.com/2018/06/17/pid-580/),[POJ-3982](http://exp-blog.com/2018/06/17/pid-584/)）
 
 ### 图算法
 
