@@ -3,5 +3,5 @@
 ------
 
 - [ACM 资料](acm)
-- [POJ 解题报告](poj)
+- [POJ 解题报告](https://github.com/lyy289065406/POJ-Solving-Reports)
 - [N 皇后问题 – 构造法原理与证明: 时间复杂度 O(1)](N皇后问题.html)
