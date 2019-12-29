@@ -25,7 +25,7 @@
 
 ## OJ上的一些水题（可用来练手和增加自信）
 
-（[POJ-1003](http://exp-blog.com/2018/06/12/pid-88/),[POJ-1004](http://exp-blog.com/2018/06/12/pid-92/),[POJ-1005](http://exp-blog.com/2018/06/12/pid-98/),[POJ-1207](http://exp-blog.com/2018/06/13/pid-165/),[POJ-3299](http://exp-blog.com/2018/06/13/pid-169/),[POJ-2159](http://exp-blog.com/2018/06/13/pid-172/),[POJ-2739](http://exp-blog.com/2018/06/14/pid-306/),[POJ-1083](http://exp-blog.com/2018/06/14/pid-269/),[POJ-2262](http://exp-blog.com/2018/06/14/pid-302/),[POJ-3006](http://exp-blog.com/2018/06/15/pid-364/),[POJ-2255](http://exp-blog.com/2018/06/15/pid-368/),[POJ-3094](http://exp-blog.com/2018/06/15/pid-372/)）
+（[POJ-1000](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1000-a%20plus%20b),[POJ-1003](http://exp-blog.com/2018/06/12/pid-88/),[POJ-1004](http://exp-blog.com/2018/06/12/pid-92/),[POJ-1005](http://exp-blog.com/2018/06/12/pid-98/),[POJ-1207](http://exp-blog.com/2018/06/13/pid-165/),[POJ-3299](http://exp-blog.com/2018/06/13/pid-169/),[POJ-2159](http://exp-blog.com/2018/06/13/pid-172/),[POJ-2739](http://exp-blog.com/2018/06/14/pid-306/),[POJ-1083](http://exp-blog.com/2018/06/14/pid-269/),[POJ-2262](http://exp-blog.com/2018/06/14/pid-302/),[POJ-3006](http://exp-blog.com/2018/06/15/pid-364/),[POJ-2255](http://exp-blog.com/2018/06/15/pid-368/),[POJ-3094](http://exp-blog.com/2018/06/15/pid-372/)）
 
 
 
