@@ -14,7 +14,7 @@
         * [ACM 绝版资源公开](markdown/technical/algorithm/acm/ACM绝版资源公开.md)
         * [ACM 测试数据合集](markdown/technical/algorithm/acm/ACM测试数据合集.md)
         * [ACM 国家集训队论文集](markdown/technical/algorithm/acm/ACM国家集训队论文集.md)
-    * [POJ 解题报告](markdown/technical/algorithm/poj/README.md)
+    * [POJ 解题报告](https://github.com/lyy289065406/POJ-Solving-Reports)
     * [N 皇后问题：构造法原理与证明](markdown/technical/algorithm/N皇后问题.md)
 * [安全](markdown/technical/safe/README.md)
     * [渗透测试](markdown/technical/safe/pentest/README.md)
