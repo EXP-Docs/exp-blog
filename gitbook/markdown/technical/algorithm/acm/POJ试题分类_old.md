@@ -25,7 +25,7 @@
 
 ## OJ上的一些水题（可用来练手和增加自信）
 
-（[POJ-1003](http://exp-blog.com/2018/06/12/pid-88/),[POJ-1004](http://exp-blog.com/2018/06/12/pid-92/),[POJ-1005](http://exp-blog.com/2018/06/12/pid-98/),[POJ-1207](http://exp-blog.com/2018/06/13/pid-165/),[POJ-3299](http://exp-blog.com/2018/06/13/pid-169/),[POJ-2159](http://exp-blog.com/2018/06/13/pid-172/),[POJ-2739](http://exp-blog.com/2018/06/14/pid-306/),[POJ-1083](http://exp-blog.com/2018/06/14/pid-269/),[POJ-2262](http://exp-blog.com/2018/06/14/pid-302/),[POJ-3006](http://exp-blog.com/2018/06/15/pid-364/),[POJ-2255](http://exp-blog.com/2018/06/15/pid-368/),[POJ-3094](http://exp-blog.com/2018/06/15/pid-372/)）
+（[POJ-1000](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1000-a%20plus%20b),[POJ-1003](http://exp-blog.com/2018/06/12/pid-88/),[POJ-1004](http://exp-blog.com/2018/06/12/pid-92/),[POJ-1005](http://exp-blog.com/2018/06/12/pid-98/),[POJ-1207](http://exp-blog.com/2018/06/13/pid-165/),[POJ-3299](http://exp-blog.com/2018/06/13/pid-169/),[POJ-2159](http://exp-blog.com/2018/06/13/pid-172/),[POJ-2739](http://exp-blog.com/2018/06/14/pid-306/),[POJ-1083](http://exp-blog.com/2018/06/14/pid-269/),[POJ-2262](http://exp-blog.com/2018/06/14/pid-302/),[POJ-3006](http://exp-blog.com/2018/06/15/pid-364/),[POJ-2255](http://exp-blog.com/2018/06/15/pid-368/),[POJ-3094](http://exp-blog.com/2018/06/15/pid-372/)）
 
 
 
@@ -42,7 +42,7 @@
 - (4) 递推
 - (5) 构造法： （[POJ-3295](http://exp-blog.com/2018/06/15/pid-417/),[POJ-3239](http://exp-blog.com/2018/06/15/pid-420/)）
 - (6.1) 模拟法： （[POJ-1008](http://exp-blog.com/2018/06/17/pid-509/),[POJ-1068](http://exp-blog.com/2018/06/17/pid-512/),[POJ-2632](http://exp-blog.com/2018/06/17/pid-515/),[POJ-1573](http://exp-blog.com/2018/06/17/pid-527/),[POJ-2993](http://exp-blog.com/2018/06/17/pid-534/),[POJ-2996](http://exp-blog.com/2018/06/17/pid-530/),[POJ-3087](http://exp-blog.com/2018/06/17/pid-541/)）
-- (6.2) 模拟法（高精度算法）： （[POJ-1001](http://exp-blog.com/2018/06/17/pid-568/),[POJ-1503](http://exp-blog.com/2018/06/17/pid-573/),[POJ-2389](http://exp-blog.com/2018/06/17/pid-576/),[POJ-2602](http://exp-blog.com/2018/06/17/pid-580/),[POJ-3982](http://exp-blog.com/2018/06/17/pid-584/),[21位大数的水仙花数](http://exp-blog.com/2018/06/17/pid-544/)）
+- (6.2) 模拟法（高精度算法）： （[POJ-1001](http://exp-blog.com/2018/06/17/pid-568/),[POJ-1503](http://exp-blog.com/2018/06/17/pid-573/),[POJ-2389](http://exp-blog.com/2018/06/17/pid-576/),[POJ-2602](http://exp-blog.com/2018/06/17/pid-580/),[POJ-3982](http://exp-blog.com/2018/06/17/pid-584/)）
 
 ### 图算法
 
