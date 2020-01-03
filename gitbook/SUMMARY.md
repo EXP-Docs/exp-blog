@@ -21,6 +21,7 @@
     * [渗透测试](markdown/technical/safe/pentest/README.md)
         * [白帽子渗透测试入门资源](markdown/technical/safe/pentest/白帽子渗透测试入门资源.md)
         * [各种语言一句话反弹 shell](markdown/technical/safe/pentest/各种语言一句话反弹shell.md)
+        * [WEB 渗透靶场整合](markdown/technical/safe/pentest/web渗透靶场整合.md)
     * [CTF 解题报告](https://github.com/lyy289065406/CTF-Solving-Reports)
 * [爬虫](markdown/technical/crawler/README.md)
 * [深度学习](markdown/technical/deeplearn/README.md)
@@ -117,3 +118,4 @@
 ----
 
 * [Copyright @ EXP]()
+* [粤ICP备18074894号](http://www.beian.miit.gov.cn/)
