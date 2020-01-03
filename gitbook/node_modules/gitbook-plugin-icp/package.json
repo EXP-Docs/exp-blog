@@ -1,0 +1,74 @@
+{
+  "_from": "gitbook-plugin-icp",
+  "_id": "gitbook-plugin-icp@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-TnOPbDki7eNkS5TJsfEZ96ek34VXxPo25WGI7VgtD9ky1Q9nRU28HvVg5LWaM5PntEWcKOTbKILBRoyZdmDV+Q==",
+  "_location": "/gitbook-plugin-icp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "gitbook-plugin-icp",
+    "name": "gitbook-plugin-icp",
+    "escapedName": "gitbook-plugin-icp",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gitbook-plugin-icp/-/gitbook-plugin-icp-0.1.0.tgz",
+  "_shasum": "fa9a4d812e805c33b3f164f2da4cc2ef40e574d2",
+  "_spec": "gitbook-plugin-icp",
+  "_where": "/gitbook",
+  "author": {
+    "name": "snowdreams1006",
+    "email": "snowdreams1006@163.com"
+  },
+  "bugs": {
+    "url": "https://github.com/snowdreams1006/gitbook-plugin-icp/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "gitbook plugin for adding icp info to footer",
+  "engines": {
+    "gitbook": ">=2.5.0"
+  },
+  "gitbook": {
+    "properties": {
+      "label": {
+        "type": "string",
+        "title": "icp label",
+        "required": false
+      },
+      "number": {
+        "type": "string",
+        "title": "icp number",
+        "required": true
+      },
+      "link": {
+        "type": "string",
+        "title": "link url",
+        "required": false,
+        "default": "http://www.beian.miit.gov.cn/"
+      }
+    }
+  },
+  "homepage": "https://github.com/snowdreams1006/gitbook-plugin-icp#readme",
+  "keywords": [
+    "gitbook-plugin-icp",
+    "icp",
+    "website",
+    "supervision"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "gitbook-plugin-icp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowdreams1006/gitbook-plugin-icp.git"
+  },
+  "version": "0.1.0"
+}
