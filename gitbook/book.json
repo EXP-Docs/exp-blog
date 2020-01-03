@@ -33,6 +33,7 @@
 
         "page-copyright": "添加页脚版权信息（含二维码，相对复杂）",
         "tbfed-pagefooter": "添加页脚版权信息（精简版）", 
+        "icp": "添加站点备案号信息", 
         "donate": "添加打赏系统", 
         "pageview-count": "添加阅读量计数系统（借用第三方接口 https://hitcounter.pythonanywhere.com/）",
         
@@ -71,6 +72,7 @@
         
         "-page-copyright",
         "tbfed-pagefooter",
+        "-icp",
         "donate",
         "pageview-count",
 
@@ -174,6 +176,11 @@
             "copyright":"Copyright &copy EXP 2019",
             "modify_label": "最后修改时间 ： ",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "icp": {
+            "label": "粤ICP备18074894号",
+            "number": "粤ICP备18074894号",
+            "link":"http://www.beian.miit.gov.cn/"
         },
         "donate": {
             "title": "感谢阅读 (^_^) 如有帮助，谢予支持",
