@@ -35,7 +35,7 @@
 | [dt_otp](https://github.com/lyy289065406/dt_otp) | - |  项目（C/C++） | 公开 | 嵌入式：动态令牌-dll&so实现库 |
 | [WinProcess](https://github.com/lyy289065406/WinProcess) | - |  项目（C/C++） | 公开 | Windows 系统进程管理器 |
 | [jvm-agent](https://github.com/lyy289065406/jvm-agent) | - |  项目（Java） | 公开 | JVM 代理 |
-| [pydbutils-mysql](https://github.com/lyy289065406/pydbutils-mysql) | - |  项目（Python） | 私有 | Python PDM 生成器 |
+| [pypdm-mysql](https://github.com/lyy289065406/pypdm-mysql) | - |  项目（Python） | 公开 | Python PDM 生成器（Mysql版） |
 | [P2P-file-sharing-system](https://github.com/lyy289065406/P2P-file-sharing-system) | - |  项目（Java） | 公开 | P2P 文件共享系统 |
 | [file-port-forwarding](https://github.com/lyy289065406/file-port-forwarding) | - |  项目（Java） | 公开 | 双机文件流端口转发程序 |
 | [exp-xml-paper](https://github.com/lyy289065406/exp-xml-paper) | - |  项目（Java） | 公开 | XML 文本编辑器 |
