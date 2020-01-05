@@ -76,10 +76,10 @@
 
 - (1) 背包问题： （[POJ-1837](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1837-Balance),[POJ-1276](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1276-Cash%20Machine),[POJ-1014](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1014-Dividing)）
 - (2) 型如下表的简单DP（可参考刘汝佳的书 page149）： 
-<br/>　1. E[j]=opt{D+w(i,j)} （[POJ-3267](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ3267-The%20Cow%20Lexicon),[POJ-1836](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1836-Alignment),[POJ-1260](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1260-Pearls),[POJ-2533](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ2533-Longest%20Ordered%20Subsequence)）
-<br/>　2. E[i,j]=opt{D[i-1,j]+xi,D[i,j-1]+yj,D[i-1][j-1]+zij} （最长公共子序列） 
+<br/>　1. `E[j]=opt{D+w(i,j)}` （[POJ-3267](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ3267-The%20Cow%20Lexicon),[POJ-1836](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1836-Alignment),[POJ-1260](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1260-Pearls),[POJ-2533](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ2533-Longest%20Ordered%20Subsequence)）
+<br/>　2. `E[i,j]=opt{D[i-1,j]+xi,D[i,j-1]+yj,D[i-1][j-1]+zij}` （最长公共子序列） 
 （[POJ-1015](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1015-Jury%20Compromise),[POJ-3176](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ3176-Cow%20Bowling),[POJ-1163](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1163-The%20Triangle),[POJ-1080](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1080-Human%20Gene%20Functions),[POJ-1159](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/reports/POJ1159-Palindrome)）
-<br/>　3. C[i,j]=w[i,j]+opt{C[i,k-1]+C[k,j]} （最优二分检索树问题）
+<br/>　3. `C[i,j]=w[i,j]+opt{C[i,k-1]+C[k,j]}` （最优二分检索树问题）
 
 ### 数学
 
