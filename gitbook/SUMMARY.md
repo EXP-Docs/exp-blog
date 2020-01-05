@@ -9,7 +9,6 @@
 * [算法](markdown/technical/algorithm/README.md)
     * [ACM 资料](markdown/technical/algorithm/acm/README.md)
         * [北大ACM：POJ试题分类](markdown/technical/algorithm/acm/POJ试题分类.md)
-        * [北大ACM：POJ试题分类（旧版）](markdown/technical/algorithm/acm/POJ试题分类_old.md)
         * [POJ 解题报告](https://github.com/lyy289065406/POJ-Solving-Reports)
         * [ACM 常用算法模板](markdown/technical/algorithm/acm/ACM常用算法模板.md)
         * [ACM 绝版资源公开](markdown/technical/algorithm/acm/ACM绝版资源公开.md)
