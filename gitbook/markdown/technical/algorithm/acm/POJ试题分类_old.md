@@ -2,7 +2,7 @@
 
 ------
 
-> **[success]** <font color="red">2017年我已重新整理过此分类目录，可移步至最新版</font>：【[北大ACM – POJ-试题分类]（POJ-试题分类.html）】
+> **[success]** <font color="red">2017年我已重新整理过此分类目录，可移步至最新版</font>：【[北大ACM – POJ-试题分类](POJ试题分类.html)】
 
 
 - 最近 AC 题： POJ-2528
