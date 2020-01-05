@@ -16,7 +16,6 @@
         * [ACM 测试数据合集](markdown/technical/algorithm/acm/ACM测试数据合集.md)
         * [ACM 国家集训队论文集](markdown/technical/algorithm/acm/ACM国家集训队论文集.md)
     * [N 皇后问题：构造法原理与证明](markdown/technical/algorithm/N皇后问题.md)
-    * [21 位水仙花数](markdown/technical/algorithm/21位水仙花.md)
 * [安全](markdown/technical/safe/README.md)
     * [渗透测试](markdown/technical/safe/pentest/README.md)
         * [白帽子渗透测试入门资源](markdown/technical/safe/pentest/白帽子渗透测试入门资源.md)
@@ -117,5 +116,4 @@
 
 ----
 
-* [Copyright @ EXP]()
-* [粤ICP备18074894号](http://www.beian.miit.gov.cn/)
+* [Copyright @ EXP](https://github.com/lyy289065406)
