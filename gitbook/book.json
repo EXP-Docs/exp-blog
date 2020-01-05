@@ -72,7 +72,7 @@
         
         "-page-copyright",
         "tbfed-pagefooter",
-        "-icp",
+        "icp",
         "donate",
         "pageview-count",
 
@@ -178,7 +178,6 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "icp": {
-            "label": "粤ICP备18074894号",
             "number": "粤ICP备18074894号",
             "link":"http://www.beian.miit.gov.cn/"
         },

@@ -7,7 +7,6 @@
 > [POJ 官网题库（在线）](http://poj.org/)
 <br/> [POJ 题库（离线版）](https://download.csdn.net/download/lyy289065406/10531413)
 <br/> [POJ封面书《程序设计导引及在线实践》](https://github.com/lyy289065406/POJ-Solving-Reports/tree/master/doc/程序设计导引及在线实践.pdf)
-<br/> [ACM 资料](index.html)
 
 ------
 
