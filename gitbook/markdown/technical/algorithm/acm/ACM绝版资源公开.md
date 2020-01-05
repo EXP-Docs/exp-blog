@@ -25,7 +25,7 @@
 
 | 资源| 简介 |下载 |
 |:----:|:----:|:----:|
-| 《ACM常用算法模板》 | ACM小组内部预定函数 |  [在线阅读](http://exp-blog.com/2018/07/12/pid-1820/)<br/><a href="https://share.weiyun.com/5cPi7Wi" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：qbup8c  |
+| 《ACM常用算法模板》 | ACM小组内部预定函数 |  [在线阅读](ACM常用算法模板.html)<br/><a href="https://share.weiyun.com/5cPi7Wi" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：qbup8c  |
 | 《ACM模板（浙大）》 | 浙江大学（2002-2004） |  <a href="https://share.weiyun.com/58X7oG4" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：y538n3  |
 | 《基本算法模块》 | NOIP（2007） |  <a href="https://share.weiyun.com/5SrmEQQ" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：7vahp6  |
 | 《晋级算法模板》 | NOIP（2007） |  <a href="https://share.weiyun.com/5PbxP4x" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：wg5f99  |
@@ -35,7 +35,7 @@
 | 《中山大学ACM模板》 | 中山大学（2010） |  <a href="https://share.weiyun.com/5VJoZNk" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：uib6yg  
 | 《计算几何算法模板（第一版）》 | 计算机和函数库（2011） |  <a href="https://share.weiyun.com/57kqoik" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：pfgdv5  |
 | 《经典算法及试题举例程序》 | 2013 |  <a href="https://share.weiyun.com/5EdITK5" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：g34mn7  |
-| 《N皇后问题构造法模板》 | N皇后构造法公式（2017） |  <a href="http://exp-blog.com/2018/06/16/pid-429/" target="_blank" rel="nofollow">在线阅读</a><br/><a href="http://download.csdn.net/download/lyy289065406/10184900" target="_blank" rel="nofollow">CSDN</a>  |
+| 《N皇后问题构造法模板》 | N皇后构造法公式（2017） |  [在线阅读](../N皇后问题.html)<br/><a href="http://download.csdn.net/download/lyy289065406/10184900" target="_blank" rel="nofollow">CSDN</a>  |
 
 
 
@@ -47,7 +47,7 @@
 |:----:|:----:|:----:|
 | 《ACM试题讲解》 | ACM介绍 与 试题实例剖析 |  <a href="https://share.weiyun.com/5bToiXd" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：nbrhib  |
 | 《浙大ACM课件》 | 数学，递推关系，排列组合，动态规划，<br/>贪心算法，计算几何，搜索，二分图 |  <a href="https://share.weiyun.com/5mXW3Sc" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：nxdy7e  |
-| 《ACM国家集训队论文合集》 | 1999-2009 [论文目录](http://exp-blog.com/2018/07/12/pid-1809/) |  <a href="https://share.weiyun.com/59atptR" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：m9xwtc  |
+| 《ACM国家集训队论文合集》 | 1999-2009 [论文目录](ACM国家集训队论文集.html) |  <a href="https://share.weiyun.com/59atptR" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：m9xwtc  |
 | 《C语言经典算法》 | 基础算法，经典问题，有趣的小程序代码 |  <a href="https://share.weiyun.com/5NWMVPO" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：pcuapy  |
 | 《曹利国培训资料》 | 枚举，贪心，分治，模拟，搜索，动态规划，数据结构 |  <a href="https://share.weiyun.com/5IRDrVR" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：bnake8  |
 | 《试题选讲》 | 基础算法，字符串算法，数学，图论，约瑟夫问题 |  <a href="https://share.weiyun.com/5U0jS0D" target="_blank" rel="nofollow">腾讯微云</a><br/>密码：ysde8c  |
