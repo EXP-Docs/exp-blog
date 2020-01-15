@@ -36,6 +36,7 @@
         "icp": "添加站点备案号信息", 
         "donate": "添加打赏系统", 
         "pageview-count": "添加阅读量计数系统（借用第三方接口 https://hitcounter.pythonanywhere.com/）",
+        "tags": "添加文章标签：标签固定在文章页面顶部（一级标题下）",
         
         "image-captions": "抓取内容中图片的 alt 或 title 属性，在图片下显示图片注解", 
         "popup": "点击图片弹出大图",
@@ -75,6 +76,7 @@
         "icp",
         "donate",
         "pageview-count",
+        "tags",
 
         "image-captions",
         "popup",
