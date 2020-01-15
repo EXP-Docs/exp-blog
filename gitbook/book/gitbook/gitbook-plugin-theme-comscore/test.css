@@ -20,3 +20,8 @@ th {
   background-color: #2674BA;
   color: black;
 }
+
+
+h1 a:visited {
+    color:#FFFFFF;
+}
