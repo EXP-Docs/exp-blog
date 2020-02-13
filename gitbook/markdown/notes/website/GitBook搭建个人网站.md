@@ -79,6 +79,7 @@ GitBook 社区具有丰富的主题模块和插件模块，而且这些 主题/�
 - GitHub 可以借用 Git 对文章进行版本管理
 - GitHub 为每个仓库提供了 300M 免费空间的 GitHub Pages （只支持 HTML），足够用于发布个人的静态网站
 - GitBook 可以把 Markdown 文章转换成 HTML 电子书供 GitHub Pages 发布
+- 极简主义： 程序员的网站不需要太多花哨的东西，文章才是核心，站点越简洁越美观
 
 ------
 
@@ -252,15 +253,6 @@ GitBook 的精粹在于丰富的插件以扩展其功能，插件可通过工作
 ![](/res/img/article/20200213/12.png)
 ![](/res/img/article/20200213/13.png)
 
-------
 
-## 版权声明
+## 最后请扫码打赏一下
 
-　[![Copyright (C) 2016-2020 By EXP](https://img.shields.io/badge/Copyright%20(C)-2016~2019%20By%20EXP-blue.svg)](http://exp-blog.com)　[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-  
-
-- Site: [http://exp-blog.com](http://exp-blog.com) 
-- Mail: <a href="mailto:289065406@qq.com?subject=[EXP's Github]%20Your%20Question%20（请写下您的疑问）&amp;body=What%20can%20I%20help%20you?%20（需要我提供什么帮助吗？）">289065406@qq.com</a>
-
-
-------
