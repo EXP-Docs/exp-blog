@@ -75,6 +75,7 @@
     * [Shadowsocks 实现外网访问](markdown/notes/net/Shadowsocks实现外网访问.md)
     * [Corba 接口学习笔记](markdown/notes/net/Corba接口学习笔记.md)
 * [网站建设](markdown/notes/website/README.md)
+    * [使用 GitBook 在 Github 搭建个人网站](markdown/notes/website/GitBook搭建个人网站.md)
     * [WordPress 部署笔记](markdown/notes/website/WordPress部署笔记.md)
     * [WordPress 插件推荐](markdown/notes/website/WordPress插件推荐.md)
     * [加速访问 WordPress](markdown/notes/website/加速访问WordPress.md)
