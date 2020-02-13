@@ -26,8 +26,6 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/technical/re/驱动开发入门2.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/GetProcInfo.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/GetSysmon.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/Cpp的两种换行符区别.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/关于Cpp标准库的名字空间.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/Cpp常用的system命令.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -38,6 +36,8 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/Cpp自定义格式输出.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/Cpp的六种常用输入.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/在Cpp中实现声音播放.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/GetProcInfo.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/c/GetSysmon.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/java/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/java/Java的编转码浅析.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/language/java/如何有效率地追求女神.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -64,6 +64,7 @@
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/net/Shadowsocks实现外网访问.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/net/Corba接口学习笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/website/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/website/GitBook搭建个人网站.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/website/WordPress部署笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/website/WordPress插件推荐.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://lyy289065406.github.io/exp-blog/gitbook/markdown/notes/website/加速访问WordPress.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
