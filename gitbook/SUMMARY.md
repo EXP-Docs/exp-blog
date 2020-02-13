@@ -37,8 +37,6 @@
 
 * [开发语言](markdown/notes/language/README.md)
     * [C/C++](markdown/notes/language/c/README.md)
-        * [获取进程信息](markdown/notes/language/c/GetProcInfo.md)
-        * [获取 Sysmon 事件信息](markdown/notes/language/c/GetSysmon.md)
         * [C++ 的两种换行符区别](markdown/notes/language/c/Cpp的两种换行符区别.md)
         * [关于 C++ 标准库的名字空间](markdown/notes/language/c/关于Cpp标准库的名字空间.md)
         * [C++ 常用的 system 命令](markdown/notes/language/c/Cpp常用的system命令.md)
@@ -49,6 +47,8 @@
         * [C++ 自定义格式输出](markdown/notes/language/c/Cpp自定义格式输出.md)
         * [C++ 的六种常用输入](markdown/notes/language/c/Cpp的六种常用输入.md)
         * [在 C++ 中实现声音播放](markdown/notes/language/c/在Cpp中实现声音播放.md)
+        * [获取进程信息](markdown/notes/language/c/GetProcInfo.md)
+        * [获取 Sysmon 事件信息](markdown/notes/language/c/GetSysmon.md)
     * [Java](markdown/notes/language/java/README.md)
         * [Java 的编转码浅析](markdown/notes/language/java/Java的编转码浅析.md)
         * [Java 性能调优：如何有效率地追求女神？](markdown/notes/language/java/如何有效率地追求女神.md)
@@ -75,6 +75,7 @@
     * [Shadowsocks 实现外网访问](markdown/notes/net/Shadowsocks实现外网访问.md)
     * [Corba 接口学习笔记](markdown/notes/net/Corba接口学习笔记.md)
 * [网站建设](markdown/notes/website/README.md)
+    * [使用 GitBook 在 Github 搭建个人网站](markdown/notes/website/GitBook搭建个人网站.md)
     * [WordPress 部署笔记](markdown/notes/website/WordPress部署笔记.md)
     * [WordPress 插件推荐](markdown/notes/website/WordPress插件推荐.md)
     * [加速访问 WordPress](markdown/notes/website/加速访问WordPress.md)
@@ -115,4 +116,4 @@
 
 ----
 
-* [Copyright @ EXP](https://github.com/lyy289065406/exp-blog)
+* [Copyright @ EXP](https://exp-blog.com)

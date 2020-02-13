@@ -17,6 +17,7 @@
         "sitemap-general": "在网站根目录生成站点地图 sitemap.xml", 
         "favicon": "用于更改网站的 favicon.ico （但因为加载顺序问题，无法覆盖原生的 favicon 图片）",
         "canvas-nest": "基于 html5 绘制的网页背景效果",
+        "live2d": "网页看板娘，需联网才有效果",
         "insert-logo": "在左侧导航栏顶部插入网站 logo",
         "hide-element": "通过 HTML 元素的 class 名字来隐藏不想看到的元素",
 
@@ -57,6 +58,7 @@
         "sitemap-general",
         "-favicon",
         "canvas-nest",
+        "live2d",
         "-insert-logo",
         "hide-element",
 
