@@ -5,14 +5,14 @@
 <h2><i style="text-indent: 0; display: inline-block; margin-right: 10px;" class="fa fa-spinner fa-spin"></i>站点介绍</h2>
 
 
-本站站点是：**EXP 技术博客**（<a href="https://lyy289065406.github.io/exp-blog" title="EXP 技术博客" data-toggle="tooltip" target="_blank">https://lyy289065406.github.io/exp-blog</a>）
+本站站点是：**EXP 技术博客**（<a href="https://exp-blog.com" title="EXP 技术博客" data-toggle="tooltip" target="_blank">https://exp-blog.com</a>）
 
 本站的文章 <font color="red">95% 为站长在不同时期的**原创**作品</font>，初衷是为了记录学习过程中的点点滴滴以验证自身，因此所分享的内容主要取决于站长当时正在做什么方面的研究，导致覆盖到的领域可能相对比较广泛。
 
 撰写内容以IT软件方面为主，如算法、前后端开发技能、经验心得等，尤其针对特定领域、或热门领域，会尽可能设立技术专题与大家分享。
 
 
-> 此博客是利用 [GitBook](https://docs.gitbook.com/) 搭建的，同时兼容在 [Github Pages](https://lyy289065406.github.io/exp-blog/index.html) 和 [本地（线下）](http://127.0.0.1:4000/) 运行。
+> 此博客是利用 [GitBook](https://docs.gitbook.com/) 搭建的，同时兼容在 [Github Pages](https://exp-blog.com) 和 [本地（线下）](http://127.0.0.1:4000/) 运行。
 
 ------------
 

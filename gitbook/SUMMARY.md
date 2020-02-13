@@ -115,4 +115,4 @@
 
 ----
 
-* [Copyright @ EXP](https://github.com/lyy289065406/exp-blog)
+* [Copyright @ EXP](https://exp-blog.com)
