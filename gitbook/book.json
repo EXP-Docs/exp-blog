@@ -58,7 +58,7 @@
         "sitemap-general",
         "-favicon",
         "canvas-nest",
-        "live2d",
+        "-live2d",
         "-insert-logo",
         "hide-element",
 
