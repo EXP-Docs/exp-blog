@@ -136,6 +136,8 @@ GitBook 社区具有丰富的主题模块和插件模块，而且这些 主题/�
 
 ### 关于 GitBook 目录结构说明
 
+![](/res/img/article/20200213/02.png)
+
 ```
 exp-blog
 |-- .gitignore  ..............  [Git 过滤配置]
@@ -157,8 +159,6 @@ exp-blog
 └-- README.md  ...............  [此仓库的说明文档]
 
 ```
-
-![](/res/img/article/20200213/02.png)
 
 
 ### 构建 GitBook 项目
