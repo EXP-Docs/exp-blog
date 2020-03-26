@@ -129,16 +129,36 @@ GitBook 社区具有丰富的主题模块和插件模块，而且这些 主题/�
 
 `docker run --rm -v "$PWD/gitbook:/gitbook" exp/gitbook-server gitbook init`
 
->　该命令会自动创建用于 **示例** 的 GitBook 文件 。
+>　该命令会自动创建默认的 GitBook 目录结构。
 <br/>　实际效果就是在工作目录 `./gitbook` 下创建两个符合 GitBook 语法的文件 `README.md` 和 `SUMMARY.md` 。
 <br/>　*更多的 GitBook 语法详见 《[GitBook 学习笔记](https://yangjh.oschina.io/gitbook/)》*
 
+
+### 关于 GitBook 目录结构说明
+
+```
+exp-blog
+|-- .gitignore  ..............  [Git 过滤配置]
+|-- Dockerfile  ..............  [构建 GitBook 本地服务器的 Docker 脚本]
+|-- build.ps1  ...............  [重新编译博客变更内容，并使其适用于 Github Pages（Windows 脚本）]
+|-- build.sh  ................  [重新编译博客变更内容，并使其适用于 Github Pages（Linux 脚本）]
+|-- index.html  ..............  [Github Pages 首页（会自动跳转到博客首页）]
+|-- gitbook  .................  [GitBook 的工作目录，存储博客数据]
+|   |-- _book  ...............  [用 GitBook 编译生成的静态网站数据，用于本地测试（因含下划线不被 Github Pages 支持）]
+|   |-- book  ................  [用 build.ps1/sh 脚本所复制 _book 目录的镜像，用于 Github Pages 发布]
+|   |-- res  .................  [存储博客资源的目录]
+|   |-- markdown  ............  [存储博客文章的目录（只有 *.md 文件）]
+|   |-- README.md  ...........  [博客介绍文档（固定文件）]
+|   |-- SUMMARY.md  ..........  [博客目录索引（固定文件）]
+|   |-- node_modules  ........  [GitBook 的插件目录]
+|   |-- book.json  ...........  [GitBook 的插件配置]
+|   └-- package-lock.json  ...  [nodojs 插件依赖关系文件（安装插件时会自动更新）]
+|-- LICENSE  .................  [版权说明]
+└-- README.md  ...............  [此仓库的说明文档]
+
+```
+
 ![](/res/img/article/20200213/02.png)
-
-
-### GitBook 目录结构
-
-TODO： 演示。
 
 
 ### 构建 GitBook 项目
@@ -152,7 +172,6 @@ TODO： 演示。
 <br/>　本地可以通过 `./gitbook/_book/index.html` 测试访问 。
 
 ![](/res/img/article/20200213/03.png)
-
 
 
 
@@ -253,6 +272,4 @@ GitBook 的精粹在于丰富的插件以扩展其功能，插件可通过工作
 ![](/res/img/article/20200213/12.png)
 ![](/res/img/article/20200213/13.png)
 
-
-## 最后请扫码打赏一下
 
