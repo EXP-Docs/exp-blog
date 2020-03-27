@@ -47,6 +47,8 @@
 | - | [lovely-python](https://github.com/lyy289065406/lovely-python) | - |  资料 | 公开 | 《可爱的Python》 课后练习 |
 | - | [The-C-Programming-Language](https://github.com/lyy289065406/The-C-Programming-Language) | - |  资料 | 公开 | 《C++程序设计语言（十周年纪念版）》 课后练习 |
 | ⭐ | [ro-single-server](https://github.com/lyy289065406/ro-single-server) | [Link](https://lyy289065406.github.io/api-online/javadoc/RO-EA-API/index.html) |  游戏 | 私有 | 仙境RO传说-单机版-服务端（支持联机） |
-| - | [ro-single-client](https://github.com/lyy289065406/ro-single-client) | - |  游戏 | 私有 | 仙境RO传说-单机版-客户端（登陆补丁） |
+| ⭐ | [ro-single-client](https://github.com/lyy289065406/ro-single-client) | - |  游戏 | 私有 | 仙境RO传说-单机版-客户端（登陆补丁） |
+| ⭐ | [minecraft-server](https://github.com/lyy289065406/minecraft-server) | - |  游戏 | 私有 | 我的世界-服务端（支持联机） |
+| ⭐ | [minecraft-client](https://github.com/lyy289065406/minecraft-client) | - |  游戏 | 私有 | 我的世界-客户端 |
 | ⭐ | [re0-web](https://github.com/lyy289065406/re0-web) | [Link](https://lyy289065406.github.io/re0-web/) | 小说 | 公开 | RE0：从零开始的异世界生活 （WEB版） |
 | - | [environment](https://github.com/lyy289065406/environment) | [Link](https://lyy289065406.github.io/environment/) |  资源 | 公开 | 环境安装包 |
