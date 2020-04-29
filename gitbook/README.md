@@ -20,6 +20,8 @@
 | ⭐ | [mojo-release-plugin](https://github.com/lyy289065406/mojo-release-plugin) | - |  项目（Java） | 公开 | Maven 项目发布插件 |
 | - | [mojo-archetype](https://github.com/lyy289065406/mojo-archetype) | - |  项目（Java） | 公开 | Maven 项目规范骨架 |
 | - | [mojo-web-archetype](https://github.com/lyy289065406/mojo-web-archetype) | - |  项目（Java） | 公开 | Maven 项目规范骨架（Web版） |
+| ⭐ | [threat-broadcast](https://github.com/lyy289065406/threat-broadcast) | [Link](https://lyy289065406.github.io/threat-broadcast/) |  项目（Python） | 公开 | 威胁情报播报 |
+| - | [pypdm-mysql](https://github.com/lyy289065406/pypdm-mysql) | - |  项目（Python） | 公开 | Python PDM 生成器（Mysql版） |
 | ⭐ | [auto-planting](https://github.com/lyy289065406/auto-planting) | - |  项目（Python） | 公开 | Github 自动种草 |
 | - | [github-tools](https://github.com/lyy289065406/github-tools) | - |  项目（Java） | 公开 | Github 工具包 |
 | ⭐ | [account-mgr](https://github.com/lyy289065406/account-mgr) | - |  项目（Java） | 公开 | 帐密管理工具 |
@@ -35,7 +37,6 @@
 | - | [dt_otp](https://github.com/lyy289065406/dt_otp) | - |  项目（C/C++） | 公开 | 嵌入式：动态令牌-dll&so实现库 |
 | - | [WinProcess](https://github.com/lyy289065406/WinProcess) | - |  项目（C/C++） | 公开 | Windows 系统进程管理器 |
 | - | [jvm-agent](https://github.com/lyy289065406/jvm-agent) | - |  项目（Java） | 公开 | JVM 代理 |
-| - | [pypdm-mysql](https://github.com/lyy289065406/pypdm-mysql) | - |  项目（Python） | 公开 | Python PDM 生成器（Mysql版） |
 | - | [P2P-file-sharing-system](https://github.com/lyy289065406/P2P-file-sharing-system) | - |  项目（Java） | 公开 | P2P 文件共享系统 |
 | - | [file-port-forwarding](https://github.com/lyy289065406/file-port-forwarding) | - |  项目（Java） | 公开 | 双机文件流端口转发程序 |
 | - | [exp-xml-paper](https://github.com/lyy289065406/exp-xml-paper) | - |  项目（Java） | 公开 | XML 文本编辑器 |
