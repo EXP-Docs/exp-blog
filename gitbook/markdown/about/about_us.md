@@ -9,7 +9,7 @@
 
 本站的文章 <font color="red">95% 为站长在不同时期的**原创**作品</font>，初衷是为了记录学习过程中的点点滴滴以验证自身，因此所分享的内容主要取决于站长当时正在做什么方面的研究，导致覆盖到的领域可能相对比较广泛。
 
-撰写内容以IT软件方面为主，如算法、前后端开发技能、经验心得等，尤其针对特定领域、或热门领域，会尽可能设立技术专题与大家分享。
+撰写内容以 IT 软件方面为主，如算法、安全、前后端开发技能、经验心得等，尤其针对特定领域、或热门领域，会尽可能设立技术专题与大家分享。
 
 
 > 此博客是利用 [GitBook](https://docs.gitbook.com/) 搭建的，同时兼容在 [Github Pages](https://exp-blog.com) 和 [本地（线下）](http://127.0.0.1:4000/) 运行。
@@ -42,6 +42,7 @@
 
 <h2><i style="text-indent: 0; display: inline-block; margin-right: 10px;" class="fa fa-phone-square"></i>联系方式</h2>
 
-QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=289065406&site=qq&menu=yes">289065406</a>
-
-Email：<a href="mailto:289065406@qq.com?subject=[EXP-BLOG]%20Your%20Question%20（请写下您的疑问）&body=What%20can%20I%20help%20you?%20（需要我提供什么帮助吗？）">289065406@qq.com</a>
+- QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=289065406&site=qq&menu=yes">289065406</a>
+- Email：<a href="mailto:289065406@qq.com?subject=[EXP-BLOG]%20Your%20Question%20（请写下您的疑问）&body=What%20can%20I%20help%20you?%20（需要我提供什么帮助吗？）">289065406@qq.com</a>
+- WeChat 公众号：
+<br/><img style="display:inline-block" src="/res/img/card/订阅号_128x128.png" />
