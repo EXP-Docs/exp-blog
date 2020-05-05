@@ -22,6 +22,7 @@
         * [WEB 渗透靶场整合](markdown/technical/safe/pentest/web渗透靶场整合.md)
         * [如何令永假式成真](markdown/technical/safe/pentest/如何令永假式成真.md)
     * [CTF 解题报告](https://github.com/lyy289065406/CTF-Solving-Reports)
+    * [威胁情报播报](https://lyy289065406.github.io/threat-broadcast/)
 * [爬虫](markdown/technical/crawler/README.md)
 * [深度学习](markdown/technical/deeplearn/README.md)
     * [图像识别：C++ 读取BMP位图入门](markdown/technical/deeplearn/图像识别_Cpp读取BMP位图入门.md)
