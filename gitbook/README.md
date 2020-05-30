@@ -51,5 +51,6 @@
 | ⭐ | [ro-single-client](https://github.com/lyy289065406/ro-single-client) | - |  游戏 | 私有 | 仙境RO传说-单机版-客户端（登陆补丁） |
 | ⭐ | [minecraft-server](https://github.com/lyy289065406/minecraft-server) | - |  游戏 | 私有 | 我的世界-服务端（支持联机） |
 | ⭐ | [minecraft-client](https://github.com/lyy289065406/minecraft-client) | - |  游戏 | 私有 | 我的世界-客户端 |
+| ⭐ | [minecraft-client-awacg](https://github.com/lyy289065406/minecraft-client-awacg) | - |  游戏 | 私有 | 我的世界-客户端（ ACG 版） |
 | ⭐ | [re0-web](https://github.com/lyy289065406/re0-web) | [Link](https://lyy289065406.github.io/re0-web/) | 小说 | 公开 | RE0：从零开始的异世界生活 （WEB版） |
 | - | [environment](https://github.com/lyy289065406/environment) | [Link](https://lyy289065406.github.io/environment/) |  资源 | 公开 | 环境安装包 |
