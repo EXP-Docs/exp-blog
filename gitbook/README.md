@@ -28,8 +28,8 @@
 | ⭐ | [auto-upgrader](https://github.com/lyy289065406/auto-upgrader) | [Link](https://lyy289065406.github.io/auto-upgrader/) |  项目（Java） | 公开 | 自动化升级插件 |
 | ⭐ | [certificate](https://github.com/lyy289065406/certificate) | [Link](https://lyy289065406.github.io/certificate/) |  项目（Java） | 公开 | 软件授权插件 |
 | ⭐ | [cron-expression](https://github.com/lyy289065406/cron-expression) | [Link](https://lyy289065406.github.io/cron-expression/) |  项目（Java） | 公开 | cron 表达式生成器 |
-| - | [jzone-crawler](https://github.com/lyy289065406/jzone-crawler) | - |  项目（Java） | 私有 | QQ空间爬虫（Java版） |
-| - | [pyzone-crawler](https://github.com/lyy289065406/pyzone-crawler) | - |  项目（Python） | 私有 | QQ空间爬虫（Python版） |
+| - | [jzone-crawler](https://github.com/lyy289065406/jzone-crawler) | - |  项目（Java） | 公开 | QQ空间爬虫（Java版） |
+| - | [pyzone-crawler](https://github.com/lyy289065406/pyzone-crawler) | - |  项目（Python） | 公开 | QQ空间爬虫（Python版） |
 | - | [sina-crawler](https://github.com/lyy289065406/sina-crawler) | - |  项目（Python） | 私有 | 新浪博客爬虫 |
 | - | [top-baidu-tieba](https://github.com/lyy289065406/top-baidu-tieba) | - |  项目（Java） | 私有 | 百度贴吧顶贴机 |
 | ⭐ | [bilibili-plugin](https://github.com/lyy289065406/bilibili-plugin) | - |  项目（Java） | 私有 | 哔哩哔哩插件姬 |
