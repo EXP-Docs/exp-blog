@@ -102,7 +102,7 @@
         },
         "sitemap-general": {
             "//": "所生成的站点地图路径前缀",
-            "prefix": "https://lyy289065406.github.io/exp-blog/gitbook/"
+            "prefix": "https://exp-blog.com/gitbook/"
         },
         "simple-page-toc": {
             "//": "所生成的章节目录最大深度",
@@ -199,8 +199,8 @@
             "title": "EXP BLOG",
             "description": "EXP 技术博客",
             "author": "EXP",
-            "site_url": "https://exp-blog.com/",
-            "feed_url": "https://exp-blog.com/rss",
+            "site_url": "https://exp-blog.com/gitbook/book/",
+            "feed_url": "rss.xml",
             "copyright": "EXP",
             "categories": [
                 "gitbook"
