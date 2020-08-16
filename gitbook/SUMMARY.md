@@ -9,7 +9,7 @@
 * [算法](markdown/technical/algorithm/README.md)
     * [ACM 资料](markdown/technical/algorithm/acm/README.md)
         * [北大ACM：POJ试题分类](markdown/technical/algorithm/acm/POJ试题分类.md)
-        * [POJ 解题报告](https://github.com/lyy289065406/POJ-Solving-Reports)
+        * [POJ 解题报告](markdown/technical/algorithm/acm/POJ_Solving_Reports.md)
         * [ACM 常用算法模板](markdown/technical/algorithm/acm/ACM常用算法模板.md)
         * [ACM 绝版资源公开](markdown/technical/algorithm/acm/ACM绝版资源公开.md)
         * [ACM 测试数据合集](markdown/technical/algorithm/acm/ACM测试数据合集.md)
@@ -21,8 +21,8 @@
         * [各种语言一句话反弹 shell](markdown/technical/safe/pentest/各种语言一句话反弹shell.md)
         * [WEB 渗透靶场整合](markdown/technical/safe/pentest/web渗透靶场整合.md)
         * [如何令永假式成真](markdown/technical/safe/pentest/如何令永假式成真.md)
-    * [CTF 解题报告](https://github.com/lyy289065406/CTF-Solving-Reports)
-    * [威胁情报播报](https://lyy289065406.github.io/threat-broadcast/)
+    * [CTF 解题报告](markdown/technical/safe/CTF_Solving_Reports.md)
+    * [威胁情报播报](markdown/technical/safe/threat_broadcast.md)
 * [爬虫](markdown/technical/crawler/README.md)
 * [深度学习](markdown/technical/deeplearn/README.md)
     * [图像识别：C++ 读取BMP位图入门](markdown/technical/deeplearn/图像识别_Cpp读取BMP位图入门.md)
@@ -107,7 +107,7 @@
     * [优雅的烂代码](markdown/feelings/优雅的烂代码.md)
     * [程序员的"病态"](markdown/feelings/程序员的病态.md)
     * [工作需要经营](markdown/feelings/工作需要经营.md)
-* [站长工具](https://lyy289065406.github.io/site-package/)
+* [站长工具](markdown/site_package.md)
 
 ----
 
