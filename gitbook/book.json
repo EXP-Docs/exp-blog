@@ -38,6 +38,7 @@
         "donate": "添加打赏系统", 
         "pageview-count": "添加阅读量计数系统（借用第三方接口 https://hitcounter.pythonanywhere.com/）",
         "tags": "添加文章标签：标签固定在文章页面顶部（一级标题下）",
+        "rss": "RSS 插件",
         
         "image-captions": "抓取内容中图片的 alt 或 title 属性，在图片下显示图片注解", 
         "popup": "点击图片弹出大图",
@@ -79,6 +80,7 @@
         "donate",
         "pageview-count",
         "tags",
+        "rss", 
 
         "image-captions",
         "popup",
@@ -100,7 +102,7 @@
         },
         "sitemap-general": {
             "//": "所生成的站点地图路径前缀",
-            "prefix": "https://lyy289065406.github.io/exp-blog/gitbook/"
+            "prefix": "https://exp-blog.com/gitbook/"
         },
         "simple-page-toc": {
             "//": "所生成的章节目录最大深度",
@@ -192,6 +194,17 @@
             "alipayText": "支付宝",
             "wechat": "res/img/donate/wechat.png",
             "wechatText": "微信"
+        },
+        "rss": {
+            "title": "EXP BLOG",
+            "description": "EXP 技术博客",
+            "author": "EXP",
+            "site_url": "https://exp-blog.com/gitbook/book/",
+            "feed_url": "rss.xml",
+            "copyright": "EXP",
+            "categories": [
+                "gitbook"
+            ]
         },
         "image-captions": {
             "//": "图片注解格式",
