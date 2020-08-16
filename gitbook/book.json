@@ -200,6 +200,7 @@
             "description": "EXP 技术博客",
             "author": "EXP",
             "site_url": "https://exp-blog.com/",
+            "feed_url": "https://exp-blog.com/rss",
             "copyright": "EXP",
             "categories": [
                 "gitbook"

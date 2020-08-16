@@ -1,0 +1,72 @@
+{
+  "_from": "commonmark-helpers@^0.4.0",
+  "_id": "commonmark-helpers@0.4.1",
+  "_inBundle": false,
+  "_integrity": "sha1-gDXSjdZMm65RkiCUi+qdabUEWTs=",
+  "_location": "/commonmark-helpers",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "commonmark-helpers@^0.4.0",
+    "name": "commonmark-helpers",
+    "escapedName": "commonmark-helpers",
+    "rawSpec": "^0.4.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.4.0"
+  },
+  "_requiredBy": [
+    "/get-md-desc",
+    "/get-md-title"
+  ],
+  "_resolved": "https://registry.npmjs.org/commonmark-helpers/-/commonmark-helpers-0.4.1.tgz",
+  "_shasum": "8035d28dd64c9bae519220948bea9d69b504593b",
+  "_spec": "commonmark-helpers@^0.4.0",
+  "_where": "/gitbook/node_modules/get-md-desc",
+  "author": {
+    "name": "Vladimir Starkov",
+    "email": "iamstarkov@gmail.com",
+    "url": "https://iamstarkov.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/iamstarkov/commonmark-helpers/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "commonmark": "^0.21.0",
+    "ramda": "^0.17.1"
+  },
+  "deprecated": false,
+  "description": "Helper methods for commonmark",
+  "devDependencies": {
+    "babel": "^5.5.7",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.15",
+    "mocha": "^2.2.5",
+    "mocha-lcov-reporter": "0.0.2"
+  },
+  "homepage": "https://github.com/iamstarkov/commonmark-helpers#readme",
+  "keywords": [
+    "markdown",
+    "md",
+    "commonmark"
+  ],
+  "license": "MIT",
+  "main": "index.es5.js",
+  "name": "commonmark-helpers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamstarkov/commonmark-helpers.git"
+  },
+  "scripts": {
+    "coverage": "istanbul cover _mocha -- --require babel/register",
+    "coveralls": "coveralls < coverage/lcov.info",
+    "postpublish": "rm *.es5.js && git push --follow-tags",
+    "precoveralls": "npm run coverage",
+    "prepublish": "npm run transpile",
+    "tdd": "npm test -- --watch",
+    "test": "mocha --require babel/register",
+    "transpile": "babel index.js > index.es5.js"
+  },
+  "version": "0.4.1"
+}
