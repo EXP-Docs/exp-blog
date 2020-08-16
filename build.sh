@@ -10,7 +10,7 @@ rm -rf gitbook/book
 sleep 1
 
 echo "GitBook Building ..."
-docker run --rm -v "$PWD/gitbook:/gitbook" --name "exp-blog" expm02/gitbook-server gitbook build
+docker run --rm -v "$PWD/gitbook:/gitbook" expm02/gitbook-server gitbook build
 sleep 2
 
 echo "Building for GitHub Pages ..."
