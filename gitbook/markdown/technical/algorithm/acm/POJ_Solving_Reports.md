@@ -10,5 +10,5 @@
 
 <head>
     <!-- 自动跳转 -->
-    <meta http-equiv="refresh" content="0; url=https://github.com/lyy289065406/POJ-Solving-Reports">
+    <meta http-equiv="refresh" content="0; url=https://github.com/lyy289065406/POJ-Solving-Reports/">
 </head>
