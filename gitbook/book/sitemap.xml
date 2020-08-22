@@ -19,10 +19,11 @@
 <url> <loc>https://exp-blog.com/gitbook/markdown/technical/safe/CTF_Solving_Reports.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/technical/safe/threat_broadcast.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/technical/crawler/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://exp-blog.com/gitbook/markdown/technical/crawler/bilibili_plugin.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://exp-blog.com/gitbook/markdown/technical/crawler/pyzone_crawler.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://exp-blog.com/gitbook/markdown/technical/crawler/jzone_crawler.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/technical/deeplearn/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/technical/deeplearn/图像识别_Cpp读取BMP位图入门.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://exp-blog.com/gitbook/markdown/technical/blockchain/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://exp-blog.com/gitbook/markdown/technical/bigdata/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/technical/re/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/technical/re/WINDOWS内核学习清单.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/technical/re/嵌入式开发学习笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -51,8 +52,6 @@
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/language/ass/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/language/shell/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/language/shell/PullGitRepos.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://exp-blog.com/gitbook/markdown/notes/datastruct/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://exp-blog.com/gitbook/markdown/notes/design/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/database/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/database/Oracle学习笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/database/Redis部署笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>

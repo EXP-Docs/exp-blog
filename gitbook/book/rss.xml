@@ -4,7 +4,7 @@
         <description><![CDATA[EXP 技术博客]]></description>
         <link>https://exp-blog.com/gitbook/book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 17 Aug 2020 15:47:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Aug 2020 03:19:30 GMT</lastBuildDate>
         <atom:link href="https://exp-blog.com/gitbook/book/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[EXP]]></author>
         <copyright><![CDATA[EXP]]></copyright>
@@ -209,6 +209,33 @@
             <dc:creator><![CDATA[EXP]]></dc:creator>
         </item>
         <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<a class="download" href="https://github.com/lyy289065406/bilibili-plugin/"><i class="fa external-link-square"></i>正在重定向到内容页面 ......</a>
+<br/>
+<a href="https://github.com/lyy289065406/bilibili-plugin/">如果您的浏览器没有自动跳转， 请点击这里</a>]]></description>
+            <link>https://exp-blog.com/gitbook/book/markdown/technical/crawler/bilibili_plugin.html</link>
+            <guid isPermaLink="true">https://exp-blog.com/gitbook/book/markdown/technical/crawler/bilibili_plugin.html</guid>
+            <dc:creator><![CDATA[EXP]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<a class="download" href="https://github.com/lyy289065406/pyzone-crawler/"><i class="fa external-link-square"></i>正在重定向到内容页面 ......</a>
+<br/>
+<a href="https://github.com/lyy289065406/pyzone-crawler/">如果您的浏览器没有自动跳转， 请点击这里</a>]]></description>
+            <link>https://exp-blog.com/gitbook/book/markdown/technical/crawler/pyzone_crawler.html</link>
+            <guid isPermaLink="true">https://exp-blog.com/gitbook/book/markdown/technical/crawler/pyzone_crawler.html</guid>
+            <dc:creator><![CDATA[EXP]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<a class="download" href="https://github.com/lyy289065406/jzone-crawler/"><i class="fa external-link-square"></i>正在重定向到内容页面 ......</a>
+<br/>
+<a href="https://github.com/lyy289065406/jzone-crawler/">如果您的浏览器没有自动跳转， 请点击这里</a>]]></description>
+            <link>https://exp-blog.com/gitbook/book/markdown/technical/crawler/jzone_crawler.html</link>
+            <guid isPermaLink="true">https://exp-blog.com/gitbook/book/markdown/technical/crawler/jzone_crawler.html</guid>
+            <dc:creator><![CDATA[EXP]]></dc:creator>
+        </item>
+        <item>
             <title><![CDATA[深度学习]]></title>
             <link>https://exp-blog.com/gitbook/book/markdown/technical/deeplearn/README.html</link>
             <guid isPermaLink="true">https://exp-blog.com/gitbook/book/markdown/technical/deeplearn/README.html</guid>
@@ -219,18 +246,6 @@
             <description><![CDATA[要识别图像中的字符，首先要会处理图像，把图像的信息读出来。这就必须先了解图像的结构，存储方式。这里推荐清华大学出版的一本《数字图像处理编程入门》，第一章的“Windows位图和调色板”有详细的介绍。]]></description>
             <link>https://exp-blog.com/gitbook/book/markdown/technical/deeplearn/图像识别_Cpp读取BMP位图入门.html</link>
             <guid isPermaLink="true">https://exp-blog.com/gitbook/book/markdown/technical/deeplearn/图像识别_Cpp读取BMP位图入门.html</guid>
-            <dc:creator><![CDATA[EXP]]></dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[区块链]]></title>
-            <link>https://exp-blog.com/gitbook/book/markdown/technical/blockchain/README.html</link>
-            <guid isPermaLink="true">https://exp-blog.com/gitbook/book/markdown/technical/blockchain/README.html</guid>
-            <dc:creator><![CDATA[EXP]]></dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[大数据]]></title>
-            <link>https://exp-blog.com/gitbook/book/markdown/technical/bigdata/README.html</link>
-            <guid isPermaLink="true">https://exp-blog.com/gitbook/book/markdown/technical/bigdata/README.html</guid>
             <dc:creator><![CDATA[EXP]]></dc:creator>
         </item>
         <item>
@@ -437,18 +452,6 @@
             <title><![CDATA[从 Git 仓库拉取代码到本地]]></title>
             <link>https://exp-blog.com/gitbook/book/markdown/notes/language/shell/PullGitRepos.html</link>
             <guid isPermaLink="true">https://exp-blog.com/gitbook/book/markdown/notes/language/shell/PullGitRepos.html</guid>
-            <dc:creator><![CDATA[EXP]]></dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[数据结构]]></title>
-            <link>https://exp-blog.com/gitbook/book/markdown/notes/datastruct/README.html</link>
-            <guid isPermaLink="true">https://exp-blog.com/gitbook/book/markdown/notes/datastruct/README.html</guid>
-            <dc:creator><![CDATA[EXP]]></dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[设计模式]]></title>
-            <link>https://exp-blog.com/gitbook/book/markdown/notes/design/README.html</link>
-            <guid isPermaLink="true">https://exp-blog.com/gitbook/book/markdown/notes/design/README.html</guid>
             <dc:creator><![CDATA[EXP]]></dc:creator>
         </item>
         <item>
