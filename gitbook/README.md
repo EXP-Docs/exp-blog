@@ -11,8 +11,9 @@
 | ⭐ | [Github Profile](https://github.com/lyy289065406/lyy289065406) | [Link](https://github.com/lyy289065406) | 特殊 | 公开 | Github 个人资料卡片 |
 | ⭐ | [exp-blog](https://github.com/lyy289065406/exp-blog) | [Link](https://lyy289065406.github.io/exp-blog/) | 资料 | 公开 | EXP 技术博客 |
 | - | [gitbook-server-docker](https://github.com/lyy289065406/gitbook-server-docker) | - | 工具 | 公开 | 使用 Docker 构建的 GitBook 服务器 |
-| ⭐ | [site-package](https://github.com/lyy289065406/site-package) | [Link](https://lyy289065406.github.io/site-package/) |  工具 | 公开 | 站长工具：站点功能组件 |
-| ⭐ | [api-online](https://github.com/lyy289065406/api-online) | [Link](https://lyy289065406.github.io/api-online/) |  资料 | 公开 | 在线 API |
+| - | [trojan-docker](https://github.com/lyy289065406/trojan-docker) | - | 工具 | 公开 | 使用 Docker 构建的 trojan 服务器 |
+| - | [site-package](https://github.com/lyy289065406/site-package) | [Link](https://lyy289065406.github.io/site-package/) |  工具 | 公开 | 站长工具：站点功能组件 |
+| - | [api-online](https://github.com/lyy289065406/api-online) | [Link](https://lyy289065406.github.io/api-online/) |  资料 | 公开 | 在线 API |
 | ⭐ | [CTF-Solving-Reports](https://github.com/lyy289065406/CTF-Solving-Reports) | [Link](https://lyy289065406.github.io/CTF-Solving-Reports/) |  资料 | 公开 | CTF 解题报告 |
 | ⭐ | [POJ-Solving-Reports](https://github.com/lyy289065406/POJ-Solving-Reports) | - |  资料 | 公开 | POJ 解题报告 |
 | - | [expcodes](https://github.com/lyy289065406/expcodes) | - |  索引 | 公开 | 经验代码库（索引目录） |
@@ -26,7 +27,7 @@
 | ⭐ | [crop-circles](https://github.com/lyy289065406/crop-circles) | - |  项目（Python） | 公开 | Github 麦田圈 |
 | - | [github-tools](https://github.com/lyy289065406/github-tools) | - |  项目（Java） | 公开 | Github 工具包 |
 | - | [account-mgr](https://github.com/lyy289065406/account-mgr) | - |  项目（Java） | 公开 | 帐密管理工具 |
-| ⭐ | [auto-upgrader](https://github.com/lyy289065406/auto-upgrader) | [Link](https://lyy289065406.github.io/auto-upgrader/) |  项目（Java） | 公开 | 自动化升级插件 |
+| - | [auto-upgrader](https://github.com/lyy289065406/auto-upgrader) | [Link](https://lyy289065406.github.io/auto-upgrader/) |  项目（Java） | 公开 | 自动化升级插件 |
 | - | [certificate](https://github.com/lyy289065406/certificate) | [Link](https://lyy289065406.github.io/certificate/) |  项目（Java） | 公开 | 软件授权插件 |
 | - | [cron-expression](https://github.com/lyy289065406/cron-expression) | [Link](https://lyy289065406.github.io/cron-expression/) |  项目（Java） | 公开 | cron 表达式生成器 |
 | - | [jzone-crawler](https://github.com/lyy289065406/jzone-crawler) | - |  项目（Java） | 公开 | QQ空间爬虫（Java版） |

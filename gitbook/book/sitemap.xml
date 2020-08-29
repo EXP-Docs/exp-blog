@@ -63,8 +63,9 @@
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/arch/快速部署单机zookeeper集群.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/arch/快速部署单机kafka集群.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/net/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://exp-blog.com/gitbook/markdown/notes/net/Rinetd部署笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://exp-blog.com/gitbook/markdown/notes/net/trojan科学上网教程.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/net/Shadowsocks实现外网访问.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://exp-blog.com/gitbook/markdown/notes/net/Rinetd部署笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/net/Corba接口学习笔记.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/website/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://exp-blog.com/gitbook/markdown/notes/website/GitBook搭建个人网站.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
