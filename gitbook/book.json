@@ -102,7 +102,7 @@
         },
         "sitemap-general": {
             "//": "所生成的站点地图路径前缀",
-            "prefix": "https://exp-blog.com/gitbook/"
+            "prefix": "https://exp-blog.com/gitbook/book/"
         },
         "simple-page-toc": {
             "//": "所生成的章节目录最大深度",
@@ -120,7 +120,7 @@
             }
         },
         "insert-logo": {
-            "url": "/res/img/logo//exp-blog - logo-min.png",
+            "url": "/res/img/logo/exp-blog - logo-min.png",
             "style": "background: none; min-height: 30px; max-height: 50px"
         },
         "hide-element": {
