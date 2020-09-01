@@ -4,7 +4,7 @@
         <description><![CDATA[EXP 技术博客]]></description>
         <link>https://exp-blog.com/gitbook/book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 30 Aug 2020 01:19:58 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2020 04:26:23 GMT</lastBuildDate>
         <atom:link href="https://exp-blog.com/gitbook/book/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[EXP]]></author>
         <copyright><![CDATA[EXP]]></copyright>
@@ -28,7 +28,7 @@
 | - | mojo-archetype | - |  项目（Java） | 公开 | Maven 项目规范骨架 |
 | - | mojo-web-archetype | - |  项目（Java） | 公开 | Maven 项目规范骨架（Web版） |
 | ⭐ | threat-broadcast | Link |  项目（Python） | 公开 | 威胁情报播报 |
-| - | pypdm-mysql | - |  项目（Python） | 公开 | Python PDM 生成器（Mysql版） |
+| - | pypdm | - |  项目（Python） | 公开 | mysql/sqlite 的 PDM 生成器 |
 | ⭐ | crop-circles | - |  项目（Python） | 公开 | Github 麦田圈 |
 | - | github-tools | - |  项目（Java） | 公开 | Github 工具包 |
 | - | account-mgr | - |  项目（Java） | 公开 | 帐密管理工具 |

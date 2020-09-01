@@ -23,7 +23,7 @@
 | - | [mojo-archetype](https://github.com/lyy289065406/mojo-archetype) | - |  项目（Java） | 公开 | Maven 项目规范骨架 |
 | - | [mojo-web-archetype](https://github.com/lyy289065406/mojo-web-archetype) | - |  项目（Java） | 公开 | Maven 项目规范骨架（Web版） |
 | ⭐ | [threat-broadcast](https://github.com/lyy289065406/threat-broadcast) | [Link](https://lyy289065406.github.io/threat-broadcast/) |  项目（Python） | 公开 | 威胁情报播报 |
-| - | [pypdm-mysql](https://github.com/lyy289065406/pypdm-mysql) | - |  项目（Python） | 公开 | Python PDM 生成器（Mysql版） |
+| - | [pypdm](https://github.com/lyy289065406/pypdm) | - |  项目（Python） | 公开 | mysql/sqlite 的 PDM 生成器 |
 | ⭐ | [crop-circles](https://github.com/lyy289065406/crop-circles) | - |  项目（Python） | 公开 | Github 麦田圈 |
 | - | [github-tools](https://github.com/lyy289065406/github-tools) | - |  项目（Java） | 公开 | Github 工具包 |
 | - | [account-mgr](https://github.com/lyy289065406/account-mgr) | - |  项目（Java） | 公开 | 帐密管理工具 |
