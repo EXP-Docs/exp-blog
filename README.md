@@ -1,6 +1,6 @@
-# EXP-BLOG
+# EXP-BLOG（Gitbook）
 
-> [EXP 技术博客](https://lyy289065406.github.io/exp-blog/index.html)
+> 此 Repo 已停止维护，新 Repo 请移步至 [hexo-blog](https://github.com/lyy289065406/hexo-blog)
 
 ------
 
