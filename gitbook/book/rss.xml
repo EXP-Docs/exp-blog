@@ -4,7 +4,7 @@
         <description><![CDATA[EXP 技术博客]]></description>
         <link>https://exp-blog.com/gitbook/book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 07 Sep 2020 00:55:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Sep 2020 00:36:39 GMT</lastBuildDate>
         <atom:link href="https://exp-blog.com/gitbook/book/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[EXP]]></author>
         <copyright><![CDATA[EXP]]></copyright>
@@ -16,7 +16,9 @@
 | ⭐ | Github Profile | Link | 特殊 | 公开 | Github 个人资料卡片 |
 | ⭐ | exp-blog | Link | 资料 | 公开 | EXP 技术博客 |
 | - | gitbook-server-docker | - | 工具 | 公开 | 使用 Docker 构建的 GitBook 服务器 |
-| - | trojan-docker | - | 工具 | 公开 | 使用 Docker 构建的 trojan 服务器 |
+| ⭐ | hexo-blog | Link | 资料 | 公开 | EXP 技术博客（Hexo版）: 管理端 |
+| - | articles | Link | 资料 | 公开 | EXP 技术博客（Hexo版）: 展示端  |
+| ⭐ | trojan-docker | - | 工具 | 公开 | 使用 Docker 构建的 trojan 服务器 |
 | - | site-package | Link |  工具 | 公开 | 站长工具：站点功能组件 |
 | - | api-online | Link |  资料 | 公开 | 在线 API |
 | ⭐ | CTF-Solving-Reports | Link |  资料 | 公开 | CTF 解题报告 |
