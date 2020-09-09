@@ -11,7 +11,9 @@
 | ⭐ | [Github Profile](https://github.com/lyy289065406/lyy289065406) | [Link](https://github.com/lyy289065406) | 特殊 | 公开 | Github 个人资料卡片 |
 | ⭐ | [exp-blog](https://github.com/lyy289065406/exp-blog) | [Link](https://lyy289065406.github.io/exp-blog/) | 资料 | 公开 | EXP 技术博客 |
 | - | [gitbook-server-docker](https://github.com/lyy289065406/gitbook-server-docker) | - | 工具 | 公开 | 使用 Docker 构建的 GitBook 服务器 |
-| - | [trojan-docker](https://github.com/lyy289065406/trojan-docker) | - | 工具 | 公开 | 使用 Docker 构建的 trojan 服务器 |
+| ⭐ | [hexo-blog](https://github.com/lyy289065406/hexo-blog) | [Link](https://lyy289065406.github.io/hexo-blog/) | 资料 | 公开 | EXP 技术博客（Hexo版）: 管理端 |
+| - | [articles](https://github.com/lyy289065406/articles) | [Link](https://lyy289065406.github.io/articles/) | 资料 | 公开 | EXP 技术博客（Hexo版）: 展示端  |
+| ⭐ | [trojan-docker](https://github.com/lyy289065406/trojan-docker) | - | 工具 | 公开 | 使用 Docker 构建的 trojan 服务器 |
 | - | [site-package](https://github.com/lyy289065406/site-package) | [Link](https://lyy289065406.github.io/site-package/) |  工具 | 公开 | 站长工具：站点功能组件 |
 | - | [api-online](https://github.com/lyy289065406/api-online) | [Link](https://lyy289065406.github.io/api-online/) |  资料 | 公开 | 在线 API |
 | ⭐ | [CTF-Solving-Reports](https://github.com/lyy289065406/CTF-Solving-Reports) | [Link](https://lyy289065406.github.io/CTF-Solving-Reports/) |  资料 | 公开 | CTF 解题报告 |
