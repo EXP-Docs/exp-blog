@@ -1,6 +1,6 @@
 # EXP-BLOG（Gitbook）
 
-> 此 Repo 已停止维护，新 Repo 请移步至 [hexo-blog](https://github.com/lyy289065406/hexo-blog)
+> **此 Repo 已停止维护，新 Repo 请移步至 [hexo-matery-template](https://github.com/lyy289065406/hexo-matery-template)**
 
 ------
 
